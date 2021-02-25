@@ -1,6 +1,7 @@
 var fs = require('fs');
 var pipe = require('p-pipe');
 var seriesWith = require('@tuplo/series-with');
+var mkdirp = require('mkdirp');
 var FeedParser = require('feedparser');
 var fetch = require('node-fetch');
 var UserAgent = require('user-agents');
@@ -12,6 +13,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var fs__default = /*#__PURE__*/_interopDefaultLegacy(fs);
 var pipe__default = /*#__PURE__*/_interopDefaultLegacy(pipe);
 var seriesWith__default = /*#__PURE__*/_interopDefaultLegacy(seriesWith);
+var mkdirp__default = /*#__PURE__*/_interopDefaultLegacy(mkdirp);
 var FeedParser__default = /*#__PURE__*/_interopDefaultLegacy(FeedParser);
 var fetch__default = /*#__PURE__*/_interopDefaultLegacy(fetch);
 var UserAgent__default = /*#__PURE__*/_interopDefaultLegacy(UserAgent);
@@ -255,6 +257,7 @@ var redditTypescript = {
 var feeds = [javascriptWeekly, harpersMagazine, nodeWeekly, reactStatus, redditCss, redditJavascript, redditNode, redditTypescript];
 
 (async function main() {
+  mkdirp__default['default'].sync('feeds');
   await seriesWith__default['default'](feeds, async feed => {
     const process = pipe__default['default'](fetchFeed, feed.transform, convertFeed);
     const feedXml = (await process(feed.url)).rss2();
