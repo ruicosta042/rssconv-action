@@ -28,6 +28,7 @@
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jest": "24.1.5",
+    "husky": "5.1.1",
     "jest": "26.6.3",
     "jest-raw-loader": "1.0.1",
     "microbundle": "0.13.0",
@@ -39,7 +40,8 @@
   "scripts": {
     "build": "rimraf ./bin; microbundle --target node --no-sourcemap --format cjs",
     "dev": "microbundle watch --target node --no-sourcemap --format cjs",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "postinstall": "husky install"
   },
   "eslintConfig": {
     "extends": [
