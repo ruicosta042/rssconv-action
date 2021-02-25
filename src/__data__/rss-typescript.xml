@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <category term="typescript" label="r/typescript"/>
+    <updated>2021-02-25T10:10:44+00:00</updated>
+    <icon>https://www.redditstatic.com/icon.png/</icon>
+    <id>/r/typescript.rss</id>
+    <link rel="self" href="https://www.reddit.com/r/typescript.rss" type="application/atom+xml" />
+    <link rel="alternate" href="https://www.reddit.com/r/typescript" type="text/html" />
+    <subtitle>TypeScript is a language for application-scale JavaScript development. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.</subtitle>
+    <title>TypeScript</title>
+    <entry>
+        <author>
+            <name>/u/git_world</name>
+            <uri>https://www.reddit.com/user/git_world</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Hello,&lt;/p&gt; &lt;p&gt;I found &lt;a href=&quot;https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/&quot;&gt;this&lt;/a&gt; on migrating JavaScript to typescript. However, I noticed that in ReactJS, components could call other components inside the component definition. How would you do the migration to Typescript in such a scenario?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/git_world&quot;&gt; /u/git_world &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/ls1s8o/how_to_migrate_react_components_that_call_other/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/ls1s8o/how_to_migrate_react_components_that_call_other/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_ls1s8o</id>
+        <link href="https://www.reddit.com/r/typescript/comments/ls1s8o/how_to_migrate_react_components_that_call_other/" />
+        <updated>2021-02-25T08:24:05+00:00</updated>
+        <title>How to migrate React components that call other React components?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/m0ngr31redux</name>
+            <uri>https://www.reddit.com/user/m0ngr31redux</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I have a bunch of custom interfaces and I&amp;#39;m trying to create automated documentation for them. Is there a way during a build step to import a typescript file that contains some interfaces, and stringify the interfaces along with the JSdoc info?&lt;/p&gt; &lt;p&gt;I&amp;#39;m using Stencil, and it will stringify custom types, but not custom interfaces (as part of its compile step it can read the type of a prop). I&amp;#39;m trying to do this outside of Stencil&amp;#39;s compiler since I can&amp;#39;t even reach into where that happens anyways. Might just be easier to do it myself?&lt;/p&gt; &lt;p&gt;Source:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;export interface CTableCol { /** Set a class for specific use cases */ _class?: string; /** These will place a colored bar on the left of the row. */ _status?: string; /** If column is hidden or not */ _hidden?: boolean; /** This will set a width on a col. At least one col needs to be left blank to take the extra space. ex: &amp;#39;t30&amp;#39;. */ colClass?: string; /** Name identifier of column. */ colHeadName: string; /** If using a &amp;#39;Select All&amp;#39; type selector box in the column, this is the default value. */ colHeadSelectedVal?: boolean; /** What will display in the th element */ colHeadValue?: string; /** Fixed width for a column. */ colWidth?: number; /** Make this column sortable */ sort?: boolean; /** Class for the sort direction */ sortClass?: string; /** Makes initial sort order descending for this column */ reverseSort?: boolean; /** Use a custom ValueConverter */ valueConverter?: string; /** Custom ValueConverter format */ valueConverterFormat?: any; /** Custom component for the td */ view?: string; /** * If using the `c-td-action` View, this is the function that runs when it&amp;#39;s clicked. * @param row */ colAction?(row: any): void; /** * If using the `c-td-check` View, this function will trigger when checkbox is toggled. * @param row */ checkChanged?(row: any): void; /** * If using the `c-td-text-input`, this function will trigger when input is changed. * @param row */ rowValChanged?(row: any): void; /** * When using the &amp;#39;Select All&amp;#39; selector box, this function will trigger when the checkbox in the th is toggled. * @param isChecked */ colHeadSelectedChanged?(isChecked: boolean): void; /** * If you need to highlight a search string in the table (currently only supported on c-td-truncate) */ getSearchVal?(): string; } &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;After Stencil stringifies it:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;{ getBarColor?(row: any, col?: CTableCol): string; getRowClass?(row: any): string; getColClass?(row: any, col: CTableCol): string; getColValue?(row: any, col?: CTableCol): string | number; rowClick?(row: any, col?: CTableCol): void; sortColumn?(col: CTableCol, sortDir?: boolean): void; onScrollBottom?(): void; } &lt;/code&gt;&lt;/pre&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/m0ngr31redux&quot;&gt; /u/m0ngr31redux &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lrr1y2/stringify_interface/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lrr1y2/stringify_interface/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lrr1y2</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lrr1y2/stringify_interface/" />
+        <updated>2021-02-25T00:03:37+00:00</updated>
+        <title>Stringify Interface?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/jacobcan118</name>
+            <uri>https://www.reddit.com/user/jacobcan118</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I try to write a test with jest and hit one error &lt;code&gt;//TS2722: Cannot invoke an object which is possibly &amp;#39;undefined&amp;#39;.&lt;/code&gt; on the line of &lt;code&gt;render&lt;/code&gt;. If I set the Name type as required it is fine However I need to keep it as optional under &lt;code&gt;OptionalNameType&lt;/code&gt;. I tried to create a new type like &lt;code&gt; type NewNameType = OptionNameType &amp;amp; {Name: Function} const elementA: NewNameType | OptionNameType &lt;/code&gt; but it still does not work. how can I fix it?&lt;/p&gt; &lt;p&gt;my code &lt;code&gt; describe(&amp;#39;Test&amp;#39;, () =&amp;gt; { it(&amp;#39;test type&amp;#39;, () =&amp;gt; { type OptionalNameType = { id: string; Name?: Function; }; const elementA: OptionalNameType = { id: &amp;#39;name&amp;#39;, }; const elementB: OptionalNameType = { id: &amp;#39;name&amp;#39;, Name({value}: {value: string}) { return &amp;lt;a&amp;gt;${value}&amp;lt;/a&amp;gt;; }, }; //TS2722: Cannot invoke an object which is possibly &amp;#39;undefined&amp;#39;. const {container, debug} = render(elementA.Name({value: &amp;#39;aaaa&amp;#39;})); }); }); &lt;/code&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/jacobcan118&quot;&gt; /u/jacobcan118 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lruw7t/how_to_provide_the_type_that_is_optional_from/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lruw7t/how_to_provide_the_type_that_is_optional_from/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lruw7t</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lruw7t/how_to_provide_the_type_that_is_optional_from/" />
+        <updated>2021-02-25T02:12:57+00:00</updated>
+        <title>How to provide the type that is optional from package in test</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/beforesemicolon</name>
+            <uri>https://www.reddit.com/user/beforesemicolon</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lrthql/how_to_work_with_date_in_plain_javascript_no/&quot;&gt; &lt;img src=&quot;https://b.thumbs.redditmedia.com/4_1KVpTcI0tgMWTe4yxQI3ov1ZCy6vGr_B7AiPnSrFs.jpg&quot; alt=&quot;How to Work with Date in Plain Javascript — No Libraries Needed&quot; title=&quot;How to Work with Date in Plain Javascript — No Libraries Needed&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/beforesemicolon&quot;&gt; /u/beforesemicolon &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://beforesemicolon.medium.com/how-to-work-with-date-in-plain-javascript-no-libraries-needed-d48c2d31a733&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lrthql/how_to_work_with_date_in_plain_javascript_no/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+        <id>t3_lrthql</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/4_1KVpTcI0tgMWTe4yxQI3ov1ZCy6vGr_B7AiPnSrFs.jpg" />
+        <link href="https://www.reddit.com/r/typescript/comments/lrthql/how_to_work_with_date_in_plain_javascript_no/" />
+        <updated>2021-02-25T01:27:08+00:00</updated>
+        <title>How to Work with Date in Plain Javascript — No Libraries Needed</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/CreativeTechGuyGames</name>
+            <uri>https://www.reddit.com/user/CreativeTechGuyGames</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I&amp;#39;ve tried looking this up but probably couldn&amp;#39;t find the right words to use. There are some custom types which are useful to many files in my project and I don&amp;#39;t want to have to import them everywhere. Is there a way to create ambient &lt;code&gt;d.ts&lt;/code&gt; files that only apply to a specific set of files or folders in a project?&lt;/p&gt; &lt;p&gt;So for example, you might have a src folder and a test folder. Both have different global types that are needed in most files, but only in their respective folders.&lt;/p&gt; &lt;p&gt;Or let&amp;#39;s say you are extending the &lt;code&gt;global&lt;/code&gt; or &lt;code&gt;window&lt;/code&gt; object. You would want all files to know about those custom properties on the global, but another part of the same codebase may be executed in a different context so those properties won&amp;#39;t actually exist.&lt;/p&gt; &lt;p&gt;How can/should you structure a project like this? Or should you not even be using global declaration files at all?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/CreativeTechGuyGames&quot;&gt; /u/CreativeTechGuyGames &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lry1qj/global_types_for_a_specific_folder_of_project/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lry1qj/global_types_for_a_specific_folder_of_project/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lry1qj</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lry1qj/global_types_for_a_specific_folder_of_project/" />
+        <updated>2021-02-25T04:24:11+00:00</updated>
+        <title>Global types for a specific folder of project</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/mistlog</name>
+            <uri>https://www.reddit.com/user/mistlog</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;As we can see in previous post &lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lk2dqz/typetype_generate_complex_typescript_type_easily/&quot;&gt;typetype&lt;/a&gt;, complex type can be created using AST transformation, such as mapped type:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;/* type mapped2 = { [K in Keys as `get${K}`]: () =&amp;gt; string }*/ type mapped2 = ^{ for(K in Keys) { return { key: `get${K}`, value: type () =&amp;gt; string } } } &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;beyond that, we can use &amp;quot;placeholder&amp;quot; type temporarily and polyfill it later:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;export type function parseURL = (text) =&amp;gt; ^{ if (parseProtocol&amp;lt;text&amp;gt; extends [infer protocol, infer rest]) { return { protocol, ...parseAuthority&amp;lt;rest&amp;gt; } } else { return never } } &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;we use object spread for &lt;code&gt;parseAuthority&amp;lt;rest&amp;gt;&lt;/code&gt;, and it will be translated to(&lt;code&gt;object$assign&lt;/code&gt;):&lt;/p&gt; &lt;pre&gt;&lt;code&gt;export type parseURL&amp;lt;text&amp;gt; = parseProtocol&amp;lt;text&amp;gt; extends [infer protocol, infer rest] ? object$assign&amp;lt;{}, [{ protocol: protocol; }, parseAuthority&amp;lt;rest&amp;gt;]&amp;gt; : never; &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;then, polyfill it using type lib such as `ts-toolbelt`:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;import { Object, List } from &amp;quot;ts-toolbelt&amp;quot; declare global { // add type guard type object$assign&amp;lt;a, b&amp;gt; = a extends object ? b extends List.List&amp;lt;object&amp;gt; ? Object.Assign&amp;lt;a, b&amp;gt; : never : never } &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;In this way, we can create even more complex types in intuitive way.&lt;/p&gt; &lt;p&gt;You can find the complete example(url-parser) in:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;typetype: &lt;a href=&quot;https://github.com/mistlog/typetype-examples/blob/main/examples/url-parser-2/url-parser-2.type&quot;&gt;https://github.com/mistlog/typetype-examples/blob/main/examples/url-parser-2/url-parser-2.type&lt;/a&gt;&lt;/li&gt; &lt;li&gt;generated ts type: &lt;a href=&quot;https://github.com/mistlog/typetype-examples/blob/main/examples/url-parser-2/url-parser-2.ts&quot;&gt;https://github.com/mistlog/typetype-examples/blob/main/examples/url-parser-2/url-parser-2.ts&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/mistlog&quot;&gt; /u/mistlog &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lrf6y6/the_idea_of_type_polyfill/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lrf6y6/the_idea_of_type_polyfill/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lrf6y6</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lrf6y6/the_idea_of_type_polyfill/" />
+        <updated>2021-02-24T15:15:12+00:00</updated>
+        <title>The idea of type polyfill</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/DanielRosenwasser</name>
+            <uri>https://www.reddit.com/user/DanielRosenwasser</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lqu8bi/announcing_typescript_42/&quot;&gt; &lt;img src=&quot;https://b.thumbs.redditmedia.com/cUl7VNzotTfQ57dfbJQa7rcG6WdtZOzDdzH_NC1kv7Y.jpg&quot; alt=&quot;Announcing TypeScript 4.2&quot; title=&quot;Announcing TypeScript 4.2&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/DanielRosenwasser&quot;&gt; /u/DanielRosenwasser &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://devblogs.microsoft.com/typescript/announcing-typescript-4-2/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lqu8bi/announcing_typescript_42/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+        <id>t3_lqu8bi</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/cUl7VNzotTfQ57dfbJQa7rcG6WdtZOzDdzH_NC1kv7Y.jpg" />
+        <link href="https://www.reddit.com/r/typescript/comments/lqu8bi/announcing_typescript_42/" />
+        <updated>2021-02-23T21:57:53+00:00</updated>
+        <title>Announcing TypeScript 4.2</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/codetheroad</name>
+            <uri>https://www.reddit.com/user/codetheroad</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;&lt;strong&gt;Hello everyone of TypeScript Community!&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Me and my teammates are in a process of understanding common problems or issues that developers face in working with TypeScript today. Our project goal is to solve the unaddressed needs and problems in React and deepen our knowledge of react in doing so.&lt;/p&gt; &lt;p&gt;Hearing your thoughts, experiences, and opinions will be invaluable in knowing what problems really matter to developers of React community. This will inspire us with ideas for meaningful and useful opensource developer tools that we could build for our development project.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/codetheroad&quot;&gt; /u/codetheroad &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lpw9tu/what_are_your_problems_or_issues_with_developing/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lpw9tu/what_are_your_problems_or_issues_with_developing/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lpw9tu</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lpw9tu/what_are_your_problems_or_issues_with_developing/" />
+        <updated>2021-02-22T18:44:27+00:00</updated>
+        <title>What are your problems or issues with developing in TypeScript?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/blindShotgunSurgery</name>
+            <uri>https://www.reddit.com/user/blindShotgunSurgery</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Hello everyone, I&amp;#39;m quite new to plain typescript, I generally use angular but I was tasked with creating a library for plain javascript projects.&lt;/p&gt; &lt;p&gt;My question here is how to do the dependency injection and how to do it in a library. In angular it comes by default, but here I must install one. I checked inversify since it&amp;#39;s a popular one but all the tutorials I&amp;#39;ve seen are directed to node.js. &lt;/p&gt; &lt;p&gt;In all those tutorials there is a main.ts which is where the injectables are created but in my case since I have a library I think I shouldn&amp;#39;t create a main.ts since I don&amp;#39;t want to call it from the main project. What am I doing wrong and has anyone ever surpassed this issue?&lt;/p&gt; &lt;p&gt;Thanks!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/blindShotgunSurgery&quot;&gt; /u/blindShotgunSurgery &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lpspgy/ioc_but_in_frontend_library/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lpspgy/ioc_but_in_frontend_library/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lpspgy</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lpspgy/ioc_but_in_frontend_library/" />
+        <updated>2021-02-22T16:28:36+00:00</updated>
+        <title>IoC but in frontend library</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Sergio4raujo</name>
+            <uri>https://www.reddit.com/user/Sergio4raujo</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Hi forum, I am starting to develop a API to execute crud operations, I would like to run it on lambda with something like express serverless. In your opinion what is the best web framework?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Sergio4raujo&quot;&gt; /u/Sergio4raujo &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lpy4xz/best_backend_ts_framework/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lpy4xz/best_backend_ts_framework/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lpy4xz</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lpy4xz/best_backend_ts_framework/" />
+        <updated>2021-02-22T19:56:54+00:00</updated>
+        <title>Best backend TS! framework.</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/javascript_dev</name>
+            <uri>https://www.reddit.com/user/javascript_dev</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I had to ask after seeing this in the Nest.js docs. i&amp;#39;m not sure how one could specific optional types and unions, things I commonly specific in interface properties.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://docs.nestjs.com/controllers&quot;&gt;https://docs.nestjs.com/controllers&lt;/a&gt;&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;We could determine the DTO schema by using &lt;strong&gt;TypeScript&lt;/strong&gt; interfaces, or by simple classes. Interestingly, we recommend using &lt;strong&gt;classes&lt;/strong&gt; here. Why? Classes are part of the JavaScript ES6 standard, and therefore they are preserved as real entities in the compiled JavaScript. On the other hand, since TypeScript interfaces are removed during the transpilation, Nest can&amp;#39;t refer to them at runtime. This is important because features such as &lt;strong&gt;Pipes&lt;/strong&gt; enable additional possibilities when they have access to the metatype of the variable at runtime.&lt;/p&gt; &lt;/blockquote&gt; &lt;pre&gt;&lt;code&gt;export class CreateCatDto { name: string; age: number; breed: string; } &lt;/code&gt;&lt;/pre&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/javascript_dev&quot;&gt; /u/javascript_dev &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lpxqfj/can_classes_essentially_mimick_interfaces/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lpxqfj/can_classes_essentially_mimick_interfaces/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lpxqfj</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lpxqfj/can_classes_essentially_mimick_interfaces/" />
+        <updated>2021-02-22T19:40:50+00:00</updated>
+        <title>Can classes essentially mimick interfaces?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/guoyunhe</name>
+            <uri>https://www.reddit.com/user/guoyunhe</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I am working on a project using Java for backend. Now we need some front-end validation. But hand writing io-ts is a huge amount of work. Is here any tool to convert jar files to io-ts types?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/guoyunhe&quot;&gt; /u/guoyunhe &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lpegqy/how_to_generate_iots_types_from_java_jar_files/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lpegqy/how_to_generate_iots_types_from_java_jar_files/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lpegqy</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lpegqy/how_to_generate_iots_types_from_java_jar_files/" />
+        <updated>2021-02-22T03:55:36+00:00</updated>
+        <title>How to generate io-ts types from Java *.jar files?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/StephensInfiniteLoop</name>
+            <uri>https://www.reddit.com/user/StephensInfiniteLoop</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Hi everyone, I&amp;#39;m a self-taught student programmer with a focus on Node and React, and I know that soon I&amp;#39;ll have to get good at TypeScript. Dipping my toes in the topic at the moment, curious to know how people here would answer the above question.&lt;/p&gt; &lt;p&gt;Thanks&lt;/p&gt; &lt;p&gt;Edit: after reading this thread, and also after seeing how often TypeScript is mentioned in JavaScript developer job descriptions as one of the requirements, really thinking I&amp;#39;m going to go all in TypeScript, and get in the habit of using it as much as I can. Thanks everyone!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/StephensInfiniteLoop&quot;&gt; /u/StephensInfiniteLoop &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lowcl5/new_to_ts_do_any_of_you_use_ts_exclusively_over/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lowcl5/new_to_ts_do_any_of_you_use_ts_exclusively_over/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lowcl5</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lowcl5/new_to_ts_do_any_of_you_use_ts_exclusively_over/" />
+        <updated>2021-02-21T12:43:43+00:00</updated>
+        <title>New to TS. Do any of you use TS exclusively over JS? If not exclusively, then what's the split between TS and JS? How do you decide when to use TS, and when to use JS?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/cosmosfan2</name>
+            <uri>https://www.reddit.com/user/cosmosfan2</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lp89h7/property_not_found_in_class_why_not/&quot;&gt; &lt;img src=&quot;https://b.thumbs.redditmedia.com/ugcCToVIpT8cai0Mwoa6bFnnO9kGhmPzwnJhMOLpAuw.jpg&quot; alt=&quot;Property not found in class -- why not?&quot; title=&quot;Property not found in class -- why not?&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/cosmosfan2&quot;&gt; /u/cosmosfan2 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://i.redd.it/vnl6rdmapwi61.png&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lp89h7/property_not_found_in_class_why_not/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+        <id>t3_lp89h7</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/ugcCToVIpT8cai0Mwoa6bFnnO9kGhmPzwnJhMOLpAuw.jpg" />
+        <link href="https://www.reddit.com/r/typescript/comments/lp89h7/property_not_found_in_class_why_not/" />
+        <updated>2021-02-21T22:24:20+00:00</updated>
+        <title>Property not found in class -- why not?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/replicaJunction</name>
+            <uri>https://www.reddit.com/user/replicaJunction</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I&amp;#39;m new to TypeScript and know just enough JavaScript to know I dislike the language, in large part because of loose / dynamic typing. However, I&amp;#39;m about to end up as one of the primary developers on a Node.js project, so I&amp;#39;m going to be learning a lot more JS in the next couple months.&lt;/p&gt; &lt;p&gt;I know just enough about TypeScript to know that it &amp;quot;compiles&amp;quot; into JavaScript and that it addresses a lot of the complaints I have with JS. I also see that in general, the people who use TypeScript seem to love it. I am moderately familiar with F#, and I see that TS inherited more than a couple concepts from functional programming, so that&amp;#39;s a major plus in my book. However, I&amp;#39;m not sure about interoperability with an existing codebase, so I&amp;#39;m seeking advice from the experts here.&lt;/p&gt; &lt;p&gt;Assuming the rest of the team is willing to allow it, is it possible for me to use TypeScript alongside others&amp;#39; JavaScript / Node.js code? Would it cause more problems than it would solve?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/replicaJunction&quot;&gt; /u/replicaJunction &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lp5ur0/new_job_with_nodejs_can_i_work_in_typescript/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lp5ur0/new_job_with_nodejs_can_i_work_in_typescript/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lp5ur0</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lp5ur0/new_job_with_nodejs_can_i_work_in_typescript/" />
+        <updated>2021-02-21T20:29:13+00:00</updated>
+        <title>New job with Node.js - can I work in TypeScript?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/0x4bd0</name>
+            <uri>https://www.reddit.com/user/0x4bd0</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Hello, we have this idea of a community of javascript focus on this language in general, and it will cover any topic related to it, so it will be nice if you can join us to build this great community :) &lt;a href=&quot;https://discord.gg/5Dp8vZBX&quot;&gt;https://discord.gg/5Dp8vZBX&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Javascript Discord Community&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/0x4bd0&quot;&gt; /u/0x4bd0 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/loy29l/javascript_discord_community/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/loy29l/javascript_discord_community/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_loy29l</id>
+        <link href="https://www.reddit.com/r/typescript/comments/loy29l/javascript_discord_community/" />
+        <updated>2021-02-21T14:23:59+00:00</updated>
+        <title>Javascript Discord Community</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/voidvine</name>
+            <uri>https://www.reddit.com/user/voidvine</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I&amp;#39;m not sure how to word it properly. Specifically, I need to use generics and create a conditional type for a function. To simplify, let it be:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;type TUnion = &amp;#39;a&amp;#39; | &amp;#39;b&amp;#39; | &amp;#39;c&amp;#39;; type TTemp&amp;lt;T extends TUnion&amp;gt; = T; &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Now, what should I change to prevent Typescript from allowing the following?&lt;/p&gt; &lt;pre&gt;&lt;code&gt;type TNew = TTemp&amp;lt;&amp;#39;a&amp;#39; | &amp;#39;b&amp;#39;&amp;gt;; &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;So the type parameter could only accept either &lt;code&gt;&amp;#39;a&amp;#39;&lt;/code&gt; or &lt;code&gt;&amp;#39;b&amp;#39;&lt;/code&gt;, for example. Is it possible?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/voidvine&quot;&gt; /u/voidvine &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lod3qh/is_it_possible_to_extend_a_type_union_containing/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lod3qh/is_it_possible_to_extend_a_type_union_containing/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lod3qh</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lod3qh/is_it_possible_to_extend_a_type_union_containing/" />
+        <updated>2021-02-20T18:19:43+00:00</updated>
+        <title>Is it possible to extend a type union (containing 3 or more types), but force choosing only one type from this union?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/liaguris</name>
+            <uri>https://www.reddit.com/user/liaguris</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I want a function that will take input like this :&lt;/p&gt; &lt;pre&gt;&lt;code&gt;export declare type aType = &amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;myType&amp;lt;/a&amp;gt;; &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;and output it to this :&lt;/p&gt; &lt;pre&gt;&lt;code&gt;export declare type aType = &amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;myType&amp;lt;/a&amp;gt;; &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Does anyone know of any such formatting function?&lt;/p&gt; &lt;p&gt;Edit to clarify : I am not talking about JSX. &lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lo51zg/format_typescript_ignoring_markup/go442a8?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3&quot;&gt;Here&lt;/a&gt; is one example that maybe clarifies things.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/liaguris&quot;&gt; /u/liaguris &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lo51zg/format_typescript_ignoring_markup/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lo51zg/format_typescript_ignoring_markup/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lo51zg</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lo51zg/format_typescript_ignoring_markup/" />
+        <updated>2021-02-20T11:13:12+00:00</updated>
+        <title>Format typescript ignoring markup.</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/jacobcan118</name>
+            <uri>https://www.reddit.com/user/jacobcan118</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;How can I handle the Cell optional type from react-tabe? I am using react-table package to build my table data. based on react-table api &lt;a href=&quot;https://react-table.tanstack.com/docs/api/useTable#column-options&quot;&gt;https://react-table.tanstack.com/docs/api/useTable#column-options&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt; Cell: Function | React.Component =&amp;gt; JSX Optional Defaults to ({ value }) =&amp;gt; String(value) Receives the table instance and cell model as props Must return valid JSX This function (or component) is primarily used for formatting the column value, eg. If your column accessor returns a date object, you can use a Cell function to format that date to a readable format. &lt;/code&gt;&lt;/p&gt; &lt;p&gt;&amp;#x200B;&lt;/p&gt; &lt;p&gt;I use function call under &lt;code&gt;Cell&lt;/code&gt; and set the Cell type as option function,&lt;/p&gt; &lt;p&gt;```&lt;/p&gt; &lt;p&gt;export interface CellData {&lt;/p&gt; &lt;p&gt;}&lt;/p&gt; &lt;p&gt;export type Data = Column&amp;lt;CellData&amp;gt; &amp;amp; { Cell ? : Function};&lt;/p&gt; &lt;p&gt;export const data:CellData = { id: &amp;quot;column&amp;quot;, accessor: (row) =&amp;gt; { return { link: row.link, }; }, Header: &amp;quot;Column Header&amp;quot;, Cell({ value }) { return &amp;lt;button&amp;gt;{value}&amp;lt;/button&amp;gt;; }, }; ```&lt;/p&gt; &lt;p&gt;but I have this error under ts check&lt;/p&gt; &lt;p&gt;``` src/meta/table/Columns.test.tsx:5:9 - error TS2722: Cannot invoke an object which is possibly &amp;#39;undefined&amp;#39;.&lt;/p&gt; &lt;p&gt;5 data.Cell({ ~~~~&lt;/p&gt; &lt;p&gt;src/meta/table/Columns.test.tsx:10:20 - error TS2349: This expression is not callable.&lt;/p&gt; &lt;p&gt;Not all constituents of type &amp;#39;Function | (string &amp;amp; Function) | (number &amp;amp; Function) | (ReactElement&amp;lt;any, string | ((props: any) =&amp;gt; ReactElement&amp;lt;any, string | ... | (new (props: any) =&amp;gt; Component&amp;lt;any, any, any&amp;gt;)&amp;gt; | null) | (new (props: any) =&amp;gt; Component&amp;lt;...&amp;gt;)&amp;gt; &amp;amp; Function) | (ReactNodeArray &amp;amp; Function) | (ComponentClass&amp;lt;...&amp;gt; &amp;amp; Function) | (Function...&amp;#39; are callable.&lt;/p&gt; &lt;p&gt;Type &amp;#39;Function&amp;#39; has no call signatures.&lt;/p&gt; &lt;p&gt;10 data.Cell({ ~~~~ ```&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/jacobcan118&quot;&gt; /u/jacobcan118 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lmq001/error_cannot_invoke_an_object_which_is_possibly/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lmq001/error_cannot_invoke_an_object_which_is_possibly/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lmq001</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lmq001/error_cannot_invoke_an_object_which_is_possibly/" />
+        <updated>2021-02-18T16:01:36+00:00</updated>
+        <title>Error: Cannot invoke an object which is possibly 'undefined'. from react-table How can I fix it?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/cosmosfan2</name>
+            <uri>https://www.reddit.com/user/cosmosfan2</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I am moving a JS codebase done by a contractor in house. I see this:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;class CreateDocument { constructor({ SqsService, ProcessRequiredInput, DocumentFileService, repository: { DocumentRepository, DocumentScaffoldRepository } }) &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;I have added this so far:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;interface Repository { DocumentRepository: any, DocumentScaffoldRepository: any; } interface ClassParams { SqsService: any, ProcessRequiredInput: any, DocumentFileService: any, repository: Repository, } class CreateDocument { constructor({ SqsService, ProcessRequiredInput, DocumentFileService, repository, }: ClassParams) { this.DocumentRepository = repository.DocumentRepository; /* Property &amp;#39;DocumentRepository&amp;#39; does not exist on type &amp;#39;CreateDocument&amp;#39;.ts(2339) */ &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;I tried setting it as public (I have a lot to go through and will tighen access later where needed). I can&amp;#39;t figure how how to do it though, other than:&lt;/p&gt; &lt;pre&gt;&lt;code&gt; public DocumentRepository; &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;...above the constructor. Is this the only option here or is there a shorthand?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/cosmosfan2&quot;&gt; /u/cosmosfan2 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lms0nv/is_there_a_shorthand_to_declare_a_destructured/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lms0nv/is_there_a_shorthand_to_declare_a_destructured/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lms0nv</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lms0nv/is_there_a_shorthand_to_declare_a_destructured/" />
+        <updated>2021-02-18T17:25:15+00:00</updated>
+        <title>Is there a shorthand to declare a destructured class parameter?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Streck72</name>
+            <uri>https://www.reddit.com/user/Streck72</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lmx62g/could_someone_explain_this_very_basic_concept/&quot;&gt; &lt;img src=&quot;https://b.thumbs.redditmedia.com/b5Djx72URZbikogfqNls49qVhhhNnjvr4QtgeAOt81k.jpg&quot; alt=&quot;Could someone explain this very basic concept like I'm 5 years old?&quot; title=&quot;Could someone explain this very basic concept like I'm 5 years old?&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I have been messing around with angular cli and .net core applications, trying to understand how they work, etc etc.&lt;/p&gt; &lt;p&gt;As you can see in this picture, where it begins with declaring a variable named currentCount...&lt;/p&gt; &lt;p&gt;below that there are two functions. &lt;/p&gt; &lt;p&gt;One increments and one decrements. In these functions, why do they say:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;this.currentCount = this.currentCount + 3; &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;instead of just saying&lt;/p&gt; &lt;pre&gt;&lt;code&gt;currentCount = currentCount + 3; &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;For some reason I have such a hard time understanding this, and I have no idea why.&lt;/p&gt; &lt;p&gt;&amp;#x200B;&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://preview.redd.it/9c9rpd5hvai61.png?width=511&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=d3c9993957a1e22e210e2684eede401985bcdef1&quot;&gt;https://preview.redd.it/9c9rpd5hvai61.png?width=511&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=d3c9993957a1e22e210e2684eede401985bcdef1&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Streck72&quot;&gt; /u/Streck72 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lmx62g/could_someone_explain_this_very_basic_concept/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lmx62g/could_someone_explain_this_very_basic_concept/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+        <id>t3_lmx62g</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/b5Djx72URZbikogfqNls49qVhhhNnjvr4QtgeAOt81k.jpg" />
+        <link href="https://www.reddit.com/r/typescript/comments/lmx62g/could_someone_explain_this_very_basic_concept/" />
+        <updated>2021-02-18T21:03:05+00:00</updated>
+        <title>Could someone explain this very basic concept like I'm 5 years old?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/ahsibob</name>
+            <uri>https://www.reddit.com/user/ahsibob</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;&lt;code&gt;this.overlays.forEach(marker =&amp;gt; {bounds.extend(marker.getPosition());});setTimeout(() =&amp;gt; {this.map.fitBounds(bounds);if (this.overlays.length === 1){this.selectMarkerOnMap(this.overlays[0]);}}, 1000);&lt;/code&gt;&lt;/p&gt; &lt;p&gt;this.overlays is an array that returns some data...I found some implementation on PrimeNg for Angular, that uses this method...but I want to remove it, and don&amp;#39;t know how to do it properly, so I can check If I can achieve same thing without it.&lt;/p&gt; &lt;p&gt;their example:&lt;/p&gt; &lt;p&gt;&lt;code&gt;export class MyModel {&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;options: any;&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;overlays: any[];&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;map: google.maps.Map;&lt;/code&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt;setMap(event) {&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;this.map = event.map;&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;}&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;ngOnInit() {&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;let bounds = new google.maps.LatLngBounds();&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;this.overlays = [&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;new google.maps.Marker({position: {lat: 36.879466, lng: 30.667648}, title:&amp;quot;Konyaalti&amp;quot;}),&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;new google.maps.Marker({position: {lat: 36.883707, lng: 30.689216}, title:&amp;quot;Ataturk Park&amp;quot;}),&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;new google.maps.Marker({position: {lat: 36.885233, lng: 30.702323}, title:&amp;quot;Oldtown&amp;quot;}), ]&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;// ... extend bounds&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;this.overlays.forEach(marker =&amp;gt; {&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;bounds.extend(marker.getPosition()); });&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;setTimeout(()=&amp;gt; { // map will need some time to load&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;this.map.fitBounds(bounds); // Map object used directly&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;}, 1000); } }&lt;/code&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/ahsibob&quot;&gt; /u/ahsibob &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lmz85l/how_can_i_properly_remove_settimeout_cause_i/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/lmz85l/how_can_i_properly_remove_settimeout_cause_i/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_lmz85l</id>
+        <link href="https://www.reddit.com/r/typescript/comments/lmz85l/how_can_i_properly_remove_settimeout_cause_i/" />
+        <updated>2021-02-18T22:29:53+00:00</updated>
+        <title>How can I properly remove SetTimeout() cause I think it's not useful</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/charlie_wasp</name>
+            <uri>https://www.reddit.com/user/charlie_wasp</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/typescript/comments/llx83g/serverless_typescript_a_complete_setup_for_aws/&quot;&gt; &lt;img src=&quot;https://b.thumbs.redditmedia.com/nzZIaNnuE-Mp1LSrqrZxYrfLhRpJ-zv0DrmxIV0I7dQ.jpg&quot; alt=&quot;Serverless TypeScript: A complete setup for AWS SAM Lambdas&quot; title=&quot;Serverless TypeScript: A complete setup for AWS SAM Lambdas&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/charlie_wasp&quot;&gt; /u/charlie_wasp &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://evilmartians.com/chronicles/serverless-typescript-a-complete-setup-for-aws-sam-lambda&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/llx83g/serverless_typescript_a_complete_setup_for_aws/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+        <id>t3_llx83g</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/nzZIaNnuE-Mp1LSrqrZxYrfLhRpJ-zv0DrmxIV0I7dQ.jpg" />
+        <link href="https://www.reddit.com/r/typescript/comments/llx83g/serverless_typescript_a_complete_setup_for_aws/" />
+        <updated>2021-02-17T15:39:54+00:00</updated>
+        <title>Serverless TypeScript: A complete setup for AWS SAM Lambdas</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/git_world</name>
+            <uri>https://www.reddit.com/user/git_world</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Hello,&lt;/p&gt; &lt;p&gt;I am someone who enjoys learning through books. I have 6 years of experience with JavaScript and little to zero knowledge of TypeScript. &lt;/p&gt; &lt;p&gt;As I would like to go from basics to the master of TypeScript, I am looking for a good book suggestion on TypeScript. Any suggestions? thanks&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/git_world&quot;&gt; /u/git_world &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/llsgz0/help_best_book_on_typescript/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/llsgz0/help_best_book_on_typescript/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_llsgz0</id>
+        <link href="https://www.reddit.com/r/typescript/comments/llsgz0/help_best_book_on_typescript/" />
+        <updated>2021-02-17T11:31:25+00:00</updated>
+        <title>[HELP] Best book on TypeScript</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/jswrenn</name>
+            <uri>https://www.reddit.com/user/jswrenn</uri>
+        </author>
+        <category term="typescript" label="r/typescript"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Is this a compiler bug? Function objects have a &lt;code&gt;name&lt;/code&gt; key, but &lt;code&gt;keyof (() =&amp;gt; void)&lt;/code&gt; produces &lt;code&gt;never&lt;/code&gt;; see (&lt;a href=&quot;https://www.typescriptlang.org/play?ssl=11&amp;amp;ssc=45&amp;amp;pln=1&amp;amp;pc=1#code/GYVwdgxgLglg9mABAcwKZQAoCc4AdVZQCeAPACoA0iA0oqgB5SpgAmAzogNapFzCJkAfAAo4AIwBWALgFVuRGdQCUiAN4BYAFCJEWdCCxJxEgNryAugG5EAehuIAkmGAE9LRMXyIYHMiermWgC+WloANuiIwHBwiAC8agAWqGFhcDIA5ADucFhhLBlBllrRcAB0yalw1naIOVicbFpomDj4hETCpVQZlWkZSjX29Y2hmhFQiGIAhljxUeDQ8EilwkqqRVozWGVg0wC2qEN1uaOaLdh4BMTC21QARHuH94O29hBw+7gwEXRYOFgAIQAfiAA&quot;&gt;playground&lt;/a&gt;):&lt;/p&gt; &lt;pre&gt;&lt;code&gt;function getProperty&amp;lt;T, K extends keyof T&amp;gt;(obj: T, key: K) { return obj[key]; // Inferred type is T[K] } let foo = {hello: &amp;#39;world&amp;#39;}; foo.hello; // works getProperty(foo, &amp;#39;hello&amp;#39;); // works let bar = function foo(){}; bar.name; // works getProperty(bar, &amp;quot;name&amp;quot;); // compile error!? &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Does anyone know what&amp;#39;s going on here?&lt;/p&gt; &lt;p&gt;&lt;strong&gt;EDIT:&lt;/strong&gt; &lt;a href=&quot;https://github.com/microsoft/TypeScript/issues/42831&quot;&gt;Filed a bug.&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/jswrenn&quot;&gt; /u/jswrenn &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/llia90/bug_why_is_keyof_void_equivalent_to_never/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/typescript/comments/llia90/bug_why_is_keyof_void_equivalent_to_never/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_llia90</id>
+        <link href="https://www.reddit.com/r/typescript/comments/llia90/bug_why_is_keyof_void_equivalent_to_never/" />
+        <updated>2021-02-17T00:59:32+00:00</updated>
+        <title>Bug? Why is `keyof (() =&gt; void)` equivalent to `never`?</title>
+    </entry>
+</feed>

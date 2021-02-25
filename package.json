@@ -1,0 +1,96 @@
+{
+  "name": "rssconv-action",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Rui Costa",
+  "license": "MIT",
+  "main": "bin/index.js",
+  "source": "src/index.ts",
+  "dependencies": {
+    "@tuplo/series-with": "1.1.0",
+    "cheerio": "1.0.0-rc.5",
+    "feed": "4.2.2",
+    "feedparser": "2.2.10",
+    "node-fetch": "2.6.1",
+    "p-pipe": "3.1.0",
+    "user-agents": "1.0.573"
+  },
+  "devDependencies": {
+    "@types/feedparser": "2.2.3",
+    "@types/jest": "26.0.20",
+    "@types/node": "14.14.31",
+    "@types/node-fetch": "2.5.8",
+    "@types/user-agents": "1.0.0",
+    "@typescript-eslint/eslint-plugin": "4.15.2",
+    "@typescript-eslint/parser": "4.15.2",
+    "eslint": "7.20.0",
+    "eslint-config-airbnb-typescript": "12.3.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jest": "24.1.5",
+    "jest": "26.6.3",
+    "jest-raw-loader": "1.0.1",
+    "microbundle": "0.13.0",
+    "prettier": "2.2.1",
+    "rimraf": "3.0.2",
+    "ts-jest": "26.5.2",
+    "typescript": "4.2.2"
+  },
+  "scripts": {
+    "build": "rimraf ./bin; microbundle --target node --no-sourcemap --format cjs",
+    "dev": "microbundle watch --target node --no-sourcemap --format cjs",
+    "test": "jest --watch"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base",
+      "prettier",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:import/typescript",
+      "plugin:jest/all"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint",
+      "jest"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 9,
+      "project": "./tsconfig.json"
+    },
+    "env": {
+      "node": true,
+      "jest": true
+    },
+    "rules": {
+      "import/extensions": 0,
+      "import/prefer-default-export": 0,
+      "jest/no-hooks": "off"
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/*.ts"
+        ],
+        "rules": {
+          "no-undef": "off"
+        }
+      }
+    ]
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.(t|j)sx?$": "ts-jest",
+      "\\.xml$": "jest-raw-loader"
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "printWidth": 80
+  }
+}
