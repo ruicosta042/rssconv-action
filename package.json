@@ -39,9 +39,13 @@
   },
   "scripts": {
     "build": "rimraf ./bin; microbundle --target node --no-sourcemap --format cjs",
+    "ci:test": "jest --ci",
     "dev": "microbundle watch --target node --no-sourcemap --format cjs",
+    "lint": "eslint src/**/*.ts",
     "test": "jest --watch",
-    "postinstall": "husky install"
+    "ts-check": "tsc --noEmit",
+    "postinstall": "husky install",
+    "validate": "yarn lint; yarn ts-check; yarn ci:test"
   },
   "eslintConfig": {
     "extends": [
