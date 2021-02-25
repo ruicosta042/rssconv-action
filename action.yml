@@ -6,7 +6,7 @@ runs:
   steps:
     - name: Update feeds
       run: |
-        yarn --cwd ${{ github.action_path }} install --production 
+        HUSKY=0 yarn --cwd ${{ github.action_path }} install --production 
         node ${{ github.action_path }}/bin/index.js
       shell: bash
     - name: Commit changes

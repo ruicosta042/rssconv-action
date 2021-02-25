@@ -46,7 +46,7 @@
     "lint": "eslint src/**/*.ts",
     "test": "jest --watch",
     "ts-check": "tsc --noEmit",
-    "postinstall": "husky install",
+    "postinstall": "[ -z $CI ] && husky install || exit 0",
     "validate": "yarn lint; yarn ts-check; yarn ci:test"
   },
   "eslintConfig": {
