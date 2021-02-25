@@ -33,7 +33,7 @@ function getFeedOptions(items: FeedParser.Item[]): FeedOptions {
     copyright,
     description,
     favicon,
-    generator: 'https://github.com/ruicosta042/feedsboy',
+    generator: 'https://github.com/ruicosta042/rssconv-action',
     id: link,
     language: language || 'en',
     link,

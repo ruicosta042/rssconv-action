@@ -11,7 +11,7 @@ describe('convert-feed', () => {
       description:
         'TypeScript is a language for application-scale JavaScript development. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.',
       favicon: 'https://www.redditstatic.com/icon.png/',
-      generator: 'https://github.com/ruicosta042/feedsboy',
+      generator: 'https://github.com/ruicosta042/rssconv-action',
       id: 'https://www.reddit.com/r/typescript',
       language: 'en',
       link: 'https://www.reddit.com/r/typescript',
