@@ -150,50 +150,61 @@ function transform(items = []) {
   });
 }
 
-const file = 'javascript-weekly';
-const url = 'https://javascriptweekly.com/rss/';
+const file = 'cprss-frontend-focus';
+const url = 'https://cprss.s3.amazonaws.com/frontendfoc.us.xml';
 const transform$1 = transform;
 
-var javascriptWeekly = {
+var cprssFrontendFocus = {
   __proto__: null,
   file: file,
   url: url,
   transform: transform$1
 };
 
-const file$1 = 'harpers-magazine';
-const url$1 = 'https://harpers.org/feed';
-function transform$2(items = []) {
-  return items;
-}
+const file$1 = 'cprss-javascript-weekly';
+const url$1 = 'https://javascriptweekly.com/rss/';
+const transform$2 = transform;
 
-var harpersMagazine = {
+var cprssJavascriptWeekly = {
   __proto__: null,
   file: file$1,
   url: url$1,
   transform: transform$2
 };
 
-const file$2 = 'node-weekly';
+const file$2 = 'cprss-node-weekly';
 const url$2 = 'https://nodeweekly.com/rss/';
 const transform$3 = transform;
 
-var nodeWeekly = {
+var cprssNodeWeekly = {
   __proto__: null,
   file: file$2,
   url: url$2,
   transform: transform$3
 };
 
-const file$3 = 'react-status';
+const file$3 = 'cprss-react-status';
 const url$3 = 'https://react.statuscode.com/rss/';
 const transform$4 = transform;
 
-var reactStatus = {
+var cprssReactStatus = {
   __proto__: null,
   file: file$3,
   url: url$3,
   transform: transform$4
+};
+
+const file$4 = 'harpers-magazine';
+const url$4 = 'https://harpers.org/feed';
+function transform$5(items = []) {
+  return items;
+}
+
+var harpersMagazine = {
+  __proto__: null,
+  file: file$4,
+  url: url$4,
+  transform: transform$5
 };
 
 function getLinkShare(item) {
@@ -203,58 +214,58 @@ function getLinkShare(item) {
 function isLinkShare(item) {
   return Boolean(getLinkShare(item));
 }
-function transform$5(items) {
+function transform$6(items) {
   return items.filter(isLinkShare).map(item => _extends({}, item, {
     description: '',
     link: getLinkShare(item)
   }));
 }
 
-const file$4 = 'reddit-css';
-const url$4 = 'https://www.reddit.com/r/css.rss';
-const transform$6 = transform$5;
+const file$5 = 'reddit-css';
+const url$5 = 'https://www.reddit.com/r/css.rss';
+const transform$7 = transform$6;
 
 var redditCss = {
-  __proto__: null,
-  file: file$4,
-  url: url$4,
-  transform: transform$6
-};
-
-const file$5 = 'reddit-javascript';
-const url$5 = 'https://www.reddit.com/r/javascript.rss';
-const transform$7 = transform$5;
-
-var redditJavascript = {
   __proto__: null,
   file: file$5,
   url: url$5,
   transform: transform$7
 };
 
-const file$6 = 'reddit-node';
-const url$6 = 'https://www.reddit.com/r/node.rss';
-const transform$8 = transform$5;
+const file$6 = 'reddit-javascript';
+const url$6 = 'https://www.reddit.com/r/javascript.rss';
+const transform$8 = transform$6;
 
-var redditNode = {
+var redditJavascript = {
   __proto__: null,
   file: file$6,
   url: url$6,
   transform: transform$8
 };
 
-const file$7 = 'reddit-typescript';
-const url$7 = 'https://www.reddit.com/r/typescript.rss';
-const transform$9 = transform$5;
+const file$7 = 'reddit-node';
+const url$7 = 'https://www.reddit.com/r/node.rss';
+const transform$9 = transform$6;
 
-var redditTypescript = {
+var redditNode = {
   __proto__: null,
   file: file$7,
   url: url$7,
   transform: transform$9
 };
 
-var feeds = [javascriptWeekly, harpersMagazine, nodeWeekly, reactStatus, redditCss, redditJavascript, redditNode, redditTypescript];
+const file$8 = 'reddit-typescript';
+const url$8 = 'https://www.reddit.com/r/typescript.rss';
+const transform$a = transform$6;
+
+var redditTypescript = {
+  __proto__: null,
+  file: file$8,
+  url: url$8,
+  transform: transform$a
+};
+
+var feeds = [cprssFrontendFocus, cprssJavascriptWeekly, cprssNodeWeekly, cprssReactStatus, harpersMagazine, redditCss, redditJavascript, redditNode, redditTypescript];
 
 (async function main() {
   mkdirp__default['default'].sync('feeds');

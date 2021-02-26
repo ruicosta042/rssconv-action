@@ -1,17 +1,19 @@
-import * as javascriptWeekly from './javascript-weekly';
+import * as cprssFrontendFocus from './cprss-frontend-focus';
+import * as cprssJavascriptWeekly from './cprss-javascript-weekly';
+import * as cprssNodeWeekly from './cprss-node-weekly';
+import * as cprssReactStatus from './cprss-react-status';
 import * as harpersMagazine from './harpers-magazine';
-import * as nodeWeekly from './node-weekly';
-import * as reactStatus from './react-status';
 import * as redditCss from './reddit-css';
 import * as redditJavascript from './reddit-javascript';
 import * as redditNode from './reddit-node';
 import * as redditTypescript from './reddit-typescript';
 
 export default [
-  javascriptWeekly,
+  cprssFrontendFocus,
+  cprssJavascriptWeekly,
+  cprssNodeWeekly,
+  cprssReactStatus,
   harpersMagazine,
-  nodeWeekly,
-  reactStatus,
   redditCss,
   redditJavascript,
   redditNode,
