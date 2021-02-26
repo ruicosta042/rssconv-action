@@ -7,6 +7,7 @@ import * as harpersMagazine from './harpers-magazine';
 import * as redditCss from './reddit-css';
 import * as redditJavascript from './reddit-javascript';
 import * as redditNode from './reddit-node';
+import * as redditReactJs from './reddit-reactjs';
 import * as redditTypescript from './reddit-typescript';
 
 export default [
@@ -19,5 +20,6 @@ export default [
   redditCss,
   redditJavascript,
   redditNode,
+  redditReactJs,
   redditTypescript,
 ];

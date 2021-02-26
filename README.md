@@ -8,7 +8,7 @@ An action to retrofit RSS feeds to suit my needs.
 
 #### reddit
 
-Feeds from reddit will list all posts on a subreddit. I'm only interested on link shares, not on text posts. On link shares, I want to be given the URL directly, not the reddit post that points to the link. Covered subreddits: /r/javascript, /r/typescript, /r/node and /r/css.
+Feeds from reddit will list all posts on a subreddit. I'm only interested on link shares, not on text posts. On link shares, I want to be given the URL directly, not the reddit post that points to the link. Covered subreddits: /r/javascript, /r/typescript, /r/node, /r/reactjs and /r/css.
 
 #### Cooperpress
 

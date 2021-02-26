@@ -265,18 +265,29 @@ var redditNode = {
   transform: transform$a
 };
 
-const file$9 = 'reddit-typescript';
-const url$9 = 'https://www.reddit.com/r/typescript.rss';
+const file$9 = 'reddit-reactjs';
+const url$9 = 'https://www.reddit.com/r/reactjs.rss';
 const transform$b = transform$7;
 
-var redditTypescript = {
+var redditReactJs = {
   __proto__: null,
   file: file$9,
   url: url$9,
   transform: transform$b
 };
 
-var feeds = [cprssFrontendFocus, cprssJavascriptWeekly, cprssNodeWeekly, cprssReactStatus, cprssServerlessStatus, harpersMagazine, redditCss, redditJavascript, redditNode, redditTypescript];
+const file$a = 'reddit-typescript';
+const url$a = 'https://www.reddit.com/r/typescript.rss';
+const transform$c = transform$7;
+
+var redditTypescript = {
+  __proto__: null,
+  file: file$a,
+  url: url$a,
+  transform: transform$c
+};
+
+var feeds = [cprssFrontendFocus, cprssJavascriptWeekly, cprssNodeWeekly, cprssReactStatus, cprssServerlessStatus, harpersMagazine, redditCss, redditJavascript, redditNode, redditReactJs, redditTypescript];
 
 (async function main() {
   mkdirp__default['default'].sync('feeds');

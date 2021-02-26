@@ -4,6 +4,7 @@
     "cprss",
     "feedparser",
     "pubdate",
+    "reactjs",
     "rssconv"
   ]
 }
