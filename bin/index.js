@@ -194,17 +194,28 @@ var cprssReactStatus = {
   transform: transform$4
 };
 
-const file$4 = 'harpers-magazine';
-const url$4 = 'https://harpers.org/feed';
-function transform$5(items = []) {
+const file$4 = 'cprss-serverless-status';
+const url$4 = 'https://cprss.s3.amazonaws.com/serverless.email.xml';
+const transform$5 = transform;
+
+var cprssServerlessStatus = {
+  __proto__: null,
+  file: file$4,
+  url: url$4,
+  transform: transform$5
+};
+
+const file$5 = 'harpers-magazine';
+const url$5 = 'https://harpers.org/feed';
+function transform$6(items = []) {
   return items;
 }
 
 var harpersMagazine = {
   __proto__: null,
-  file: file$4,
-  url: url$4,
-  transform: transform$5
+  file: file$5,
+  url: url$5,
+  transform: transform$6
 };
 
 function getLinkShare(item) {
@@ -214,58 +225,58 @@ function getLinkShare(item) {
 function isLinkShare(item) {
   return Boolean(getLinkShare(item));
 }
-function transform$6(items) {
+function transform$7(items) {
   return items.filter(isLinkShare).map(item => _extends({}, item, {
     description: '',
     link: getLinkShare(item)
   }));
 }
 
-const file$5 = 'reddit-css';
-const url$5 = 'https://www.reddit.com/r/css.rss';
-const transform$7 = transform$6;
+const file$6 = 'reddit-css';
+const url$6 = 'https://www.reddit.com/r/css.rss';
+const transform$8 = transform$7;
 
 var redditCss = {
-  __proto__: null,
-  file: file$5,
-  url: url$5,
-  transform: transform$7
-};
-
-const file$6 = 'reddit-javascript';
-const url$6 = 'https://www.reddit.com/r/javascript.rss';
-const transform$8 = transform$6;
-
-var redditJavascript = {
   __proto__: null,
   file: file$6,
   url: url$6,
   transform: transform$8
 };
 
-const file$7 = 'reddit-node';
-const url$7 = 'https://www.reddit.com/r/node.rss';
-const transform$9 = transform$6;
+const file$7 = 'reddit-javascript';
+const url$7 = 'https://www.reddit.com/r/javascript.rss';
+const transform$9 = transform$7;
 
-var redditNode = {
+var redditJavascript = {
   __proto__: null,
   file: file$7,
   url: url$7,
   transform: transform$9
 };
 
-const file$8 = 'reddit-typescript';
-const url$8 = 'https://www.reddit.com/r/typescript.rss';
-const transform$a = transform$6;
+const file$8 = 'reddit-node';
+const url$8 = 'https://www.reddit.com/r/node.rss';
+const transform$a = transform$7;
 
-var redditTypescript = {
+var redditNode = {
   __proto__: null,
   file: file$8,
   url: url$8,
   transform: transform$a
 };
 
-var feeds = [cprssFrontendFocus, cprssJavascriptWeekly, cprssNodeWeekly, cprssReactStatus, harpersMagazine, redditCss, redditJavascript, redditNode, redditTypescript];
+const file$9 = 'reddit-typescript';
+const url$9 = 'https://www.reddit.com/r/typescript.rss';
+const transform$b = transform$7;
+
+var redditTypescript = {
+  __proto__: null,
+  file: file$9,
+  url: url$9,
+  transform: transform$b
+};
+
+var feeds = [cprssFrontendFocus, cprssJavascriptWeekly, cprssNodeWeekly, cprssReactStatus, cprssServerlessStatus, harpersMagazine, redditCss, redditJavascript, redditNode, redditTypescript];
 
 (async function main() {
   mkdirp__default['default'].sync('feeds');

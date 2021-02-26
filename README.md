@@ -12,7 +12,7 @@ Feeds from reddit will list all posts on a subreddit. I'm only interested on lin
 
 #### Cooperpress
 
-Each issue on a newsletter is a single item on the feed. I want each link on an issue to be an item on the feed. Newsletters covered: JavaScript Weekly, Node Weekly, Frontend Focus and React Status.
+Each issue on a newsletter is a single item on the feed. I want each link on an issue to be an item on the feed. Newsletters covered: JavaScript Weekly, Node Weekly, Frontend Focus, Serverless Status and React Status.
 
 #### Harper's Magazine
 
