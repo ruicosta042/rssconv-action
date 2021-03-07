@@ -7,6 +7,7 @@ var fetch = require('node-fetch');
 var UserAgent = require('user-agents');
 var feed = require('feed');
 var $ = require('cheerio');
+var url$b = require('url');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
@@ -125,7 +126,7 @@ function getLinks(description) {
     };
   }).map(link => _extends({}, link, {
     title: link.title.trim()
-  })).filter(link => Boolean(link.url)).filter(link => Boolean(link.title)).filter(link => !/^Unsubscribe$/.test(link.title)).filter(link => !/^Read on the Web$/.test(link.title)).filter(link => !/Through Hired/.test(link.title)).filter(link => !/X-Team/.test(link.title)).filter(link => !/issue \d{2,3}/.test(link.title)).filter(link => !/Web Developer/i.test(link.title)).filter(link => !/React Developer/i.test(link.title));
+  })).filter(link => Boolean(link.url)).filter(link => Boolean(link.title)).filter(link => !/^Unsubscribe$/.test(link.title)).filter(link => !/^Read on the Web$/.test(link.title)).filter(link => !/Through Hired/.test(link.title)).filter(link => !/X-Team/.test(link.title)).filter(link => !/issue \d{2,3}/.test(link.title)).filter(link => !/Web Developer/i.test(link.title)).filter(link => !/React Developer/i.test(link.title)).filter(link => !/\(remote\)/i.test(link.title));
 }
 function transform(items = []) {
   return items.flatMap(item => {
@@ -219,7 +220,14 @@ var harpersMagazine = {
 };
 
 function getLinkShare(item) {
-  const links = $__default['default'].load(item.description).root().find('a').toArray().map(a => $__default['default'](a).attr('href')).filter(Boolean).filter(link => !/^https:\/\/www\.reddit\.com/.test(link || '')).filter(link => !/\.png$|\.jpg$/.test(link || ''));
+  const links = $__default['default'].load(item.description).root().find('a').toArray().map(a => $__default['default'](a).attr('href')).map(link => {
+    try {
+      const url = new url$b.URL(`${link}`);
+      return url;
+    } catch (error) {
+      return new url$b.URL('https://foo.com');
+    }
+  }).filter(link => !/reddit\.com|redd\.it/.test(link.hostname)).filter(link => !/youtube\.com|youtu\.be/.test(link.hostname)).filter(link => !/pastebin\.com/.test(link.hostname)).filter(link => !/imgur\.com/.test(link.hostname)).filter(link => !/codepen\.io/.test(link.hostname)).filter(link => !/\.css$|\.png$|\.jpg$/.test(link.pathname)).map(link => link.toString());
   return links.find(Boolean);
 }
 function isLinkShare(item) {

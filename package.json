@@ -47,6 +47,7 @@
     "test": "jest --watch",
     "ts-check": "tsc --noEmit",
     "postinstall": "[ -z $CI ] && husky install || exit 0",
+    "process": "node ./bin/index.js",
     "validate": "yarn lint; yarn ts-check; yarn ci:test"
   },
   "eslintConfig": {
