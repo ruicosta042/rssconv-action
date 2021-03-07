@@ -27,7 +27,9 @@ export function getLinks(description: string): Link[] {
     .filter((link) => !/X-Team/.test(link.title))
     .filter((link) => !/issue \d{2,3}/.test(link.title))
     .filter((link) => !/Web Developer/i.test(link.title))
-    .filter((link) => !/React Developer/i.test(link.title));
+    .filter((link) => !/React Developer/i.test(link.title))
+    .filter((link) => !/\(remote\)/i.test(link.title))
+    .filter((link) => !/read on the web/i.test(link.title));
 }
 
 export function transform(items: FeedParser.Item[] = []): FeedParser.Item[] {

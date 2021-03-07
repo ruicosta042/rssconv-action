@@ -126,7 +126,7 @@ function getLinks(description) {
     };
   }).map(link => _extends({}, link, {
     title: link.title.trim()
-  })).filter(link => Boolean(link.url)).filter(link => Boolean(link.title)).filter(link => !/^Unsubscribe$/.test(link.title)).filter(link => !/^Read on the Web$/.test(link.title)).filter(link => !/Through Hired/.test(link.title)).filter(link => !/X-Team/.test(link.title)).filter(link => !/issue \d{2,3}/.test(link.title)).filter(link => !/Web Developer/i.test(link.title)).filter(link => !/React Developer/i.test(link.title)).filter(link => !/\(remote\)/i.test(link.title));
+  })).filter(link => Boolean(link.url)).filter(link => Boolean(link.title)).filter(link => !/^Unsubscribe$/.test(link.title)).filter(link => !/^Read on the Web$/.test(link.title)).filter(link => !/Through Hired/.test(link.title)).filter(link => !/X-Team/.test(link.title)).filter(link => !/issue \d{2,3}/.test(link.title)).filter(link => !/Web Developer/i.test(link.title)).filter(link => !/React Developer/i.test(link.title)).filter(link => !/\(remote\)/i.test(link.title)).filter(link => !/read on the web/i.test(link.title));
 }
 function transform(items = []) {
   return items.flatMap(item => {
