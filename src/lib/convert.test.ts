@@ -1,10 +1,10 @@
 import mockParsedItem from '../__data__/parsed-feed-item';
-import convertFeed, { convertItem } from './convert-feed';
+import convert, { convertItem } from './convert';
 
 describe('convert-feed', () => {
   it('converts to feed', () => {
     expect.assertions(1);
-    const result = convertFeed([mockParsedItem]);
+    const result = convert([mockParsedItem]);
 
     const expected = {
       copyright: null,

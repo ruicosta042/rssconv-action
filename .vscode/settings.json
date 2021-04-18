@@ -8,12 +8,14 @@
     "feedparser",
     "imgur",
     "microbundle",
+    "origlink",
     "outfile",
     "pastebin",
     "pubdate",
     "reactjs",
     "rssconv",
     "tuplo",
+    "xmlurl",
     "youtu",
     "youtube"
   ]

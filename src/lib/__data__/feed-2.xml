@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Feed 1</title>
+    <item>
+      <link>https://feed.com/item-4</link>
+    </item>
+    <item>
+      <link>https://feed.com/item-2</link>
+    </item>
+    <item>
+      <link>https://feed.com/item-3</link>
+    </item>
+  </channel>
+</rss>

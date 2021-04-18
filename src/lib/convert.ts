@@ -42,7 +42,7 @@ function getFeedOptions(items: FeedParser.Item[]): FeedOptions {
   };
 }
 
-function convertFeed(items: FeedParser.Item[] = []): Feed {
+function convert(items: FeedParser.Item[] = []): Feed {
   const feed = new Feed(getFeedOptions(items));
 
   items.forEach((item) => {
@@ -52,4 +52,4 @@ function convertFeed(items: FeedParser.Item[] = []): Feed {
   return feed;
 }
 
-export default convertFeed;
+export default convert;
