@@ -12,7 +12,8 @@ async function fetch(url: string): Promise<FeedParser.Item[]> {
     },
   })
     .then((res) => res.text())
-    .then(parse);
+    .then(parse)
+    .catch(() => []);
 }
 
 export default fetch;

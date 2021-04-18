@@ -8,12 +8,16 @@ An action to retrofit RSS feeds to suit my needs.
 
 #### reddit
 
-Feeds from reddit will list all posts on a subreddit. I'm only interested on link shares, not on text posts. On link shares, I want to be given the URL directly, not the reddit post that points to the link. Covered subreddits: /r/javascript, /r/typescript, /r/node, /r/reactjs and /r/css.
+Feeds from reddit will list all posts on a subreddit. I'm only interested on link shares, not on text posts. On link shares, I want to be given the URL directly, not the reddit post that points to the link.
 
 #### Cooperpress
 
-Each issue on a newsletter is a single item on the feed. I want each link on an issue to be an item on the feed. Newsletters covered: JavaScript Weekly, Node Weekly, Frontend Focus, Serverless Status and React Status.
+Each issue on a newsletter is a single item on the feed. I want each link on an issue to be an item on the feed.
 
 #### Harper's Magazine
 
 For some reason Reeder doesn't parse this feed. This just parses the original feed and converts to RSS 2.0.
+
+# License
+
+MIT

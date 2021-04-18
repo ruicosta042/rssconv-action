@@ -22416,7 +22416,7 @@ async function fetch(url12) {
     headers: {
       "user-agent": userAgent.toString()
     }
-  }).then((res) => res.text()).then(parse_default);
+  }).then((res) => res.text()).then(parse_default).catch(() => []);
 }
 var fetch_default = fetch;
 
@@ -22533,6 +22533,8 @@ async function getLinks(readOnTheWebLink) {
 }
 async function transform(items = []) {
   const [lastIssue] = items;
+  if (!lastIssue)
+    return [];
   const {description} = lastIssue;
   const readOnTheWebLink = getReadOnTheWebLink(description);
   if (!readOnTheWebLink)
