@@ -151,55 +151,55 @@ function transform(items = []) {
   });
 }
 
-const file = 'cprss-frontend-focus';
+const file = 'cooper-frontend-focus';
 const url = 'https://cprss.s3.amazonaws.com/frontendfoc.us.xml';
 const transform$1 = transform;
 
-var cprssFrontendFocus = {
+var cooperFrontendFocus = {
   __proto__: null,
   file: file,
   url: url,
   transform: transform$1
 };
 
-const file$1 = 'cprss-javascript-weekly';
+const file$1 = 'cooper-javascript-weekly';
 const url$1 = 'https://javascriptweekly.com/rss/';
 const transform$2 = transform;
 
-var cprssJavascriptWeekly = {
+var cooperJavascriptWeekly = {
   __proto__: null,
   file: file$1,
   url: url$1,
   transform: transform$2
 };
 
-const file$2 = 'cprss-node-weekly';
+const file$2 = 'cooper-node-weekly';
 const url$2 = 'https://nodeweekly.com/rss/';
 const transform$3 = transform;
 
-var cprssNodeWeekly = {
+var cooperNodeWeekly = {
   __proto__: null,
   file: file$2,
   url: url$2,
   transform: transform$3
 };
 
-const file$3 = 'cprss-react-status';
+const file$3 = 'cooper-react-status';
 const url$3 = 'https://react.statuscode.com/rss/';
 const transform$4 = transform;
 
-var cprssReactStatus = {
+var cooperReactStatus = {
   __proto__: null,
   file: file$3,
   url: url$3,
   transform: transform$4
 };
 
-const file$4 = 'cprss-serverless-status';
+const file$4 = 'cooper-serverless-status';
 const url$4 = 'https://cprss.s3.amazonaws.com/serverless.email.xml';
 const transform$5 = transform;
 
-var cprssServerlessStatus = {
+var cooperServerlessStatus = {
   __proto__: null,
   file: file$4,
   url: url$4,
@@ -295,7 +295,7 @@ var redditTypescript = {
   transform: transform$c
 };
 
-var feeds = [cprssFrontendFocus, cprssJavascriptWeekly, cprssNodeWeekly, cprssReactStatus, cprssServerlessStatus, harpersMagazine, redditCss, redditJavascript, redditNode, redditReactJs, redditTypescript];
+var feeds = [cooperFrontendFocus, cooperJavascriptWeekly, cooperNodeWeekly, cooperReactStatus, cooperServerlessStatus, harpersMagazine, redditCss, redditJavascript, redditNode, redditReactJs, redditTypescript];
 
 (async function main() {
   mkdirp__default['default'].sync('feeds');
