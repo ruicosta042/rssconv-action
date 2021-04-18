@@ -1,0 +1,3008 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript Weekly Issue 534: April 16, 2021</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="JavaScript Weekly"
+      href="/rss/"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/favicon.png" />
+  </head>
+  <body class="jw dom dom-jw issues 534 issue jw issue">
+    <header class="contained">
+      <nav>
+        <div
+          class="sitename"
+          style="cursor: pointer"
+          onclick="window.location.href='/'"
+        >
+          <a href="/">JavaScript Weekly</a>
+        </div>
+
+        <div class="items">
+          <a href="/issues" class="issues">Archives</a
+          ><span class="divider">|</span>
+          <a href="/latest" class="latest">Latest</a
+          ><span class="nomobile"
+            ><span class="divider">|</span> <a href="/rss/">RSS</a></span
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contained">
+        <div class="nomobile">
+          <div class="subscribe_box" class="">
+            <form class="subscribe" action="/subscribe" method="POST">
+              <input
+                type="email"
+                placeholder="Want to subscribe? Enter your address here"
+                class="email"
+                name="email"
+                id="email"
+              /><button class="awesome" type="submit">
+                Subscribe now &raquo;
+              </button>
+              <div class="smallprint">
+                Easy to unsubscribe at any time. Your e-mail address
+                <a href="https://cooperpress.com/spam.html">is safe</a> &mdash;
+                here's
+                <a href="https://cooperpress.com/legal/privacy/"
+                  >our privacy policy.</a
+                >
+              </div>
+              <input
+                type="hidden"
+                name="_csrf"
+                value="x7ZZFEV1oTd9F9SCI5nJwakLLcjrbMXICKWEF2gKZPg"
+              />
+            </form>
+          </div>
+        </div>
+
+        <div class="pager">
+          <div class="prev">
+            <a href="/issues/533">&laquo; Prev</a>
+          </div>
+          <div class="center">
+            <!-- Issue 534 -->
+          </div>
+          <div class="next"></div>
+        </div>
+
+        <div class="issue-html">
+          <!--[if (gte mso 9)|(IE)]>
+<table cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" width="600"><tr><td valign="top" style="width: 600px;" bgcolor="#ffffff"><![endif]-->
+          <table
+            align="center"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            id="main"
+            width="100%"
+            style="
+              table-layout: fixed;
+              font-family: -apple-system, BlinkMacSystemFont, Helvetica,
+                sans-serif;
+              font-size: 15px;
+              line-height: 1.55em;
+              mso-table-lspace: 0pt;
+              mso-table-rspace: 0pt;
+              border-collapse: collapse;
+              max-width: 600px;
+              height: 100% !important;
+              direction: ltr;
+              padding: 0px;
+            "
+          >
+            <tr>
+              <td
+                style="
+                  font-family: -apple-system, BlinkMacSystemFont, Helvetica,
+                    sans-serif;
+                  font-size: 15px;
+                  line-height: 1.55em;
+                  mso-table-lspace: 0pt;
+                  mso-table-rspace: 0pt;
+                  border-collapse: collapse;
+                "
+              >
+                <div id="content">
+                  <!-- left/right splitbar -->
+                  <table
+                    class="el-splitbar"
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        width="50%"
+                        align="left"
+                        style="
+                          padding-left: 4px;
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                        "
+                      >
+                        <p
+                          style="
+                            font-size: 12px;
+                            color: #999999;
+                            text-transform: uppercase;
+                            line-height: 1em;
+                            margin-top: 0.8em;
+                            margin-bottom: 0.8em;
+                          "
+                        >
+                          #​534 — April 16, 2021
+                        </p>
+                      </td>
+                      <td
+                        width="50%"
+                        align="right"
+                        style="
+                          padding-right: 4px;
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                        "
+                      >
+                        <p
+                          style="
+                            font-size: 12px;
+                            text-transform: uppercase;
+                            line-height: 1em;
+                            margin-top: 0.8em;
+                            margin-bottom: 0.8em;
+                          "
+                        >
+                          <a
+                            target="_blank"
+                            href="https://javascriptweekly.com/link/106545/web"
+                            style="text-decoration: none; color: #3366aa"
+                            >Unsubscribe</a
+                          >
+                          |
+                          <a
+                            target="_blank"
+                            href="https://javascriptweekly.com/link/106546/web"
+                            style="text-decoration: none; color: #3366aa"
+                            >Read on the Web</a
+                          >
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- masthead -->
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="
+                      background-color: #f7df1e;
+                      text-align: center;
+                      color: #222222;
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                    class="el-masthead"
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0 12px;
+                        "
+                      >
+                        <p
+                          style="
+                            font-size: 1.8em;
+                            font-weight: 600;
+                            line-height: 1em;
+                            margin-top: 0.8em;
+                            margin-bottom: 0.8em;
+                          "
+                        >
+                          JavaScript Weekly
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    width="100%"
+                    class="el-fullwidthimage"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                        "
+                      >
+                        <a
+                          target="_blank"
+                          href="https://javascriptweekly.com/link/106578/web"
+                          style="text-decoration: none; color: #3366aa"
+                          ><img
+                            src="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/sodndjmqfvhr4wfs9byl.jpg"
+                            alt=""
+                            width="640"
+                            style="
+                              outline: none;
+                              height: auto;
+                              text-decoration: none;
+                              max-width: 100%;
+                              line-height: 100%;
+                              width: 100%;
+                              border-bottom-color: #f7df1e;
+                              border-bottom-style: solid;
+                              border-width: 0 0 3px;
+                            "
+                        /></a>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106578/web"
+                              title="css-tricks.com"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.1em;
+                                line-height: 1.4em;
+                              "
+                              >Comparing the New Generation of Build Tools</a
+                            ></span
+                          >
+                          — A detailed evaluation of a variety of approaches for
+                          bundling JavaScript and other front-end assets,
+                          including Snowpack, esbuild, Vite, and wmr. A handy
+                          overview.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Hugh Haworth
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106579/web"
+                              title="blog.sentry.io"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >Slow and Steady: Converting Sentry’s Entire
+                              Frontend to TypeScript</a
+                            ></span
+                          >
+                          — Dozens of developers took a year to convert 1,100
+                          files and 95,000 lines of code from JavaScript to
+                          TypeScript. This is one of those
+                          <em
+                            >“we did a complicated thing and here’s what we
+                            learnt”</em
+                          >
+                          pieces you’ll want to point to if your workplace
+                          attempts a similar thing.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Priscila Oliveira and Mark Story (Sentry)
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <a
+                          target="_blank"
+                          target="_blank"
+                          href="https://javascriptweekly.com/link/106549/web"
+                          style="
+                            text-decoration: none;
+                            color: #3366aa;
+                            border-bottom-width: 1px !important;
+                            border-bottom-color: #ddd !important;
+                            border-bottom-style: solid !important;
+                          "
+                          ><img
+                            src="https://copm.s3.amazonaws.com/89132375.jpg"
+                            width="110"
+                            height="110"
+                            style="
+                              padding-top: 12px;
+                              padding-left: 12px;
+                              outline: none;
+                              height: auto;
+                              text-decoration: none;
+                              max-width: 100%;
+                              line-height: 100%;
+                              border: 0;
+                            "
+                            align="right"
+                            alt=""
+                            class="som"
+                        /></a>
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106549/web"
+                              title="frontendmasters.com"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >Get to Know Chrome’s Dev Tools</a
+                            ></span
+                          >
+                          — Join Jon Kuperman for this introduction to Google’s
+                          Chrome Developer Tools. You’ll learn how to edit,
+                          debug and profile you web apps in this detailed video
+                          course.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Frontend Masters
+                          <span
+                            style="
+                              text-transform: uppercase;
+                              margin-left: 4px;
+                              font-size: 0.9em;
+                              border-radius: 2px;
+                              background-color: #fffcaa;
+                              color: #993 !important;
+                              padding: 1px 4px;
+                              border: 1px solid #eee455;
+                            "
+                            class="tag-sponsor"
+                            >sponsor</span
+                          >
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106580/web"
+                              title="blog.asayer.io"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >15 DevTool Secrets for JavaScript Developers</a
+                            ></span
+                          >
+                          — I think ‘secrets’ is a bit bold, but nonetheless I
+                          picked up a few tips here. Breaking on DOM changes,
+                          filtering requests in the Network panel, and copying
+                          requests in
+                          <code style="background-color: #efc">fetch</code> or
+                          <code style="background-color: #efc">curl</code>
+                          format are all very neat.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Craig Buckler
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          height: 8px;
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                        "
+                      ></td>
+                    </tr>
+                  </table>
+                  <!-- normal content section -->
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="content el-content"
+                    style="
+                      color: #444;
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          style="
+                            margin-top: 0;
+                            background-color: #eff;
+                            font-size: 0.9em;
+                            line-height: 1.4em;
+                            margin-bottom: 0.8em;
+                            padding: 8px 16px;
+                          "
+                        >
+                          🎤 It must be the season for thinking about the
+                          DevTools as the Syntax<span>.</span>fm podcast
+                          <a
+                            target="_blank"
+                            href="https://javascriptweekly.com/link/106581/web"
+                            style="
+                              text-decoration: none;
+                              color: #3366aa;
+                              font-weight: 600;
+                            "
+                            >did an episode explaining the DevTools tabs</a
+                          >
+                          too.
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          height: 8px;
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                        "
+                      ></td>
+                    </tr>
+                  </table>
+                  <!-- normal content section -->
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="content el-content items"
+                    style="
+                      color: #444;
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          style="
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            font-size: 0.9em;
+                            margin-top: 0.8em;
+                            margin-bottom: 1.2em;
+                            line-height: 1.4em;
+                          "
+                        >
+                          Quick Bits
+                        </p>
+                        <ul
+                          class="nogap"
+                          style="
+                            margin-left: 0;
+                            padding-left: 1em;
+                            list-style-type: circle;
+                            margin-top: 16px;
+                          "
+                        >
+                          <li style="margin-bottom: 1.2em; line-height: 1.4em">
+                            There's a new sub-Reddit called
+                            <a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106550/web"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                font-weight: 600;
+                              "
+                              >/r/JSdev</a
+                            >
+                            aiming to foster JavaScript oriented
+                            <em>discussions.</em>
+                          </li>
+                          <li style="margin-bottom: 1.2em; line-height: 1.4em">
+                            Looking for a job? Emma Bostian has a great write up
+                            of
+                            <a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106582/web"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                font-weight: 600;
+                              "
+                              >seven mistakes to avoid in your next technical
+                              interview</a
+                            >.
+                          </li>
+
+                          <li style="margin-bottom: 1.2em; line-height: 1.4em">
+                            The <em>Cloudflare Workers</em> serverless system
+                            runs on V8 but not Node.js <em>exactly</em> but now
+                            <a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106583/web"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                font-weight: 600;
+                              "
+                              >boasts Node.js support</a
+                            >
+                            if you want to use (many of the) existing Node
+                            packages you know and love. <em>Workers</em> also
+                            just gained
+                            <a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106584/web"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                font-weight: 600;
+                              "
+                              >WebSockets support</a
+                            >.
+                          </li>
+                        </ul>
+
+                        <p
+                          style="
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            font-size: 0.9em;
+                            margin-top: 0.8em;
+                            margin-bottom: 1.2em;
+                            line-height: 1.4em;
+                          "
+                        >
+                          Releases
+                        </p>
+                        <p
+                          style="
+                            margin-left: 1.1em;
+                            margin-top: 0.8em;
+                            margin-bottom: 1.2em;
+                            line-height: 1.4em;
+                          "
+                        >
+                          <a
+                            target="_blank"
+                            href="https://javascriptweekly.com/link/106551/web"
+                            style="
+                              text-decoration: none;
+                              color: #3366aa;
+                              font-weight: 600;
+                            "
+                            >D3.js 6.7.0</a
+                          >
+                          — Data visualization toolkit.<br />
+                          <a
+                            target="_blank"
+                            href="https://javascriptweekly.com/link/106552/web"
+                            style="
+                              text-decoration: none;
+                              color: #3366aa;
+                              font-weight: 600;
+                            "
+                            >eslint-plugin-vue 7.9.0</a
+                          >
+                          — ESLint plugin for Vue.js.<br />
+                          <a
+                            target="_blank"
+                            href="https://javascriptweekly.com/link/106553/web"
+                            style="
+                              text-decoration: none;
+                              color: #3366aa;
+                              font-weight: 600;
+                            "
+                            >react-markdown 6.0</a
+                          >
+                          — Markdown component for React.<br />
+                          <a
+                            target="_blank"
+                            href="https://javascriptweekly.com/link/106554/web"
+                            style="
+                              text-decoration: none;
+                              color: #3366aa;
+                              font-weight: 600;
+                            "
+                            >pnpm 6.1.0</a
+                          >
+                          — Alternative 'disk space efficient' package
+                          manager.<br />
+                          <a
+                            target="_blank"
+                            href="https://javascriptweekly.com/link/106555/web"
+                            style="
+                              text-decoration: none;
+                              color: #3366aa;
+                              font-weight: 600;
+                            "
+                            >Cypress 7.1</a
+                          >
+                          — Testing for anything that runs in a browser.<br />
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-subtable"
+                    style="
+                      background-color: #f3ffdd;
+                      margin-top: 15px;
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px;
+                        "
+                      >
+                        <!-- normal content section -->
+                        <table
+                          width="100%"
+                          cellpadding="0"
+                          cellspacing="0"
+                          class="content el-content"
+                          style="
+                            color: #444;
+                            mso-table-lspace: 0pt;
+                            mso-table-rspace: 0pt;
+                            border-collapse: collapse;
+                            margin-top: 0 !important;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                font-family: -apple-system, BlinkMacSystemFont,
+                                  Helvetica, sans-serif;
+                                font-size: 15px;
+                                line-height: 1.55em;
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                                border-collapse: collapse;
+                                padding: 0px 15px;
+                              "
+                            >
+                              <p
+                                style="
+                                  font-weight: 600;
+                                  font-size: 16px;
+                                  border-bottom-width: 4px;
+                                  border-bottom-color: #ddeebb;
+                                  border-bottom-style: solid;
+                                  line-height: 1.3em;
+                                  display: inline-block;
+                                  margin-top: 0.8em;
+                                  margin-bottom: 0.8em;
+                                "
+                              >
+                                💻 Jobs
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <table
+                          width="100%"
+                          cellpadding="0"
+                          cellspacing="0"
+                          class="miniitem item"
+                          style="
+                            mso-table-lspace: 0pt;
+                            mso-table-rspace: 0pt;
+                            border-collapse: collapse;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                font-family: -apple-system, BlinkMacSystemFont,
+                                  Helvetica, sans-serif;
+                                font-size: 15px;
+                                line-height: 1.55em;
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                                border-collapse: collapse;
+                                padding: 0px 15px;
+                              "
+                            >
+                              <p
+                                class="desc"
+                                style="
+                                  color: #5a5a5a;
+                                  line-height: 1.45em !important;
+                                  font-size: 0.9em !important;
+                                  margin: 8px 0px 6px;
+                                "
+                              >
+                                <span
+                                  style="
+                                    font-weight: 600;
+                                    font-size: 1em;
+                                    color: #000;
+                                  "
+                                  ><a
+                                    target="_blank"
+                                    href="https://javascriptweekly.com/link/106556/web"
+                                    style="
+                                      text-decoration: none;
+                                      color: #3366aa;
+                                      border-bottom-width: 1px !important;
+                                      border-bottom-color: #ddd !important;
+                                      border-bottom-style: solid !important;
+                                      font-weight: 400;
+                                      font-size: 1.2em !important;
+                                    "
+                                    >JavaScript Engineer</a
+                                  ></span
+                                >
+                                — Join our "kick ass" team. Our software team
+                                operates from 17 countries and we're always
+                                looking for more exceptional engineers.
+                                <br /><span
+                                  class="name"
+                                  style="
+                                    color: #666666 !important;
+                                    margin-top: 4px;
+                                    text-transform: uppercase;
+                                    font-size: 11px;
+                                    line-height: 1.8em;
+                                  "
+                                  >Sticker Mule</span
+                                >
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <table
+                          width="100%"
+                          cellpadding="0"
+                          cellspacing="0"
+                          class="miniitem item"
+                          style="
+                            mso-table-lspace: 0pt;
+                            mso-table-rspace: 0pt;
+                            border-collapse: collapse;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                font-family: -apple-system, BlinkMacSystemFont,
+                                  Helvetica, sans-serif;
+                                font-size: 15px;
+                                line-height: 1.55em;
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                                border-collapse: collapse;
+                                padding: 0px 15px;
+                              "
+                            >
+                              <p
+                                class="desc"
+                                style="
+                                  color: #5a5a5a;
+                                  line-height: 1.45em !important;
+                                  font-size: 0.9em !important;
+                                  margin: 8px 0px 6px;
+                                "
+                              >
+                                <span
+                                  style="
+                                    font-weight: 600;
+                                    font-size: 1em;
+                                    color: #000;
+                                  "
+                                  ><a
+                                    target="_blank"
+                                    href="https://javascriptweekly.com/link/106557/web"
+                                    style="
+                                      text-decoration: none;
+                                      color: #3366aa;
+                                      border-bottom-width: 1px !important;
+                                      border-bottom-color: #ddd !important;
+                                      border-bottom-style: solid !important;
+                                      font-weight: 400;
+                                      font-size: 1.2em !important;
+                                    "
+                                    >Find Software Engineering Jobs with
+                                    Hired</a
+                                  ></span
+                                >
+                                — Take 5 minutes to build your free profile
+                                &amp; start getting interviews for your next
+                                job. Companies on Hired are actively hiring
+                                right now. <br /><span
+                                  class="name"
+                                  style="
+                                    color: #666666 !important;
+                                    margin-top: 4px;
+                                    text-transform: uppercase;
+                                    font-size: 11px;
+                                    line-height: 1.8em;
+                                  "
+                                  >Hired</span
+                                >
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <table
+                          width="100%"
+                          cellpadding="0"
+                          cellspacing="0"
+                          style="
+                            mso-table-lspace: 0pt;
+                            mso-table-rspace: 0pt;
+                            border-collapse: collapse;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                height: 10px;
+                                font-family: -apple-system, BlinkMacSystemFont,
+                                  Helvetica, sans-serif;
+                                font-size: 15px;
+                                line-height: 1.55em;
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                                border-collapse: collapse;
+                              "
+                            ></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-heading"
+                    style="
+                      background-color: none !important;
+                      text-align: left;
+                      margin-top: 15px;
+                      color: #333333;
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0;
+                        "
+                      >
+                        <p
+                          style="
+                            font-size: 1.6em !important;
+                            font-weight: 400 !important;
+                            text-transform: none !important;
+                            line-height: 1.4em;
+                            display: inline-block;
+                            border-bottom-width: 6px;
+                            border-bottom-style: solid;
+                            padding-bottom: 2px;
+                            border-bottom-color: #f7df1e;
+                            margin: 0.5em 0;
+                          "
+                        >
+                          📖 Articles, Opinions &amp; Tutorials
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106558/web"
+                              title="www.baseclass.io"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >A Thorough Guide to Working with Strings in
+                              Modern JavaScript</a
+                            ></span
+                          >
+                          — A well presented suite of examples showing off
+                          numerous string manipulation techniques from how
+                          template literals work to joining, comparing, and
+                          searching through strings.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Dave J Saunders
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106559/web"
+                              title="blog.asayer.io"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >Hyperapp – Is It a Lightweight 'React Killer'?</a
+                            ></span
+                          >
+                          — There are lots of frameworks which aspire to chip
+                          away at React’s market position. After an ecosystem
+                          setback when breaking changes were introduced in v2,
+                          <a
+                            target="_blank"
+                            href="https://javascriptweekly.com/link/106560/web"
+                            style="
+                              text-decoration: none;
+                              color: #3366aa;
+                              border-bottom-width: 1px !important;
+                              border-bottom-color: #ddd !important;
+                              border-bottom-style: solid !important;
+                            "
+                            >Hyperapp</a
+                          >
+                          is back and its claimed benefits warrant another look.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Arek Nawo
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106561/web"
+                              title="kentcdodds.com"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >A Simple Start to ES Modules in Node.js</a
+                            ></span
+                          >
+                          — Once Node 10 shuffles away later this month, every
+                          supported Node release will support ES modules in
+                          addition to CommonJS. If you haven’t dipped a toe in
+                          the ESM water yet, Kent keeps it simple and
+                          straightforward with an example here.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Kent C Dodds
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106562/web"
+                              title="www.logdna.com"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >You Build the App, We’ll Parse the Logs</a
+                            ></span
+                          >
+                          — Send logs from your Node.js and JavaScript apps to
+                          LogDNA. We’ll parse them so you can search and take
+                          action in real time.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          LogDNA
+                          <span
+                            style="
+                              text-transform: uppercase;
+                              margin-left: 4px;
+                              font-size: 0.9em;
+                              border-radius: 2px;
+                              background-color: #fffcaa;
+                              color: #993 !important;
+                              padding: 1px 4px;
+                              border: 1px solid #eee455;
+                            "
+                            class="tag-sponsor"
+                            >sponsor</span
+                          >
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106563/web"
+                              title="seanbarry.dev"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >An Introduction to the
+                              <code
+                                style="
+                                  font-family: menlo, monaco, 'Ubuntu Mono',
+                                    courier, monospace;
+                                  font-weight: normal;
+                                  background-color: inherit;
+                                "
+                                >switch(true)</code
+                              >
+                              Pattern</a
+                            ></span
+                          >
+                          — Seán likes it, but I’m not so sure. It’s an
+                          interesting way to manage a complex set of
+                          conditionals though.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Seán Barry
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106564/web"
+                              title="hibbard.eu"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >How to Send Tweets with a JavaScript GitHub
+                              Action</a
+                            ></span
+                          >
+                          — Learn how to create a GitHub action which sends a
+                          tweet whenever a pull request is merged.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          James Hibbard
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106565/web"
+                              title="pustelto.com"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >A Real World CSS vs. CSS-in-JS Performance
+                              Comparison</a
+                            ></span
+                          >
+                          — No huge surprise here, I suspect.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Tomas Pustelnik
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106566/web"
+                              title="www.smashingmagazine.com"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >Building a Video Streaming App with Nuxt.js, Node
+                              and Express</a
+                            ></span
+                          >
+                          — A walkthrough of creating a server-side Node app
+                          that will handle the fetching and streaming of videos,
+                          generating thumbnails, and serving captions and
+                          subtitles. Nuxt.js is the Vue.js based framework that
+                          brings it all together.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Deven Rathore
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106567/web"
+                              title="learn.launchdarkly.com"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >Book a Demo. Ship Fast. Rest Easy.
+                              LaunchDarkly</a
+                            ></span
+                          >
+                          — Testing in production? It's scary until it's not.
+                          Control your code. Ship fast. Reduce risk. Reclaim
+                          your life.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          LaunchDarkly
+                          <span
+                            style="
+                              text-transform: uppercase;
+                              margin-left: 4px;
+                              font-size: 0.9em;
+                              border-radius: 2px;
+                              background-color: #fffcaa;
+                              color: #993 !important;
+                              padding: 1px 4px;
+                              border: 1px solid #eee455;
+                            "
+                            class="tag-sponsor"
+                            >sponsor</span
+                          >
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item video"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            >▶
+                            <a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106568/web"
+                              title="www.youtube.com"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >Building an ASCII Game Engine That Runs in the
+                              Browser</a
+                            ></span
+                          >
+                          — One of the best JavaScript YouTubers moves into a
+                          little bit of game development. If recreating
+                          <a
+                            target="_blank"
+                            href="https://javascriptweekly.com/link/106569/web"
+                            style="
+                              text-decoration: none;
+                              color: #3366aa;
+                              border-bottom-width: 1px !important;
+                              border-bottom-color: #ddd !important;
+                              border-bottom-style: solid !important;
+                            "
+                            >Dwarf Fortress</a
+                          >
+                          is on your bucket list, you might enjoy this.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Low Level JavaScript
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="miniitem item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #5a5a5a;
+                            line-height: 1.45em !important;
+                            font-size: 0.9em !important;
+                            margin: 8px 0px 6px;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1em;
+                              color: #000;
+                            "
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106570/web"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-weight: 400;
+                                font-size: 1.2em !important;
+                              "
+                              >Going “Meta GSAP”: The Quest for “Perfect”
+                              Infinite Scrolling</a
+                            ></span
+                          >
+                          <br /><span
+                            class="name"
+                            style="
+                              color: #666666 !important;
+                              margin-top: 4px;
+                              text-transform: uppercase;
+                              font-size: 11px;
+                              line-height: 1.8em;
+                            "
+                            >Jhey Tompkins</span
+                          >
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="miniitem item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #5a5a5a;
+                            line-height: 1.45em !important;
+                            font-size: 0.9em !important;
+                            margin: 8px 0px 6px;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1em;
+                              color: #000;
+                            "
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106571/web"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-weight: 400;
+                                font-size: 1.2em !important;
+                              "
+                              >Tricking TypeScript Into Typing Untyped
+                              JavaScript Modules</a
+                            ></span
+                          >
+                          <br /><span
+                            class="name"
+                            style="
+                              color: #666666 !important;
+                              margin-top: 4px;
+                              text-transform: uppercase;
+                              font-size: 11px;
+                              line-height: 1.8em;
+                            "
+                            >Kamran Ayub</span
+                          >
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="miniitem item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #5a5a5a;
+                            line-height: 1.45em !important;
+                            font-size: 0.9em !important;
+                            margin: 8px 0px 6px;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1em;
+                              color: #000;
+                            "
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106572/web"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-weight: 400;
+                                font-size: 1.2em !important;
+                              "
+                              >JS Classes Are Not “Just Syntactic Sugar”</a
+                            ></span
+                          >
+                          <br /><span
+                            class="name"
+                            style="
+                              color: #666666 !important;
+                              margin-top: 4px;
+                              text-transform: uppercase;
+                              font-size: 11px;
+                              line-height: 1.8em;
+                            "
+                            >Andrea Giammarchi</span
+                          >
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          height: 30px;
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                        "
+                      ></td>
+                    </tr>
+                  </table>
+                  <table
+                    width="100%"
+                    class="el-columns"
+                    style="
+                      width: 100%;
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                    cellspacing="0"
+                    cellpadding="0"
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                        "
+                      >
+                        <table
+                          align="left"
+                          class="column"
+                          width="70%"
+                          border="0"
+                          cellspacing="0"
+                          cellpadding="0"
+                          style="
+                            mso-table-lspace: 0pt;
+                            mso-table-rspace: 0pt;
+                            border-collapse: collapse;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                font-family: -apple-system, BlinkMacSystemFont,
+                                  Helvetica, sans-serif;
+                                font-size: 15px;
+                                line-height: 1.55em;
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                                border-collapse: collapse;
+                              "
+                            >
+                              <p
+                                style="
+                                  color: #333333;
+                                  font-size: 1.6em;
+                                  margin-top: 4px;
+                                  font-weight: 400;
+                                  border-bottom-width: 6px;
+                                  border-bottom-color: #f7df1e;
+                                  border-bottom-style: solid;
+                                  line-height: 1.4em;
+                                  display: inline-block;
+                                  margin-bottom: 0;
+                                "
+                              >
+                                🛠 Code &amp; Tools
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <table
+                          align="right"
+                          class="column"
+                          width="30%"
+                          border="0"
+                          cellspacing="0"
+                          cellpadding="0"
+                          style="
+                            mso-table-lspace: 0pt;
+                            mso-table-rspace: 0pt;
+                            border-collapse: collapse;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                font-family: -apple-system, BlinkMacSystemFont,
+                                  Helvetica, sans-serif;
+                                font-size: 15px;
+                                line-height: 1.55em;
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                                border-collapse: collapse;
+                              "
+                            ></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          height: 8px;
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                        "
+                      ></td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106547/web"
+                              title="deno.com"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >Deno 1.9 Released</a
+                            ></span
+                          >
+                          — Node's anagrammed cousin continues to get even
+                          better. 1.9 brings a
+                          <a
+                            target="_blank"
+                            href="https://javascriptweekly.com/link/106548/web"
+                            style="
+                              text-decoration: none;
+                              color: #3366aa;
+                              border-bottom-width: 1px !important;
+                              border-bottom-color: #ddd !important;
+                              border-bottom-style: solid !important;
+                            "
+                            >native HTTP/2-compliant Web server</a
+                          >
+                          (which seems to beat Node's in basic benchmarks),
+                          support for
+                          <code style="background-color: #efc">blob</code> and
+                          <code style="background-color: #efc">data</code> URLs,
+                          faster interop with the underlying Rust code, and
+                          more. <em>"Why use Deno,"</em> you ask? Think V8, but
+                          with the layer on top built in Rust, with a focus on
+                          extra security, first class TypeScript support, and
+                          offering browser-compatible APIs wherever possible.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          The Deno Team
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106573/web"
+                              title="react-pdf.org"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >Announcing
+                              <code
+                                style="
+                                  font-family: menlo, monaco, 'Ubuntu Mono',
+                                    courier, monospace;
+                                  font-weight: normal;
+                                  background-color: inherit;
+                                "
+                                >react-pdf</code
+                              >
+                              v2.0</a
+                            ></span
+                          >
+                          — While it remains backward-compatible with v1, the
+                          new version of react-pdf is a
+                          <em>complete reimplementation</em> from scratch. It
+                          offers a new hook-based API, improved performance, SVG
+                          support, and support for more CSS properties including
+                          <code style="background-color: #efc">z-index</code>
+                          and
+                          <code style="background-color: #efc">overflow</code>.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Diego Muracciole
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106575/web"
+                              title="semgrep.dev"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >Automate Code Standard Enforcement with
+                              Lightweight Static Analysis</a
+                            ></span
+                          >
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Semgrep
+                          <span
+                            style="
+                              text-transform: uppercase;
+                              margin-left: 4px;
+                              font-size: 0.9em;
+                              border-radius: 2px;
+                              background-color: #fffcaa;
+                              color: #993 !important;
+                              padding: 1px 4px;
+                              border: 1px solid #eee455;
+                            "
+                            class="tag-sponsor"
+                            >sponsor</span
+                          >
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106574/web"
+                              title="partyjs.yiliansource.dev"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >party.js: A Way to 'Brighten Up' Your Site with
+                              Visual Effects</a
+                            ></span
+                          >
+                          — Back in the late 90s and early 00s, JavaScript was
+                          very commonly used to add ‘sparkle’ to Web sites in
+                          the form of snow, unusual cursors, and such. This is
+                          in much the same spirit. Support varies but it’s
+                          presented well.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          YilianSource
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106576/web"
+                              title="github.com"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >Algolia Search API Client for JavaScript</a
+                            ></span
+                          >
+                          — An official, fully featured low-level client for
+                          interacting with Algolia, a popular search API. Works
+                          in both the browser and on Node.
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Algolia
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    class="el-item item"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                          padding: 0px 15px;
+                        "
+                      >
+                        <p
+                          class="desc"
+                          style="
+                            color: #444;
+                            margin-top: 0.8em;
+                            margin-bottom: 0;
+                          "
+                        >
+                          <span
+                            style="
+                              font-weight: 600;
+                              font-size: 1.1em;
+                              color: #000;
+                            "
+                            class="mainlink"
+                            ><a
+                              target="_blank"
+                              href="https://javascriptweekly.com/link/106577/web"
+                              title="github.com"
+                              style="
+                                text-decoration: none;
+                                color: #3366aa;
+                                border-bottom-width: 1px !important;
+                                border-bottom-color: #ddd !important;
+                                border-bottom-style: solid !important;
+                                font-size: 1.05em;
+                              "
+                              >jest-puppeteer 5.0: Run Your Tests using Jest and
+                              Puppeteer</a
+                            ></span
+                          >
+                        </p>
+                        <p
+                          class="name"
+                          style="
+                            color: #5a5a5a;
+                            margin-top: 4px;
+                            margin-bottom: 0.8em;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            line-height: 1.2em;
+                          "
+                        >
+                          Smooth Code
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="
+                      mso-table-lspace: 0pt;
+                      mso-table-rspace: 0pt;
+                      border-collapse: collapse;
+                    "
+                  >
+                    <tr>
+                      <td
+                        style="
+                          height: 18px;
+                          font-family: -apple-system, BlinkMacSystemFont,
+                            Helvetica, sans-serif;
+                          font-size: 15px;
+                          line-height: 1.55em;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          border-collapse: collapse;
+                        "
+                      ></td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+        </div>
+
+        <div class="pager">
+          <div class="prev">
+            <a href="/issues/533">&laquo; Prev</a>
+          </div>
+          <div class="center">
+            <!-- Issue 534 -->
+          </div>
+          <div class="next"></div>
+        </div>
+
+        <div class="subscribe_box" class="">
+          <form class="subscribe" action="/subscribe" method="POST">
+            <input
+              type="email"
+              placeholder="Want to subscribe? Enter your address here"
+              class="email"
+              name="email"
+              id="email"
+            /><button class="awesome" type="submit">
+              Subscribe now &raquo;
+            </button>
+            <div class="smallprint">
+              Easy to unsubscribe at any time. Your e-mail address
+              <a href="https://cooperpress.com/spam.html">is safe</a> &mdash;
+              here's
+              <a href="https://cooperpress.com/legal/privacy/"
+                >our privacy policy.</a
+              >
+            </div>
+            <input
+              type="hidden"
+              name="_csrf"
+              value="x7ZZFEV1oTd9F9SCI5nJwakLLcjrbMXICKWEF2gKZPg"
+            />
+          </form>
+        </div>
+      </section>
+
+      <img src="/open/534/web" />
+    </main>
+
+    <script src="/js/app.js"></script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga'
+      );
+      ga('create', 'UA-2237791-21', 'javascriptweekly.com');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>

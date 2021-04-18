@@ -1,80 +1,44 @@
-import mockParsedFeed from './__data__/parsed-feed';
-import { getLinks, transform } from '.';
+import mockPageOnWeb from './__data__/page.html';
+
+import { getLinks } from '.';
+
+jest.mock('node-fetch', () => ({
+  __esModule: true,
+  default: () =>
+    Promise.resolve({
+      text: () => mockPageOnWeb,
+    }),
+}));
 
 describe('javascript-weekly', () => {
-  it('gets links from description', () => {
+  it('gets links from read-on-the-web page', async () => {
     expect.assertions(2);
-    const [mockParsedItem] = mockParsedFeed;
-    const result = getLinks(mockParsedItem.description);
+    const result = await getLinks(
+      'https://javascriptweekly.com/link/106546/web'
+    ).then((links) => links.map((link) => link.title));
 
-    const expected = {
-      url: 'https://javascriptweekly.com/link/103548/rss',
-      title: 'Announcing Vite 2.0',
-    };
-    expect(result).toHaveLength(53);
-    expect(result[0]).toStrictEqual(expected);
-  });
-
-  it('transforms feed', async () => {
-    expect.assertions(2);
-    const result = transform(mockParsedFeed);
-
-    const expected = {
-      title: 'Announcing Vite 2.0',
-      description: '',
-      summary: '',
-      date: '2021-02-19T00:00:00.000Z',
-      pubdate: '2021-02-19T00:00:00.000Z',
-      pubDate: '2021-02-19T00:00:00.000Z',
-      link: 'https://javascriptweekly.com/link/103548/rss',
-      guid: 'https://javascriptweekly.com/link/103548/rss',
-      author: null,
-      comments: null,
-      origlink: null,
-      image: {},
-      source: {},
-      categories: [],
-      enclosures: [],
-      'rss:@': {},
-      'rss:title': 'Announcing Vite 2.0',
-      'rss:link': 'https://javascriptweekly.com/link/103548/rss',
-      'rss:description': '',
-      'rss:pubdate': { '@': {}, '#': 'Fri, 19 Feb 2021 00:00:00 +0000' },
-      permalink: 'https://javascriptweekly.com/link/103548/rss',
-      'rss:guid': 'https://javascriptweekly.com/link/103548/rss',
-      meta: {
-        '#ns': [],
-        '@': [],
-        '#xml': { version: '1.0', encoding: 'UTF-8' },
-        '#type': 'rss',
-        '#version': '2.0',
-        title: 'JavaScript Weekly',
-        description:
-          'A newsletter of JavaScript articles, news and cool projects',
-        date: null,
-        pubdate: null,
-        pubDate: null,
-        link: 'https://javascriptweekly.com/',
-        xmlurl: null,
-        xmlUrl: null,
-        author: null,
-        language: null,
-        favicon: null,
-        copyright: null,
-        generator: null,
-        cloud: {},
-        image: {},
-        categories: [],
-        'rss:@': {},
-        'rss:title': { '@': {}, '#': 'JavaScript Weekly' },
-        'rss:description': {
-          '@': {},
-          '#': 'A newsletter of JavaScript articles, news and cool projects',
-        },
-        'rss:link': { '@': {}, '#': 'https://javascriptweekly.com/' },
-      },
-    };
-    expect(result).toHaveLength(194);
-    expect(result[0]).toStrictEqual(expected);
+    const expected = [
+      'Comparing the New Generation of Build Tools',
+      'Slow and Steady: Converting Sentry’s Entire Frontend to TypeScript',
+      '15 DevTool Secrets for JavaScript Developers',
+      'A Thorough Guide to Working with Strings in Modern JavaScript',
+      "Hyperapp – Is It a Lightweight 'React Killer'?",
+      'A Simple Start to ES Modules in Node.js',
+      'An Introduction to the switch(true) Pattern',
+      'How to Send Tweets with a JavaScript GitHub Action',
+      'A Real World CSS vs. CSS-in-JS Performance Comparison',
+      'Building a Video Streaming App with Nuxt.js, Node and Express',
+      'Building an ASCII Game Engine That Runs in the Browser',
+      'Deno 1.9 Released',
+      'Announcing react-pdf v2.0',
+      "party.js: A Way to 'Brighten Up' Your Site with Visual Effects",
+      'Algolia Search API Client for JavaScript',
+      'jest-puppeteer 5.0: Run Your Tests using Jest and Puppeteer',
+      'Going “Meta GSAP”: The Quest for “Perfect” Infinite Scrolling',
+      'Tricking TypeScript Into Typing Untyped JavaScript Modules',
+      'JS Classes Are Not “Just Syntactic Sugar”',
+    ];
+    expect(result).toHaveLength(19);
+    expect(result).toStrictEqual(expected);
   });
 });

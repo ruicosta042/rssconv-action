@@ -92,7 +92,7 @@
     "testEnvironment": "node",
     "transform": {
       "^.+\\.(t|j)sx?$": "ts-jest",
-      "\\.xml$": "jest-raw-loader"
+      "\\.xml$|\\.html$": "jest-raw-loader"
     }
   },
   "prettier": {
