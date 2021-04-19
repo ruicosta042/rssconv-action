@@ -1,6 +1,5 @@
 import mockPageOnWeb from './__data__/page.html';
-
-import { getLinks } from '.';
+import { getLinks } from './helpers';
 
 jest.mock('node-fetch', () => ({
   __esModule: true,

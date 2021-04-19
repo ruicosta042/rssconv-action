@@ -24,10 +24,10 @@ var __toModule = (module2) => {
 
 // node_modules/@tuplo/series-with/dist/index.js
 var require_dist = __commonJS((exports2, module2) => {
-  function seriesWith2(xs, fn) {
+  function seriesWith3(xs, fn) {
     return xs.reduce((p, x) => p.then((acc) => Promise.resolve(fn(x)).then((r) => [...acc, r])), Promise.resolve([]));
   }
-  module2.exports = seriesWith2;
+  module2.exports = seriesWith3;
 });
 
 // node_modules/mkdirp/lib/opts-arg.js
@@ -22379,7 +22379,7 @@ function pPipe(...functions) {
 }
 
 // src/index.ts
-var import_series_with = __toModule(require_dist());
+var import_series_with2 = __toModule(require_dist());
 var import_mkdirp = __toModule(require_mkdirp());
 
 // src/lib/fetch.ts
@@ -22495,9 +22495,11 @@ __export(cooper_frontend_focus_exports, {
   url: () => url
 });
 
-// src/lib/cooper/index.ts
+// src/lib/cooper/helpers.ts
 var import_cheerio = __toModule(require_cheerio2());
 var import_node_fetch2 = __toModule(require_lib());
+var import_user_agents2 = __toModule(require_dist2());
+var import_series_with = __toModule(require_dist());
 function getReadOnTheWebLink(description) {
   const link = import_cheerio.default.load(description).root().find("a").toArray().find((a) => {
     const $a = (0, import_cheerio.default)(a);
@@ -22505,6 +22507,13 @@ function getReadOnTheWebLink(description) {
     return /^Read on the Web$/i.test(title);
   });
   return link ? (0, import_cheerio.default)(link).attr("href") : null;
+}
+async function resolveUrl(originalUrl) {
+  const userAgent = new import_user_agents2.default();
+  return (0, import_node_fetch2.default)(originalUrl, {
+    method: "HEAD",
+    headers: {"user-agent": userAgent.toString()}
+  }).then((res) => res.url).catch(() => originalUrl);
 }
 async function getLinks(readOnTheWebLink) {
   const $page = await (0, import_node_fetch2.default)(readOnTheWebLink).then((res) => res.text()).then((page) => import_cheerio.default.load(page).root());
@@ -22529,8 +22538,13 @@ async function getLinks(readOnTheWebLink) {
       return null;
     return {url: url12, title};
   }).filter(Boolean);
-  return [...mainLinks, ...miniLinks];
+  return (0, import_series_with.default)([...mainLinks, ...miniLinks], async (item) => ({
+    ...item,
+    url: await resolveUrl(item.url)
+  }));
 }
+
+// src/lib/cooper/index.ts
 async function transform(items = []) {
   const [lastIssue] = items;
   if (!lastIssue)
@@ -22540,16 +22554,10 @@ async function transform(items = []) {
   if (!readOnTheWebLink)
     return [];
   const links = await getLinks(readOnTheWebLink);
-  return links.map(({url: itemUrl, title}) => ({
+  return links.map(({url: url12, title}) => ({
     ...lastIssue,
     description: "",
-    guid: itemUrl,
-    link: itemUrl,
-    permalink: itemUrl,
-    "rss:guid": itemUrl,
-    "rss:link": itemUrl,
-    "rss:description": "",
-    "rss:title": title,
+    link: url12,
     summary: "",
     title
   }));
@@ -22717,7 +22725,7 @@ var feeds_default = [
 // src/index.ts
 (async function main() {
   import_mkdirp.default.sync("feeds");
-  await (0, import_series_with.default)(feeds_default, async (feed) => {
+  await (0, import_series_with2.default)(feeds_default, async (feed) => {
     const process2 = pPipe(fetch_default, feed.transform, convert_default, publish_default(feed.file));
     const newFeed = await process2(feed.url);
     if (!newFeed)
