@@ -5,45 +5,45 @@
   "author": "Rui Costa",
   "license": "MIT",
   "dependencies": {
-    "@tuplo/series-with": "1.1.0",
+    "@tuplo/series-with": "1.4.0",
     "cheerio": "1.0.0-rc.9",
     "feed": "4.2.2",
     "feedparser": "2.2.10",
     "mkdirp": "1.0.4",
     "node-fetch": "2.6.1",
     "p-pipe": "4.0.0",
-    "user-agents": "1.0.649"
+    "user-agents": "1.0.668"
   },
   "devDependencies": {
     "@types/feedparser": "2.2.3",
     "@types/jest": "26.0.23",
     "@types/mkdirp": "1.0.1",
-    "@types/node": "15.0.2",
+    "@types/node": "15.6.1",
     "@types/node-fetch": "2.5.10",
     "@types/user-agents": "1.0.1",
-    "@typescript-eslint/eslint-plugin": "4.23.0",
-    "@typescript-eslint/parser": "4.23.0",
-    "esbuild": "0.11.20",
-    "eslint": "7.26.0",
+    "@typescript-eslint/eslint-plugin": "4.25.0",
+    "@typescript-eslint/parser": "4.25.0",
+    "esbuild": "0.12.5",
+    "eslint": "7.27.0",
     "eslint-config-airbnb-typescript": "12.3.1",
     "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-import": "2.23.4",
     "eslint-plugin-jest": "24.3.6",
     "husky": "6.0.0",
-    "jest": "26.6.3",
+    "jest": "27.0.3",
     "jest-raw-loader": "1.0.1",
     "prettier": "2.3.0",
     "rimraf": "3.0.2",
-    "ts-jest": "26.5.6",
-    "typescript": "4.2.4"
+    "ts-jest": "27.0.1",
+    "typescript": "4.3.2"
   },
   "scripts": {
-    "build": "rimraf ./bin; esbuild src/index.ts --bundle --platform=node --outfile=bin/index.js",
+    "build": "bash scripts/build.sh",
     "ci:test": "jest --ci",
     "dev": "esbuild src/index.ts --bundle --platform=node --outfile=bin/index.js --watch",
-    "lint": "eslint src/**/*.ts",
+    "lint": "eslint --ext ts src",
     "test": "jest --watch",
-    "ts-check": "tsc --noEmit",
+    "lint:ts": "tsc --noEmit",
     "postinstall": "[ -z $CI ] && husky install || exit 0",
     "process": "node ./bin/index.js",
     "validate": "yarn lint; yarn ts-check; yarn ci:test"
@@ -93,6 +93,9 @@
     "transform": {
       "^.+\\.(t|j)sx?$": "ts-jest",
       "\\.xml$|\\.html$": "jest-raw-loader"
+    },
+    "moduleNameMapper": {
+      "series-with": "<rootDir>/node_modules/@tuplo/series-with/cjs"
     }
   },
   "prettier": {
