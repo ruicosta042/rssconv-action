@@ -18,6 +18,10 @@ Each issue on a newsletter is a single item on the feed. I want each link on an 
 
 For some reason Reeder doesn't parse this feed. This just parses the original feed and converts to RSS 2.0.
 
+#### CSS Layout News
+
+Each issue on a newsletter is a single item on the feed. I want each link on an issue to be an item on the feed.
+
 # License
 
 MIT

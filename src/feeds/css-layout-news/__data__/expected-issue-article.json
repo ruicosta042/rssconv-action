@@ -1,0 +1,94 @@
+{
+  "title": "IE11 to be retired",
+  "description": "Microsoft have announced the retirement and end of support for IE11 in June 2022, with the Edge \"IE mode\" to be used to access legacy applications built only for IE. I'm not all that sure that the official end-of-life of a product really makes it go away, but it's another reason not to spend too much of your development time trying to make things look identical in IE11.",
+  "summary": "Microsoft have announced the retirement and end of support for IE11 in June 2022, with the Edge \"IE mode\" to be used to access legacy applications built only for IE. I'm not all that sure that the official end-of-life of a product really makes it go away, but it's another reason not to spend too much of your development time trying to make things look identical in IE11.",
+  "date": "2021-05-25T18:46:03.000Z",
+  "pubdate": "2021-05-25T18:46:03.000Z",
+  "pubDate": "2021-05-25T18:46:03.000Z",
+  "link": "https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/",
+  "guid": "60ace811aa5e77003baaa8d1",
+  "author": "Rachel Andrew",
+  "comments": null,
+  "origlink": null,
+  "image": {},
+  "source": {},
+  "categories": ["Newsletter"],
+  "enclosures": [],
+  "rss:@": {},
+  "rss:title": { "@": {}, "#": "Issue 304" },
+  "rss:description": {
+    "@": {},
+    "#": "CSS Layout News is live on a new platform. Excuse any mess!"
+  },
+  "rss:link": { "@": {}, "#": "https://csslayout.news/issue-304/" },
+  "rss:guid": {
+    "@": { "ispermalink": "false" },
+    "#": "60ace811aa5e77003baaa8d1"
+  },
+  "rss:category": { "@": {}, "#": "Newsletter" },
+  "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+  "rss:pubdate": { "@": {}, "#": "Tue, 25 May 2021 18:46:03 GMT" },
+  "content:encoded": {
+    "@": {},
+    "#": "<p>Welcome to issue 304 of CSS Layout News, coming to you from my new hosting with Ghost. </p><p><strong>A bit of housekeeping</strong>. If you unsubscribed very recently there is a chance that the sync of data missed the fact you unsubscribed. I promise that this is not due to me being a evil spammer determined to inform you of the latest in CSS layout against your wishes. If you unsubscribe via the link in this email that should sort you out. Or, drop me a line and I&apos;ll make sure it&apos;s sorted for you.</p><p>My aim is to bring some of my layout related content over onto this site, to make it more of a resource. The old newsletter hosting worked well, however I was limited in terms of what I could do in terms of building the resource here. So, more coming soon!<br><br>On with the newsletter, and the things I have read this week.</p><p><em>Rachel Andrew, CSS Layout News.</em></p><hr><h3 id=\"news\">News</h3><!--kg-card-begin: html--><h3><a href=\"https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/\">IE11 to be retired</a></h3>\n\n<p>Microsoft have announced the retirement and end of support for IE11 in June 2022, with the Edge &quot;IE mode&quot; to be used to access legacy applications built only for IE. I&apos;m not all that sure that the official end-of-life of a product really makes it go away, but it&apos;s another reason not to spend too much of your development time trying to make things look identical in IE11.</p><!--kg-card-end: html--><hr><h3 id=\"learn\">Learn</h3><!--kg-card-begin: html--><h3><a href=\"https://web.dev/new-responsive/\">The new responsive</a></h3>\n\n<p>An article and video explaining some of the new ways that we can respond to user needs. Responsive design is now not only about screen size.</p>\n\n<h3><a href=\"https://www.stefanjudis.com/blog/should-devtools-teach-the-css-cascade/\">Should DevTools teach the cascade?</a></h3>\n\n<p>Stefan Judis writes about developer education, and whether DevTools could help to teach how the cascade works.</p>\n\n<h3><a href=\"https://www.quirksmode.org/blog/archives/2021/04/fitcontent_and.html\">fit-content and fit-content()</a></h3>\n\n<p>Fairly recently I detangled these two over at MDN, as they had become somewhat intertangled in the docs. Here ppk writes about them, and their browser support.</p>\n\n<h3><a href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/CSS_Layout\">CSS Layout Guides on MDN</a></h3>\n\n<p>I was doing some tidying up of the guides section on MDN, and created a big page listing all of the CSS Layout material on the site. There is quite a lot!</p>\n\n<h3><a href=\"https://css-tricks.com/can-we-create-a-resize-hack-with-container-queries/\">Can we create a resize hack with container queries?</a></h3>\n\n<p>I&apos;m a fan of this sort of article, playing with something and seeing what possibilities there are is a great way to learn.</p><!--kg-card-end: html-->"
+  },
+  "meta": {
+    "#ns": [
+      { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+      { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+      { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+      { "xmlns:media": "http://search.yahoo.com/mrss/" }
+    ],
+    "@": [
+      { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+      { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+      { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+      { "xmlns:media": "http://search.yahoo.com/mrss/" }
+    ],
+    "#xml": { "version": "1.0", "encoding": "UTF-8" },
+    "#type": "rss",
+    "#version": "2.0",
+    "title": "CSS Layout News",
+    "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+    "date": "2021-05-27T18:01:46.000Z",
+    "pubdate": "2021-05-27T18:01:46.000Z",
+    "pubDate": "2021-05-27T18:01:46.000Z",
+    "link": "https://csslayout.news/",
+    "xmlurl": "https://csslayout.news/blog/rss/",
+    "xmlUrl": "https://csslayout.news/blog/rss/",
+    "author": null,
+    "language": null,
+    "favicon": null,
+    "copyright": null,
+    "generator": "Ghost 4.6",
+    "cloud": {},
+    "image": {
+      "url": "https://csslayout.news/favicon.png",
+      "title": "CSS Layout News"
+    },
+    "categories": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "CSS Layout News" },
+    "rss:description": {
+      "@": {},
+      "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+    "rss:image": {
+      "@": {},
+      "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+      "title": { "@": {}, "#": "CSS Layout News" },
+      "link": { "@": {}, "#": "https://csslayout.news/" }
+    },
+    "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+    "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+    "atom:link": {
+      "@": {
+        "href": "https://csslayout.news/blog/rss/",
+        "rel": "self",
+        "type": "application/rss+xml"
+      }
+    },
+    "rss:ttl": { "@": {}, "#": "60" }
+  }
+}

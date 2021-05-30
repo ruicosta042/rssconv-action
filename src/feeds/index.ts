@@ -3,6 +3,7 @@ import * as cooperJavascriptWeekly from './cooper-javascript-weekly';
 import * as cooperNodeWeekly from './cooper-node-weekly';
 import * as cooperReactStatus from './cooper-react-status';
 import * as cooperServerlessStatus from './cooper-serverless-status';
+import * as cssLayoutNews from './css-layout-news';
 import * as harpersMagazine from './harpers-magazine';
 
 export default [
@@ -11,5 +12,6 @@ export default [
   cooperNodeWeekly,
   cooperReactStatus,
   cooperServerlessStatus,
+  cssLayoutNews,
   harpersMagazine,
 ];

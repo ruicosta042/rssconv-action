@@ -1,0 +1,1412 @@
+[
+  {
+    "title": "Issue 304",
+    "description": "<p>Welcome to issue 304 of CSS Layout News, coming to you from my new hosting with Ghost. </p><p><strong>A bit of housekeeping</strong>. If you unsubscribed very recently there is a chance that the sync of data missed the fact you unsubscribed. I promise that this is not due to me being a evil spammer determined to inform you of the latest in CSS layout against your wishes. If you unsubscribe via the link in this email that should sort you out. Or, drop me a line and I&apos;ll make sure it&apos;s sorted for you.</p><p>My aim is to bring some of my layout related content over onto this site, to make it more of a resource. The old newsletter hosting worked well, however I was limited in terms of what I could do in terms of building the resource here. So, more coming soon!<br><br>On with the newsletter, and the things I have read this week.</p><p><em>Rachel Andrew, CSS Layout News.</em></p><hr><h3 id=\"news\">News</h3><!--kg-card-begin: html--><h3><a href=\"https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/\">IE11 to be retired</a></h3>\n\n<p>Microsoft have announced the retirement and end of support for IE11 in June 2022, with the Edge &quot;IE mode&quot; to be used to access legacy applications built only for IE. I&apos;m not all that sure that the official end-of-life of a product really makes it go away, but it&apos;s another reason not to spend too much of your development time trying to make things look identical in IE11.</p><!--kg-card-end: html--><hr><h3 id=\"learn\">Learn</h3><!--kg-card-begin: html--><h3><a href=\"https://web.dev/new-responsive/\">The new responsive</a></h3>\n\n<p>An article and video explaining some of the new ways that we can respond to user needs. Responsive design is now not only about screen size.</p>\n\n<h3><a href=\"https://www.stefanjudis.com/blog/should-devtools-teach-the-css-cascade/\">Should DevTools teach the cascade?</a></h3>\n\n<p>Stefan Judis writes about developer education, and whether DevTools could help to teach how the cascade works.</p>\n\n<h3><a href=\"https://www.quirksmode.org/blog/archives/2021/04/fitcontent_and.html\">fit-content and fit-content()</a></h3>\n\n<p>Fairly recently I detangled these two over at MDN, as they had become somewhat intertangled in the docs. Here ppk writes about them, and their browser support.</p>\n\n<h3><a href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/CSS_Layout\">CSS Layout Guides on MDN</a></h3>\n\n<p>I was doing some tidying up of the guides section on MDN, and created a big page listing all of the CSS Layout material on the site. There is quite a lot!</p>\n\n<h3><a href=\"https://css-tricks.com/can-we-create-a-resize-hack-with-container-queries/\">Can we create a resize hack with container queries?</a></h3>\n\n<p>I&apos;m a fan of this sort of article, playing with something and seeing what possibilities there are is a great way to learn.</p><!--kg-card-end: html-->",
+    "summary": "CSS Layout News is live on a new platform. Excuse any mess!",
+    "date": "2021-05-25T18:46:03.000Z",
+    "pubdate": "2021-05-25T18:46:03.000Z",
+    "pubDate": "2021-05-25T18:46:03.000Z",
+    "link": "https://csslayout.news/issue-304/",
+    "guid": "60ace811aa5e77003baaa8d1",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 304" },
+    "rss:description": {
+      "@": {},
+      "#": "CSS Layout News is live on a new platform. Excuse any mess!"
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/issue-304/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60ace811aa5e77003baaa8d1"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Tue, 25 May 2021 18:46:03 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<p>Welcome to issue 304 of CSS Layout News, coming to you from my new hosting with Ghost. </p><p><strong>A bit of housekeeping</strong>. If you unsubscribed very recently there is a chance that the sync of data missed the fact you unsubscribed. I promise that this is not due to me being a evil spammer determined to inform you of the latest in CSS layout against your wishes. If you unsubscribe via the link in this email that should sort you out. Or, drop me a line and I&apos;ll make sure it&apos;s sorted for you.</p><p>My aim is to bring some of my layout related content over onto this site, to make it more of a resource. The old newsletter hosting worked well, however I was limited in terms of what I could do in terms of building the resource here. So, more coming soon!<br><br>On with the newsletter, and the things I have read this week.</p><p><em>Rachel Andrew, CSS Layout News.</em></p><hr><h3 id=\"news\">News</h3><!--kg-card-begin: html--><h3><a href=\"https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/\">IE11 to be retired</a></h3>\n\n<p>Microsoft have announced the retirement and end of support for IE11 in June 2022, with the Edge &quot;IE mode&quot; to be used to access legacy applications built only for IE. I&apos;m not all that sure that the official end-of-life of a product really makes it go away, but it&apos;s another reason not to spend too much of your development time trying to make things look identical in IE11.</p><!--kg-card-end: html--><hr><h3 id=\"learn\">Learn</h3><!--kg-card-begin: html--><h3><a href=\"https://web.dev/new-responsive/\">The new responsive</a></h3>\n\n<p>An article and video explaining some of the new ways that we can respond to user needs. Responsive design is now not only about screen size.</p>\n\n<h3><a href=\"https://www.stefanjudis.com/blog/should-devtools-teach-the-css-cascade/\">Should DevTools teach the cascade?</a></h3>\n\n<p>Stefan Judis writes about developer education, and whether DevTools could help to teach how the cascade works.</p>\n\n<h3><a href=\"https://www.quirksmode.org/blog/archives/2021/04/fitcontent_and.html\">fit-content and fit-content()</a></h3>\n\n<p>Fairly recently I detangled these two over at MDN, as they had become somewhat intertangled in the docs. Here ppk writes about them, and their browser support.</p>\n\n<h3><a href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/CSS_Layout\">CSS Layout Guides on MDN</a></h3>\n\n<p>I was doing some tidying up of the guides section on MDN, and created a big page listing all of the CSS Layout material on the site. There is quite a lot!</p>\n\n<h3><a href=\"https://css-tricks.com/can-we-create-a-resize-hack-with-container-queries/\">Can we create a resize hack with container queries?</a></h3>\n\n<p>I&apos;m a fan of this sort of article, playing with something and seeing what possibilities there are is a great way to learn.</p><!--kg-card-end: html-->"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 303",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-303\">Issue 303</h3><p>One of the things that has keeping me busy has just launched, take a look below at all the details about Learn CSS!</p><p>Plenty of other good stuff this week too, so whether you want some fundamental CSS knowledge, a detailed look at CLS, or to unpack how feature queries work, you should find something to read.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"just-launched-learn-css\"><a href=\"https://web.dev/learn/css/\">Just launched: Learn CSS</a></h3><p>Over the last few months I&apos;ve been working (mostly as an editor) on this free course from Google, to help you Learn CSS. The majority of the writing was done by <a href=\"https://twitter.com/@piccalilli_\">Andy Bell</a>, the series based on the <a href=\"https://thecsspodcast.libsyn.com/\">CSS Podcast</a> from <a href=\"https://twitter.com/@una\">Una Kravets</a> and <a href=\"https://twitter.com/@argyleink\">Adam Argyle</a>. Also on the team, and making the whole thing look great, were <a href=\"https://twitter.com/@rob_dodson\">Rob Dodson</a>, <a href=\"https://twitter.com/@jiwoong\">Jiwoong Lee</a>, and <a href=\"https://twitter.com/@kaycebasques\">Kayce Basques</a>.</p><p>It&apos;s been great fun being part of this team putting the content together, and I think it will be a really useful resource.</p><p><em><a href=\"https://web.dev/learn/css/\">web.dev</a></em></p><hr><h3 id=\"google-io-2021\"><a href=\"https://events.google.com/io/\">Google I/O 2021</a></h3><p>Google I/O is happening online right now, it&apos;s free and there is a bunch of interesting CSS stuff, which you can also catch up on with the recordings.</p><p><em><a href=\"https://events.google.com/io/\">google.com</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"support-not-unknown-oddbird\"><a href=\"https://www.oddbird.net/2021/05/14/support-unknown/\">Support (Not) Unknown | OddBird</a></h3><p>This is a really great write-up, and not just in regard to how we can test for container query support using <code>@supports</code>, as it unpacks how feature queries work in a detailed way.</p><p><em><a href=\"https://www.oddbird.net/2021/05/14/support-unknown/\">oddbird.net</a></em></p><hr><h3 id=\"devtools-for-css-layouts-2021-edition\"><a href=\"https://chenhuijing.com/blog/devtools-for-css-layouts-2021-edition/#%F0%9F%9A%B2\">DevTools for CSS layouts 2021 edition</a></h3><p>A good roundup of the current state of DevTools for CSS Layout.</p><p><em><a href=\"https://chenhuijing.com/blog/devtools-for-css-layouts-2021-edition/#%F0%9F%9A%B2\">chenhuijing.com</a></em></p><hr><h3 id=\"cumulative-layout-shift-measure-and-avoid-visual-instability-calibre\"><a href=\"https://calibreapp.com/blog/cumulative-layout-shift?utm_source=Perf.email&amp;utm_campaign=491c48b903-Perf+Email+%2375&amp;utm_medium=email&amp;utm_term=0_7cba5dc7bd-491c48b903-1247067945\">Cumulative Layout Shift: Measure and Avoid Visual Instability | Calibre</a></h3><p>Learn what Cumulative Layout Shift (CLS) is, and how to prevent it.</p><p><em><a href=\"https://calibreapp.com/blog/cumulative-layout-shift?utm_source=Perf.email&amp;utm_campaign=491c48b903-Perf+Email+%2375&amp;utm_medium=email&amp;utm_term=0_7cba5dc7bd-491c48b903-1247067945\">calibreapp.com</a></em></p><hr><h3 id=\"how-to-set-browser-flags-in-chromium\"><a href=\"https://web.dev/browser-flags/\">How to set browser flags in Chromium</a></h3><p>For some of the new APIs we introduce in Chromium, you need to set a browser flag for experimentation. This article explains how to do this in the various Chromium derivatives like Google Chrome, Microsoft Edge, and others.</p><p><em><a href=\"https://web.dev/browser-flags/\">web.dev</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"modern-blog-layout-with-css-grid\"><a href=\"https://codepen.io/TurkAysenur/full/gOmMgpx\">Modern Blog Layout with CSS Grid</a></h3><p>Vis the CodePen newsletter is this great layout, I just love the way the header scrolls.</p><p><em><a href=\"https://codepen.io/TurkAysenur/full/gOmMgpx\">codepen.io</a></em></p>",
+    "summary": "A new way to learn CSS, unpacking feature queries, DevTools, browser flags, and CLS.",
+    "date": "2021-05-19T19:55:00.000Z",
+    "pubdate": "2021-05-19T19:55:00.000Z",
+    "pubDate": "2021-05-19T19:55:00.000Z",
+    "link": "https://csslayout.news/303/",
+    "guid": "60ac04b2aa5e77003ba9cd90",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 303" },
+    "rss:description": {
+      "@": {},
+      "#": "A new way to learn CSS, unpacking feature queries, DevTools, browser flags, and CLS."
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/303/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60ac04b2aa5e77003ba9cd90"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Wed, 19 May 2021 19:55:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-303\">Issue 303</h3><p>One of the things that has keeping me busy has just launched, take a look below at all the details about Learn CSS!</p><p>Plenty of other good stuff this week too, so whether you want some fundamental CSS knowledge, a detailed look at CLS, or to unpack how feature queries work, you should find something to read.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"just-launched-learn-css\"><a href=\"https://web.dev/learn/css/\">Just launched: Learn CSS</a></h3><p>Over the last few months I&apos;ve been working (mostly as an editor) on this free course from Google, to help you Learn CSS. The majority of the writing was done by <a href=\"https://twitter.com/@piccalilli_\">Andy Bell</a>, the series based on the <a href=\"https://thecsspodcast.libsyn.com/\">CSS Podcast</a> from <a href=\"https://twitter.com/@una\">Una Kravets</a> and <a href=\"https://twitter.com/@argyleink\">Adam Argyle</a>. Also on the team, and making the whole thing look great, were <a href=\"https://twitter.com/@rob_dodson\">Rob Dodson</a>, <a href=\"https://twitter.com/@jiwoong\">Jiwoong Lee</a>, and <a href=\"https://twitter.com/@kaycebasques\">Kayce Basques</a>.</p><p>It&apos;s been great fun being part of this team putting the content together, and I think it will be a really useful resource.</p><p><em><a href=\"https://web.dev/learn/css/\">web.dev</a></em></p><hr><h3 id=\"google-io-2021\"><a href=\"https://events.google.com/io/\">Google I/O 2021</a></h3><p>Google I/O is happening online right now, it&apos;s free and there is a bunch of interesting CSS stuff, which you can also catch up on with the recordings.</p><p><em><a href=\"https://events.google.com/io/\">google.com</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"support-not-unknown-oddbird\"><a href=\"https://www.oddbird.net/2021/05/14/support-unknown/\">Support (Not) Unknown | OddBird</a></h3><p>This is a really great write-up, and not just in regard to how we can test for container query support using <code>@supports</code>, as it unpacks how feature queries work in a detailed way.</p><p><em><a href=\"https://www.oddbird.net/2021/05/14/support-unknown/\">oddbird.net</a></em></p><hr><h3 id=\"devtools-for-css-layouts-2021-edition\"><a href=\"https://chenhuijing.com/blog/devtools-for-css-layouts-2021-edition/#%F0%9F%9A%B2\">DevTools for CSS layouts 2021 edition</a></h3><p>A good roundup of the current state of DevTools for CSS Layout.</p><p><em><a href=\"https://chenhuijing.com/blog/devtools-for-css-layouts-2021-edition/#%F0%9F%9A%B2\">chenhuijing.com</a></em></p><hr><h3 id=\"cumulative-layout-shift-measure-and-avoid-visual-instability-calibre\"><a href=\"https://calibreapp.com/blog/cumulative-layout-shift?utm_source=Perf.email&amp;utm_campaign=491c48b903-Perf+Email+%2375&amp;utm_medium=email&amp;utm_term=0_7cba5dc7bd-491c48b903-1247067945\">Cumulative Layout Shift: Measure and Avoid Visual Instability | Calibre</a></h3><p>Learn what Cumulative Layout Shift (CLS) is, and how to prevent it.</p><p><em><a href=\"https://calibreapp.com/blog/cumulative-layout-shift?utm_source=Perf.email&amp;utm_campaign=491c48b903-Perf+Email+%2375&amp;utm_medium=email&amp;utm_term=0_7cba5dc7bd-491c48b903-1247067945\">calibreapp.com</a></em></p><hr><h3 id=\"how-to-set-browser-flags-in-chromium\"><a href=\"https://web.dev/browser-flags/\">How to set browser flags in Chromium</a></h3><p>For some of the new APIs we introduce in Chromium, you need to set a browser flag for experimentation. This article explains how to do this in the various Chromium derivatives like Google Chrome, Microsoft Edge, and others.</p><p><em><a href=\"https://web.dev/browser-flags/\">web.dev</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"modern-blog-layout-with-css-grid\"><a href=\"https://codepen.io/TurkAysenur/full/gOmMgpx\">Modern Blog Layout with CSS Grid</a></h3><p>Vis the CodePen newsletter is this great layout, I just love the way the header scrolls.</p><p><em><a href=\"https://codepen.io/TurkAysenur/full/gOmMgpx\">codepen.io</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 302",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-302\">Issue 302</h3><p>This week, more container queries links, along with a bunch of stuff in the latest Safari Technology Preview. While folk are getting excited about new CSS, I&apos;ve spent the last few days thinking about browser compat, old browsers, and unsupported features for something I&apos;m working on. So my links also include some recent articles on that subject.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"release-notessafari-technology-previewsafariapple-developer\"><a href=\"https://developer.apple.com/safari/technology-preview/release-notes/\">Release Notes - Safari Technology Preview - Safari - Apple Developer</a></h3><p>There is a whole heap of fixes and additions in the latest Safari Technology Preview, including a bunch of improvements to the Web Inspector grid tools.</p><p><em><a href=\"https://developer.apple.com/safari/technology-preview/release-notes/\">apple.com</a></em></p><hr><h3 id=\"blinkon-14-schedule\"><a href=\"https://docs.google.com/document/d/e/2PACX-1vQIOS6VheFrmZuo_W5BiHUOe8TNaPzjFw5Ix0qsryg4czDlP97aX00r_gKn66ck8ZZEHCeaUeNW8Ag1/pub\">BlinkOn 14 Schedule</a></h3><p>BlinkOn is happening at the moment, however is unfortunately in the middle of the night for me. The recordings of presentations will be going up on YouTube however, linked from the schedule.</p><p><em><a href=\"https://docs.google.com/document/d/e/2PACX-1vQIOS6VheFrmZuo_W5BiHUOe8TNaPzjFw5Ix0qsryg4czDlP97aX00r_gKn66ck8ZZEHCeaUeNW8Ag1/pub\">google.com</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"live-qa-miriam-suzanneyoutube\"><a href=\"https://www.youtube.com/watch?v=lh1_zKk1qAk\">Live Q&amp;A: Miriam Suzanne - YouTube</a></h3><p>Talk and Q&amp;A with Miriam Suzanne, covering container queries but also other new things coming to CSS. I was excited to hear Regions mentioned in the Q&amp;A, I still hope we&apos;ll get that ability one day.</p><p><em><a href=\"https://www.youtube.com/watch?v=lh1_zKk1qAk\">youtube.com</a></em></p><hr><h3 id=\"on-regions-making-things-better\"><a href=\"https://rachelandrew.co.uk/archives/2020/04/07/making-things-better/\">On Regions: Making Things Better</a></h3><p>Given that understanding of Regions has probably half vanished from the collective memory by now, here&apos;s my notes from my talk on the subject in 2019.</p><p><em><a href=\"https://rachelandrew.co.uk/archives/2020/04/07/making-things-better/\">rachelandrew.co.uk</a></em></p><hr><figure class=\"kg-card kg-image-card\"><a href=\"https://css-tricks.com/variable-aspect-ratio-card-with-conic-gradients-meeting-along-the-diagonal/\"><img src=\"https://csslayout.news/content/images/2021/05/original_ratio_extra_large_103e60f1-33ba-4419-8617-11022c608599.jpeg\" class=\"kg-image\" alt loading=\"lazy\" width=\"1200\" height=\"630\" srcset=\"https://csslayout.news/content/images/size/w600/2021/05/original_ratio_extra_large_103e60f1-33ba-4419-8617-11022c608599.jpeg 600w, https://csslayout.news/content/images/size/w1000/2021/05/original_ratio_extra_large_103e60f1-33ba-4419-8617-11022c608599.jpeg 1000w, https://csslayout.news/content/images/2021/05/original_ratio_extra_large_103e60f1-33ba-4419-8617-11022c608599.jpeg 1200w\" sizes=\"(min-width: 720px) 720px\"></a></figure><h3 id=\"variable-aspect-ratio-card-with-conic-gradients-meeting-along-the-diagonal-css-tricks\"><a href=\"https://css-tricks.com/variable-aspect-ratio-card-with-conic-gradients-meeting-along-the-diagonal/\">Variable Aspect Ratio Card With Conic Gradients Meeting Along the Diagonal | CSS-Tricks</a></h3><p>Another excellent article from Ana Tudor, who is just so good at digging into the possibilities of CSS.<em><a href=\"https://css-tricks.com/variable-aspect-ratio-card-with-conic-gradients-meeting-along-the-diagonal/\">css-tricks.com</a></em></p><hr><h3 id=\"is-vendor-prefixing-dead-css-tricks\"><a href=\"https://css-tricks.com/is-vendor-prefixing-dead/\">Is Vendor Prefixing Dead? | CSS-Tricks</a></h3><p>This article was timely for me as I was thinking about browser compat issues for something I was working on this week. A great dig into which properties in CSS still need prefixing.</p><p><em><a href=\"https://css-tricks.com/is-vendor-prefixing-dead/\">css-tricks.com</a></em></p><hr><h3 id=\"component-level-art-direction-with-css-container-queries\"><a href=\"https://www.sarasoueidan.com/blog/component-level-art-direction-with-container-queries-and-picture/\">Component-level art direction with CSS Container Queries</a></h3><p>Sara looks into the emerging Container Queries specification, in terms of art direction at the component level.</p><p><em><a href=\"https://www.sarasoueidan.com/blog/component-level-art-direction-with-container-queries-and-picture/\">sarasoueidan.com</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"progress-delayed-is-progress-deniedinfrequently-noted\"><a href=\"https://infrequently.org/2021/04/progress-delayed/\">Progress Delayed Is Progress Denied - Infrequently Noted</a></h3><p>Also, in my personal theme of web compat this week, is this article from Alex Russell. Whether you agree or not that Safari is underpowered, the data included here is interesting. In particular the section <a href=\"https://infrequently.org/2021/04/progress-delayed/#just-out-of-reach\">Just out of reach</a>. It&apos;s in these uncontroversial missing features my own personal frustration lies. There are APIs in Chromium that Safari and Firefox have pushed back against, and that is a healthy part of standards debate. What is difficult is to see useful CSS for example, things that no one is arguing against, held behind a gate.</p><p><em><a href=\"https://infrequently.org/2021/04/progress-delayed/\">infrequently.org</a></em></p>",
+    "summary": "Container Queries, vendor prefixes, variable aspect ratios with conic gradients",
+    "date": "2021-05-12T19:52:00.000Z",
+    "pubdate": "2021-05-12T19:52:00.000Z",
+    "pubDate": "2021-05-12T19:52:00.000Z",
+    "link": "https://csslayout.news/302/",
+    "guid": "60ac03fcaa5e77003ba9cd6c",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 302" },
+    "rss:description": {
+      "@": {},
+      "#": "Container Queries, vendor prefixes, variable aspect ratios with conic gradients"
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/302/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60ac03fcaa5e77003ba9cd6c"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Wed, 12 May 2021 19:52:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-302\">Issue 302</h3><p>This week, more container queries links, along with a bunch of stuff in the latest Safari Technology Preview. While folk are getting excited about new CSS, I&apos;ve spent the last few days thinking about browser compat, old browsers, and unsupported features for something I&apos;m working on. So my links also include some recent articles on that subject.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"release-notessafari-technology-previewsafariapple-developer\"><a href=\"https://developer.apple.com/safari/technology-preview/release-notes/\">Release Notes - Safari Technology Preview - Safari - Apple Developer</a></h3><p>There is a whole heap of fixes and additions in the latest Safari Technology Preview, including a bunch of improvements to the Web Inspector grid tools.</p><p><em><a href=\"https://developer.apple.com/safari/technology-preview/release-notes/\">apple.com</a></em></p><hr><h3 id=\"blinkon-14-schedule\"><a href=\"https://docs.google.com/document/d/e/2PACX-1vQIOS6VheFrmZuo_W5BiHUOe8TNaPzjFw5Ix0qsryg4czDlP97aX00r_gKn66ck8ZZEHCeaUeNW8Ag1/pub\">BlinkOn 14 Schedule</a></h3><p>BlinkOn is happening at the moment, however is unfortunately in the middle of the night for me. The recordings of presentations will be going up on YouTube however, linked from the schedule.</p><p><em><a href=\"https://docs.google.com/document/d/e/2PACX-1vQIOS6VheFrmZuo_W5BiHUOe8TNaPzjFw5Ix0qsryg4czDlP97aX00r_gKn66ck8ZZEHCeaUeNW8Ag1/pub\">google.com</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"live-qa-miriam-suzanneyoutube\"><a href=\"https://www.youtube.com/watch?v=lh1_zKk1qAk\">Live Q&amp;A: Miriam Suzanne - YouTube</a></h3><p>Talk and Q&amp;A with Miriam Suzanne, covering container queries but also other new things coming to CSS. I was excited to hear Regions mentioned in the Q&amp;A, I still hope we&apos;ll get that ability one day.</p><p><em><a href=\"https://www.youtube.com/watch?v=lh1_zKk1qAk\">youtube.com</a></em></p><hr><h3 id=\"on-regions-making-things-better\"><a href=\"https://rachelandrew.co.uk/archives/2020/04/07/making-things-better/\">On Regions: Making Things Better</a></h3><p>Given that understanding of Regions has probably half vanished from the collective memory by now, here&apos;s my notes from my talk on the subject in 2019.</p><p><em><a href=\"https://rachelandrew.co.uk/archives/2020/04/07/making-things-better/\">rachelandrew.co.uk</a></em></p><hr><figure class=\"kg-card kg-image-card\"><a href=\"https://css-tricks.com/variable-aspect-ratio-card-with-conic-gradients-meeting-along-the-diagonal/\"><img src=\"https://csslayout.news/content/images/2021/05/original_ratio_extra_large_103e60f1-33ba-4419-8617-11022c608599.jpeg\" class=\"kg-image\" alt loading=\"lazy\" width=\"1200\" height=\"630\" srcset=\"https://csslayout.news/content/images/size/w600/2021/05/original_ratio_extra_large_103e60f1-33ba-4419-8617-11022c608599.jpeg 600w, https://csslayout.news/content/images/size/w1000/2021/05/original_ratio_extra_large_103e60f1-33ba-4419-8617-11022c608599.jpeg 1000w, https://csslayout.news/content/images/2021/05/original_ratio_extra_large_103e60f1-33ba-4419-8617-11022c608599.jpeg 1200w\" sizes=\"(min-width: 720px) 720px\"></a></figure><h3 id=\"variable-aspect-ratio-card-with-conic-gradients-meeting-along-the-diagonal-css-tricks\"><a href=\"https://css-tricks.com/variable-aspect-ratio-card-with-conic-gradients-meeting-along-the-diagonal/\">Variable Aspect Ratio Card With Conic Gradients Meeting Along the Diagonal | CSS-Tricks</a></h3><p>Another excellent article from Ana Tudor, who is just so good at digging into the possibilities of CSS.<em><a href=\"https://css-tricks.com/variable-aspect-ratio-card-with-conic-gradients-meeting-along-the-diagonal/\">css-tricks.com</a></em></p><hr><h3 id=\"is-vendor-prefixing-dead-css-tricks\"><a href=\"https://css-tricks.com/is-vendor-prefixing-dead/\">Is Vendor Prefixing Dead? | CSS-Tricks</a></h3><p>This article was timely for me as I was thinking about browser compat issues for something I was working on this week. A great dig into which properties in CSS still need prefixing.</p><p><em><a href=\"https://css-tricks.com/is-vendor-prefixing-dead/\">css-tricks.com</a></em></p><hr><h3 id=\"component-level-art-direction-with-css-container-queries\"><a href=\"https://www.sarasoueidan.com/blog/component-level-art-direction-with-container-queries-and-picture/\">Component-level art direction with CSS Container Queries</a></h3><p>Sara looks into the emerging Container Queries specification, in terms of art direction at the component level.</p><p><em><a href=\"https://www.sarasoueidan.com/blog/component-level-art-direction-with-container-queries-and-picture/\">sarasoueidan.com</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"progress-delayed-is-progress-deniedinfrequently-noted\"><a href=\"https://infrequently.org/2021/04/progress-delayed/\">Progress Delayed Is Progress Denied - Infrequently Noted</a></h3><p>Also, in my personal theme of web compat this week, is this article from Alex Russell. Whether you agree or not that Safari is underpowered, the data included here is interesting. In particular the section <a href=\"https://infrequently.org/2021/04/progress-delayed/#just-out-of-reach\">Just out of reach</a>. It&apos;s in these uncontroversial missing features my own personal frustration lies. There are APIs in Chromium that Safari and Firefox have pushed back against, and that is a healthy part of standards debate. What is difficult is to see useful CSS for example, things that no one is arguing against, held behind a gate.</p><p><em><a href=\"https://infrequently.org/2021/04/progress-delayed/\">infrequently.org</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 301",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-301\">Issue 301</h3><p>Lots of actual news this week, with gaps in Flexbox landing in Safari, some nice new DevTools coming to Chrome and other interesting things to report.</p><p>Which is good, because I don&apos;t have much interesting to report otherwise. I have been working on something interesting which I will let you know about once it launches!</p><p>Until next week,</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"new-webkit-features-in-safari-141-webkit\"><a href=\"https://webkit.org/blog/11648/new-webkit-features-in-safari-14-1/\">New WebKit Features in Safari 14.1 | WebKit</a></h3><p>Safari 14.1 includes the <code>gap</code> properties for flexbox, along with individual transforms. Take a look at the release notes for all of the details.</p><p><em><a href=\"https://webkit.org/blog/11648/new-webkit-features-in-safari-14-1/\">webkit.org</a></em></p><hr><h3 id=\"whats-new-in-devtools-chrome-91chrome-developers\"><a href=\"https://developer.chrome.com/blog/new-in-devtools-91/\">What&apos;s New In DevTools (Chrome 91) - Chrome Developers</a></h3><p>Loads of interesting stuff in Chrome 91 DevTools, but I&apos;m particularly interested in the scroll-snap visualization.</p><p><em><a href=\"https://developer.chrome.com/blog/new-in-devtools-91/\">chrome.com</a></em></p><hr><h3 id=\"announcement-10-for-10kthe-a11y-project\"><a href=\"https://www.a11yproject.com/announcements/2021-04-04-ten-dollars-for-ten-k/\">Announcement: $10 for 10k - The A11Y Project</a></h3><p>A fundraiser from the A11y Project to celebrate their 10,000 Twitter followers.</p><p><em><a href=\"https://www.a11yproject.com/announcements/2021-04-04-ten-dollars-for-ten-k/\">a11yproject.com</a></em></p><hr><h3 id=\"web-design-museum-on-twitter-happy-18th-birthday-css-zen-garden\"><a href=\"https://twitter.com/WebDesignMuseum/status/1389247125075075072\">Web Design Museum on Twitter: &quot;Happy 18th Birthday CSS Zen Garden!&quot;</a></h3><p>The CSS Zen Garden is 18. Links in this newsletter are conspiring to make me feel old.</p><p><em><a href=\"https://twitter.com/WebDesignMuseum/status/1389247125075075072\">twitter.com</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"css-tipsmarko-denicweb-developer\"><a href=\"https://markodenic.com/css-tips/\">CSS Tips - Marko Denic - Web Developer</a></h3><p>A collection of CSS tips, not sure about the claim that you won&apos;t see these in most of the tutorials, but if you like collections of snippets this is a good list of things.</p><p><em><a href=\"https://markodenic.com/css-tips/\">markodenic.com</a></em></p><hr><h3 id=\"web-interface-handbook\"><a href=\"https://imperavi.com/books/web-interface-handbook/\">Web Interface Handbook</a></h3><p>This seems a really nice handbook about the fundamentals of interface design.</p><p><em><a href=\"https://imperavi.com/books/web-interface-handbook/\">imperavi.com</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"chapter-8-css-css-tricks\"><a href=\"https://css-tricks.com/chapter-8-css/\">Chapter 8: CSS | CSS-Tricks</a></h3><p>This episode of Web History opens with details of the 2006 @media conference. That was a long time ago. <a href=\"https://www.flickr.com/photos/rachelandrew/169006407/in/album-72157594168610335/\">Here&apos;s a very young me</a> onstage.</p><p><em><a href=\"https://css-tricks.com/chapter-8-css/\">css-tricks.com</a></em></p>",
+    "summary": "Gaps in flex for Safari, new Chrome DevTools, and I'm feeling quite old.",
+    "date": "2021-05-04T19:51:00.000Z",
+    "pubdate": "2021-05-04T19:51:00.000Z",
+    "pubDate": "2021-05-04T19:51:00.000Z",
+    "link": "https://csslayout.news/301/",
+    "guid": "60ac0398aa5e77003ba9cd4d",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 301" },
+    "rss:description": {
+      "@": {},
+      "#": "Gaps in flex for Safari, new Chrome DevTools, and I'm feeling quite old."
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/301/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60ac0398aa5e77003ba9cd4d"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Tue, 04 May 2021 19:51:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-301\">Issue 301</h3><p>Lots of actual news this week, with gaps in Flexbox landing in Safari, some nice new DevTools coming to Chrome and other interesting things to report.</p><p>Which is good, because I don&apos;t have much interesting to report otherwise. I have been working on something interesting which I will let you know about once it launches!</p><p>Until next week,</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"new-webkit-features-in-safari-141-webkit\"><a href=\"https://webkit.org/blog/11648/new-webkit-features-in-safari-14-1/\">New WebKit Features in Safari 14.1 | WebKit</a></h3><p>Safari 14.1 includes the <code>gap</code> properties for flexbox, along with individual transforms. Take a look at the release notes for all of the details.</p><p><em><a href=\"https://webkit.org/blog/11648/new-webkit-features-in-safari-14-1/\">webkit.org</a></em></p><hr><h3 id=\"whats-new-in-devtools-chrome-91chrome-developers\"><a href=\"https://developer.chrome.com/blog/new-in-devtools-91/\">What&apos;s New In DevTools (Chrome 91) - Chrome Developers</a></h3><p>Loads of interesting stuff in Chrome 91 DevTools, but I&apos;m particularly interested in the scroll-snap visualization.</p><p><em><a href=\"https://developer.chrome.com/blog/new-in-devtools-91/\">chrome.com</a></em></p><hr><h3 id=\"announcement-10-for-10kthe-a11y-project\"><a href=\"https://www.a11yproject.com/announcements/2021-04-04-ten-dollars-for-ten-k/\">Announcement: $10 for 10k - The A11Y Project</a></h3><p>A fundraiser from the A11y Project to celebrate their 10,000 Twitter followers.</p><p><em><a href=\"https://www.a11yproject.com/announcements/2021-04-04-ten-dollars-for-ten-k/\">a11yproject.com</a></em></p><hr><h3 id=\"web-design-museum-on-twitter-happy-18th-birthday-css-zen-garden\"><a href=\"https://twitter.com/WebDesignMuseum/status/1389247125075075072\">Web Design Museum on Twitter: &quot;Happy 18th Birthday CSS Zen Garden!&quot;</a></h3><p>The CSS Zen Garden is 18. Links in this newsletter are conspiring to make me feel old.</p><p><em><a href=\"https://twitter.com/WebDesignMuseum/status/1389247125075075072\">twitter.com</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"css-tipsmarko-denicweb-developer\"><a href=\"https://markodenic.com/css-tips/\">CSS Tips - Marko Denic - Web Developer</a></h3><p>A collection of CSS tips, not sure about the claim that you won&apos;t see these in most of the tutorials, but if you like collections of snippets this is a good list of things.</p><p><em><a href=\"https://markodenic.com/css-tips/\">markodenic.com</a></em></p><hr><h3 id=\"web-interface-handbook\"><a href=\"https://imperavi.com/books/web-interface-handbook/\">Web Interface Handbook</a></h3><p>This seems a really nice handbook about the fundamentals of interface design.</p><p><em><a href=\"https://imperavi.com/books/web-interface-handbook/\">imperavi.com</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"chapter-8-css-css-tricks\"><a href=\"https://css-tricks.com/chapter-8-css/\">Chapter 8: CSS | CSS-Tricks</a></h3><p>This episode of Web History opens with details of the 2006 @media conference. That was a long time ago. <a href=\"https://www.flickr.com/photos/rachelandrew/169006407/in/album-72157594168610335/\">Here&apos;s a very young me</a> onstage.</p><p><em><a href=\"https://css-tricks.com/chapter-8-css/\">css-tricks.com</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 300",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-300\">Issue 300</h3><p>It&apos;s issue 300! I&apos;ve been sending a weekly CSS Layout News since the <a href=\"https://csslayout.news/issues/1#start\">4th August, 2015</a>. If you need a reminder about how very long ago that was, the issue led with the release notes for Chrome 44! I announced Grid Layout shipping in Firefox in <a href=\"https://csslayout.news/issues/84#start\">issue 84</a> and Chrome in <a href=\"https://csslayout.news/issues/85#start\">issue 85</a>, over 4 years ago.</p><p>I noted last week, as I was preparing an update to <a href=\"https://csslayout.news/issues/84#start\">my talk on new things in CSS</a>, how quickly things are shipping into browsers now. Things that I included as <em>coming soon</em> features, have landed in browsers by the time I give the talk again, and new things have started to show up. I started this newsletter to help promote the upcoming grid spec, and it&apos;s very cool that there are still plenty of new layout and layout-adjacent things happening to let me make it to issue 300&#x2014;and beyond!</p><p><em>Rachel Andrew, CSS Layout News</em></p><h2 id=\"learn\">Learn</h2><h3 id=\"understanding-display\"><a href=\"https://noti.st/rachelandrew/VeraEX/understanding-display\">Understanding Display</a></h3><p>Slides and resources for my talk at Web Directions hover, a conference just about CSS.</p><p><em><a href=\"https://noti.st/rachelandrew/VeraEX/understanding-display\">noti.st</a></em></p><hr><h3 id=\"dont-you-forget-about-me-overlooked-breakpoints-in-responsive-design\"><a href=\"https://polypane.app/blog/overlooked-breakpoints-in-responsive-design/\">Don&apos;t you forget about me: overlooked breakpoints in responsive design.</a></h3><p>An article about some breakpoints that you might want to pay a little more attention to.</p><p><em><a href=\"https://polypane.app/blog/overlooked-breakpoints-in-responsive-design/\">polypane.app</a></em></p><hr><h3 id=\"sortable-table-columns-adrian-roselli\"><a href=\"https://adrianroselli.com/2021/04/sortable-table-columns.html\">Sortable Table Columns | Adrian Roselli</a></h3><p>Another excellent article from Adrian, covering a design pattern that many of us will have had to deal with at one time or another.</p><p><em><a href=\"https://adrianroselli.com/2021/04/sortable-table-columns.html\">adrianroselli.com</a></em></p><hr><h3 id=\"getting-started-with-css-custom-propertiestutorialpiccalilli\"><a href=\"https://piccalil.li/tutorial/getting-started-with-css-custom-properties\">Getting started with CSS Custom Properties - Tutorial - Piccalilli</a></h3><p>Custom properties in CSS are exceptionally useful, not just for tokenising your CSS, but also for abstracting complexity and interactivity into smaller, easier to manage pieces. This short guide will get you up to speed with how they work and how to use them.</p><p><em><a href=\"https://piccalil.li/tutorial/getting-started-with-css-custom-properties\">piccalil.li</a></em></p><hr><h3 id=\"a-complete-guide-to-custom-properties-css-tricks\"><a href=\"https://css-tricks.com/a-complete-guide-to-custom-properties/\">A Complete Guide to Custom Properties | CSS-Tricks</a></h3><p>After reading the earlier short primer, here&apos;s a complete guide to custom properties to help you take the next step!</p><p><em><a href=\"https://css-tricks.com/a-complete-guide-to-custom-properties/\">css-tricks.com</a></em></p><hr><h3 id=\"exploring-color-contrast-for-the-first-time-css-tricks\"><a href=\"https://css-tricks.com/exploring-color-contrast-for-the-first-time/\">Exploring color-contrast() for the First Time | CSS-Tricks</a></h3><p>Chris takes a good look at the upcoming <code>color-contrast()</code> function.</p><p><em><a href=\"https://css-tricks.com/exploring-color-contrast-for-the-first-time/\">css-tricks.com</a></em></p><hr><h3 id=\"the-almost-complete-guide-to-cumulative-layout-shift\"><a href=\"https://jessbpeck.com/posts/completecls/\">The Almost-Complete Guide to Cumulative Layout Shift</a></h3><p>A solid guide to Cumulative Layout Shift (CLS). This is a measurement of the annoying experience of a layout shifting around as you try to use it, leading you to click on the wrong things or lose your place.</p><p><em><a href=\"https://jessbpeck.com/posts/completecls/\">jessbpeck.com</a></em></p>",
+    "summary": "We made it to issue 300. This week: custom properties, CLS, breakpoints.",
+    "date": "2021-04-27T19:49:00.000Z",
+    "pubdate": "2021-04-27T19:49:00.000Z",
+    "pubDate": "2021-04-27T19:49:00.000Z",
+    "link": "https://csslayout.news/300/",
+    "guid": "60ac0331aa5e77003ba9cd32",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 300" },
+    "rss:description": {
+      "@": {},
+      "#": "We made it to issue 300. This week: custom properties, CLS, breakpoints."
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/300/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60ac0331aa5e77003ba9cd32"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Tue, 27 Apr 2021 19:49:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-300\">Issue 300</h3><p>It&apos;s issue 300! I&apos;ve been sending a weekly CSS Layout News since the <a href=\"https://csslayout.news/issues/1#start\">4th August, 2015</a>. If you need a reminder about how very long ago that was, the issue led with the release notes for Chrome 44! I announced Grid Layout shipping in Firefox in <a href=\"https://csslayout.news/issues/84#start\">issue 84</a> and Chrome in <a href=\"https://csslayout.news/issues/85#start\">issue 85</a>, over 4 years ago.</p><p>I noted last week, as I was preparing an update to <a href=\"https://csslayout.news/issues/84#start\">my talk on new things in CSS</a>, how quickly things are shipping into browsers now. Things that I included as <em>coming soon</em> features, have landed in browsers by the time I give the talk again, and new things have started to show up. I started this newsletter to help promote the upcoming grid spec, and it&apos;s very cool that there are still plenty of new layout and layout-adjacent things happening to let me make it to issue 300&#x2014;and beyond!</p><p><em>Rachel Andrew, CSS Layout News</em></p><h2 id=\"learn\">Learn</h2><h3 id=\"understanding-display\"><a href=\"https://noti.st/rachelandrew/VeraEX/understanding-display\">Understanding Display</a></h3><p>Slides and resources for my talk at Web Directions hover, a conference just about CSS.</p><p><em><a href=\"https://noti.st/rachelandrew/VeraEX/understanding-display\">noti.st</a></em></p><hr><h3 id=\"dont-you-forget-about-me-overlooked-breakpoints-in-responsive-design\"><a href=\"https://polypane.app/blog/overlooked-breakpoints-in-responsive-design/\">Don&apos;t you forget about me: overlooked breakpoints in responsive design.</a></h3><p>An article about some breakpoints that you might want to pay a little more attention to.</p><p><em><a href=\"https://polypane.app/blog/overlooked-breakpoints-in-responsive-design/\">polypane.app</a></em></p><hr><h3 id=\"sortable-table-columns-adrian-roselli\"><a href=\"https://adrianroselli.com/2021/04/sortable-table-columns.html\">Sortable Table Columns | Adrian Roselli</a></h3><p>Another excellent article from Adrian, covering a design pattern that many of us will have had to deal with at one time or another.</p><p><em><a href=\"https://adrianroselli.com/2021/04/sortable-table-columns.html\">adrianroselli.com</a></em></p><hr><h3 id=\"getting-started-with-css-custom-propertiestutorialpiccalilli\"><a href=\"https://piccalil.li/tutorial/getting-started-with-css-custom-properties\">Getting started with CSS Custom Properties - Tutorial - Piccalilli</a></h3><p>Custom properties in CSS are exceptionally useful, not just for tokenising your CSS, but also for abstracting complexity and interactivity into smaller, easier to manage pieces. This short guide will get you up to speed with how they work and how to use them.</p><p><em><a href=\"https://piccalil.li/tutorial/getting-started-with-css-custom-properties\">piccalil.li</a></em></p><hr><h3 id=\"a-complete-guide-to-custom-properties-css-tricks\"><a href=\"https://css-tricks.com/a-complete-guide-to-custom-properties/\">A Complete Guide to Custom Properties | CSS-Tricks</a></h3><p>After reading the earlier short primer, here&apos;s a complete guide to custom properties to help you take the next step!</p><p><em><a href=\"https://css-tricks.com/a-complete-guide-to-custom-properties/\">css-tricks.com</a></em></p><hr><h3 id=\"exploring-color-contrast-for-the-first-time-css-tricks\"><a href=\"https://css-tricks.com/exploring-color-contrast-for-the-first-time/\">Exploring color-contrast() for the First Time | CSS-Tricks</a></h3><p>Chris takes a good look at the upcoming <code>color-contrast()</code> function.</p><p><em><a href=\"https://css-tricks.com/exploring-color-contrast-for-the-first-time/\">css-tricks.com</a></em></p><hr><h3 id=\"the-almost-complete-guide-to-cumulative-layout-shift\"><a href=\"https://jessbpeck.com/posts/completecls/\">The Almost-Complete Guide to Cumulative Layout Shift</a></h3><p>A solid guide to Cumulative Layout Shift (CLS). This is a measurement of the annoying experience of a layout shifting around as you try to use it, leading you to click on the wrong things or lose your place.</p><p><em><a href=\"https://jessbpeck.com/posts/completecls/\">jessbpeck.com</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 299",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-299\">Issue 299</h3><p>A slightly shorter email this week as I was out this morning driving to another town to get my first Covid vaccine. The UK vaccine rollout has finally reached my age group, and I feel a little glimmer of hope that something like normality, even just the ability to go sit and work in a coffee shop, might return.</p><p>An Event Apart was also this week, and my slides and code example are included below. Next week will mark 300 weekly CSS Layout News emails, which is quite something!</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"introducing-css-grid-inspector-webkit\"><a href=\"https://webkit.org/blog/11588/introducing-css-grid-inspector/\">Introducing CSS Grid Inspector | WebKit</a></h3><p>A CSS Grid Inspector is coming to Safari, you can try it out in Safari Technology Preview 123.</p><p><em><a href=\"https://webkit.org/blog/11588/introducing-css-grid-inspector/\">webkit.org</a></em></p><hr><h3 id=\"firefox-88-for-developersmozilla-mdn\"><a href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/88\">Firefox 88 for developers - Mozilla | MDN</a></h3><p>Firefox 88 shipped on Monday with a bunch of small CSS fixes and additions.</p><p><em><a href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/88\">mozilla.org</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"how-to-understand-css\"><a href=\"https://noti.st/rachelandrew/ge9TMd/how-to-understand-css\">How to understand CSS</a></h3><p>The slides and code for my presentation at An Event Apart this week.</p><p><em><a href=\"https://noti.st/rachelandrew/ge9TMd/how-to-understand-css\">noti.st</a></em></p><hr><h3 id=\"float-an-element-to-the-bottom-corner-css-tricks\"><a href=\"https://css-tricks.com/float-an-element-to-the-bottom-corner/\">Float an Element to the Bottom Corner | CSS-Tricks</a></h3><p>This article demonstrates a way to float an item to the bottom of some content, something that <a href=\"https://www.pagedjs.org/page-floats/\">page floats</a> would allow us to do more easily.</p><p><em><a href=\"https://css-tricks.com/float-an-element-to-the-bottom-corner/\">css-tricks.com</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"a-curated-list-of-awesome-framework-agnostic-standalone-web-components\"><a href=\"https://github.com/davatron5000/awesome-standalones\">A curated list of awesome framework-agnostic standalone web components</a></h3><p>A curated list of awesome framework-agnostic standalone web components.</p><p><em><a href=\"https://github.com/davatron5000/awesome-standalones\">github.com</a></em></p>",
+    "summary": "Safari Grid Inspector, Firefox 88, understanding CSS.",
+    "date": "2021-04-20T19:48:00.000Z",
+    "pubdate": "2021-04-20T19:48:00.000Z",
+    "pubDate": "2021-04-20T19:48:00.000Z",
+    "link": "https://csslayout.news/299/",
+    "guid": "60ac02e5aa5e77003ba9cd1c",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 299" },
+    "rss:description": {
+      "@": {},
+      "#": "Safari Grid Inspector, Firefox 88, understanding CSS."
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/299/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60ac02e5aa5e77003ba9cd1c"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Tue, 20 Apr 2021 19:48:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-299\">Issue 299</h3><p>A slightly shorter email this week as I was out this morning driving to another town to get my first Covid vaccine. The UK vaccine rollout has finally reached my age group, and I feel a little glimmer of hope that something like normality, even just the ability to go sit and work in a coffee shop, might return.</p><p>An Event Apart was also this week, and my slides and code example are included below. Next week will mark 300 weekly CSS Layout News emails, which is quite something!</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"introducing-css-grid-inspector-webkit\"><a href=\"https://webkit.org/blog/11588/introducing-css-grid-inspector/\">Introducing CSS Grid Inspector | WebKit</a></h3><p>A CSS Grid Inspector is coming to Safari, you can try it out in Safari Technology Preview 123.</p><p><em><a href=\"https://webkit.org/blog/11588/introducing-css-grid-inspector/\">webkit.org</a></em></p><hr><h3 id=\"firefox-88-for-developersmozilla-mdn\"><a href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/88\">Firefox 88 for developers - Mozilla | MDN</a></h3><p>Firefox 88 shipped on Monday with a bunch of small CSS fixes and additions.</p><p><em><a href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/88\">mozilla.org</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"how-to-understand-css\"><a href=\"https://noti.st/rachelandrew/ge9TMd/how-to-understand-css\">How to understand CSS</a></h3><p>The slides and code for my presentation at An Event Apart this week.</p><p><em><a href=\"https://noti.st/rachelandrew/ge9TMd/how-to-understand-css\">noti.st</a></em></p><hr><h3 id=\"float-an-element-to-the-bottom-corner-css-tricks\"><a href=\"https://css-tricks.com/float-an-element-to-the-bottom-corner/\">Float an Element to the Bottom Corner | CSS-Tricks</a></h3><p>This article demonstrates a way to float an item to the bottom of some content, something that <a href=\"https://www.pagedjs.org/page-floats/\">page floats</a> would allow us to do more easily.</p><p><em><a href=\"https://css-tricks.com/float-an-element-to-the-bottom-corner/\">css-tricks.com</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"a-curated-list-of-awesome-framework-agnostic-standalone-web-components\"><a href=\"https://github.com/davatron5000/awesome-standalones\">A curated list of awesome framework-agnostic standalone web components</a></h3><p>A curated list of awesome framework-agnostic standalone web components.</p><p><em><a href=\"https://github.com/davatron5000/awesome-standalones\">github.com</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 298",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-298\">Issue 298</h3><p>Last week I spent a bit of time digging into container queries in order to document them for MDN. I&apos;m also looking forward to the virtual conferences I&apos;m part of this month. <a href=\"https://aneventapart.com/event/spring-summit-2021\">An Event Apart Spring Summit</a> and <a href=\"https://www.webdirections.org/hover/\">Web Directions hover</a>.</p><p>I&apos;m also going to update my talk on all the new things in CSS for an internal event I&apos;m speaking at, I have plenty of things to add!</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"css-container-queriescss-cascading-style-sheets-mdn\"><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries\">CSS Container Queries - CSS: Cascading Style Sheets | MDN</a></h3><p>I&apos;ve started to put together some documentation on MDN for Container Queries. It&apos;s a spec very much in the early stages, but keep an eye on this page and I&apos;ll keep updating it as things evolve. Do try out the experimental Chrome implementation detailed there, and see whether it meets the type so use cases you come across.</p><p><em><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries\">mozilla.org</a></em></p><hr><h3 id=\"new-in-chrome-90chrome-developers\"><a href=\"https://developer.chrome.com/blog/new-in-chrome-90/\">New in Chrome 90 - Chrome Developers</a></h3><p>Chrome 90 includes <code>overflow: clip</code> and the Declarative Shadow DOM.</p><p><em><a href=\"https://developer.chrome.com/blog/new-in-chrome-90/\">chrome.com</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"css-is-a-strongly-typed-language-css-tricks\"><a href=\"https://css-tricks.com/css-is-a-strongly-typed-language/\">CSS is a Strongly Typed Language | CSS-Tricks</a></h3><blockquote>One of the ways you can classify a programming language is by how strongly or weakly typed it is. Here, &#x201C;typed&#x201D; means if variables are known at compile time.</blockquote><p>Eric explains why CSS could be described as strongly typed, and why that matters.</p><p><em><a href=\"https://css-tricks.com/css-is-a-strongly-typed-language/\">css-tricks.com</a></em></p><hr><h3 id=\"the-layers-of-the-webjeremy-keithyoutube\"><a href=\"https://www.youtube.com/watch?v=96DCTASFniI&amp;t=1s\">The Layers of the Web - Jeremy Keith - YouTube</a></h3><p>Learn how to build resilient, performant, accessible and beautiful structures that work with the grain of the materials of the World Wide Web in this talk from Jeremy Keith.</p><p><em><a href=\"https://www.youtube.com/watch?v=96DCTASFniI&amp;t=1s\">youtube.com</a></em></p><hr><h3 id=\"accessible-front-end-components-claims-vs-reality\"><a href=\"https://hiddedevries.nl/en/blog/2021-04-02-accessible-front-end-components-claims-vs-reality\">Accessible front-end components: claims vs reality</a></h3><p>How to assess the claims made by a third party about the accessibility of their components. Useful stuff.</p><p><em><a href=\"https://hiddedevries.nl/en/blog/2021-04-02-accessible-front-end-components-claims-vs-reality\">hiddedevries.nl</a></em></p><hr><h3 id=\"css-in-real-life-paper-snowflakes-combining-clipping-and-masking-in-css\"><a href=\"https://css-irl.info/paper-snowflakes-combining-clipping-and-masking-in-css/\">CSS { In Real Life } | Paper Snowflakes: Combining Clipping and Masking in CSS</a></h3><p>This is a great walkthrough of clipping and masking, and the demo at the end is worth a look too.</p><p><em><a href=\"https://css-irl.info/paper-snowflakes-combining-clipping-and-masking-in-css/\">css-irl.info</a></em></p>",
+    "summary": "More on Container Queries, clipping and masking, accessible components",
+    "date": "2021-04-14T19:46:00.000Z",
+    "pubdate": "2021-04-14T19:46:00.000Z",
+    "pubDate": "2021-04-14T19:46:00.000Z",
+    "link": "https://csslayout.news/298/",
+    "guid": "60ac027baa5e77003ba9cd01",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 298" },
+    "rss:description": {
+      "@": {},
+      "#": "More on Container Queries, clipping and masking, accessible components"
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/298/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60ac027baa5e77003ba9cd01"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Wed, 14 Apr 2021 19:46:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-298\">Issue 298</h3><p>Last week I spent a bit of time digging into container queries in order to document them for MDN. I&apos;m also looking forward to the virtual conferences I&apos;m part of this month. <a href=\"https://aneventapart.com/event/spring-summit-2021\">An Event Apart Spring Summit</a> and <a href=\"https://www.webdirections.org/hover/\">Web Directions hover</a>.</p><p>I&apos;m also going to update my talk on all the new things in CSS for an internal event I&apos;m speaking at, I have plenty of things to add!</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"css-container-queriescss-cascading-style-sheets-mdn\"><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries\">CSS Container Queries - CSS: Cascading Style Sheets | MDN</a></h3><p>I&apos;ve started to put together some documentation on MDN for Container Queries. It&apos;s a spec very much in the early stages, but keep an eye on this page and I&apos;ll keep updating it as things evolve. Do try out the experimental Chrome implementation detailed there, and see whether it meets the type so use cases you come across.</p><p><em><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries\">mozilla.org</a></em></p><hr><h3 id=\"new-in-chrome-90chrome-developers\"><a href=\"https://developer.chrome.com/blog/new-in-chrome-90/\">New in Chrome 90 - Chrome Developers</a></h3><p>Chrome 90 includes <code>overflow: clip</code> and the Declarative Shadow DOM.</p><p><em><a href=\"https://developer.chrome.com/blog/new-in-chrome-90/\">chrome.com</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"css-is-a-strongly-typed-language-css-tricks\"><a href=\"https://css-tricks.com/css-is-a-strongly-typed-language/\">CSS is a Strongly Typed Language | CSS-Tricks</a></h3><blockquote>One of the ways you can classify a programming language is by how strongly or weakly typed it is. Here, &#x201C;typed&#x201D; means if variables are known at compile time.</blockquote><p>Eric explains why CSS could be described as strongly typed, and why that matters.</p><p><em><a href=\"https://css-tricks.com/css-is-a-strongly-typed-language/\">css-tricks.com</a></em></p><hr><h3 id=\"the-layers-of-the-webjeremy-keithyoutube\"><a href=\"https://www.youtube.com/watch?v=96DCTASFniI&amp;t=1s\">The Layers of the Web - Jeremy Keith - YouTube</a></h3><p>Learn how to build resilient, performant, accessible and beautiful structures that work with the grain of the materials of the World Wide Web in this talk from Jeremy Keith.</p><p><em><a href=\"https://www.youtube.com/watch?v=96DCTASFniI&amp;t=1s\">youtube.com</a></em></p><hr><h3 id=\"accessible-front-end-components-claims-vs-reality\"><a href=\"https://hiddedevries.nl/en/blog/2021-04-02-accessible-front-end-components-claims-vs-reality\">Accessible front-end components: claims vs reality</a></h3><p>How to assess the claims made by a third party about the accessibility of their components. Useful stuff.</p><p><em><a href=\"https://hiddedevries.nl/en/blog/2021-04-02-accessible-front-end-components-claims-vs-reality\">hiddedevries.nl</a></em></p><hr><h3 id=\"css-in-real-life-paper-snowflakes-combining-clipping-and-masking-in-css\"><a href=\"https://css-irl.info/paper-snowflakes-combining-clipping-and-masking-in-css/\">CSS { In Real Life } | Paper Snowflakes: Combining Clipping and Masking in CSS</a></h3><p>This is a great walkthrough of clipping and masking, and the demo at the end is worth a look too.</p><p><em><a href=\"https://css-irl.info/paper-snowflakes-combining-clipping-and-masking-in-css/\">css-irl.info</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 297",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-297\">Issue 297</h3><p>I hope those of you who celebrate (the Western church) Easter, had a good weekend. It&apos;s a four day weekend here, although like many freelancers I worked most of the holiday days. I did get to spend Easter Monday working on some content about the new container queries spec for MDN though. Hopefully I&apos;ll get that finished this week.</p><p>With Easter over I&apos;m looking forward to the upcoming An Event Apart Spring Summit. I miss meeting up with the AEA crew in person so much, but the line-up for the Spring Summit is fantastic and I know everyone has put a lot of time and thought into their presentations. Take a look at the details in the footer of this email, and I hope to see you there.</p><p><em>Rachel Andrew, CSS Layout News</em></p><h2 id=\"learn\">Learn</h2><h3 id=\"not-your-typical-horizontal-rules\"><a href=\"https://www.sarasoueidan.com/blog/horizontal-rules/\">Not Your Typical Horizontal Rules</a></h3><p>This is a lovely article about the humble <code>&lt;hr&gt;</code> element, why you should consider using it, and how to make them look nice while retaining their semantics.</p><p><em><a href=\"https://www.sarasoueidan.com/blog/horizontal-rules/\">sarasoueidan.com</a></em></p><hr><h3 id=\"swipey-image-grids\"><a href=\"https://www.cassie.codes/posts/swipey-image-grids/\">Swipey image grids.</a></h3><p>This is a really great article on creating image grids not with CSS Grid, but instead with SVG.</p><p><em><a href=\"https://www.cassie.codes/posts/swipey-image-grids/\">cassie.codes</a></em></p><hr><h3 id=\"let%E2%80%99s-create-an-image-pop-out-effect-with-svg-clip-path-css-tricks\"><a href=\"https://css-tricks.com/lets-create-an-image-pop-out-effect-with-svg-clip-path/\">Let&#x2019;s Create an Image Pop-Out Effect With SVG Clip Path | CSS-Tricks</a></h3><p>I&apos;m a big fan of articles that riff of another article or demo, adding value in the process. Here, a demo I linked to previously is used as the jumping off point for an alternative approach.</p><p><em><a href=\"https://css-tricks.com/lets-create-an-image-pop-out-effect-with-svg-clip-path/\">css-tricks.com</a></em></p><hr><h3 id=\"laying-out-pages-web-browser-engineering\"><a href=\"https://browser.engineering/layout.html\">Laying Out Pages | Web Browser Engineering</a></h3><p>This book project is fascinating. I&apos;ve linked to the new chapter on layout, as it was published this week and topical for this newsletter. However, I am looking forward to reading the rest of the book and the upcoming chapters.</p><p><em><a href=\"https://browser.engineering/layout.html\">browser.engineering</a></em></p><hr><h3 id=\"sticky-headers-5-ways-to-make-them-better\"><a href=\"https://www.nngroup.com/articles/sticky-headers/\">Sticky Headers: 5 Ways to Make Them Better</a></h3><p>A good look into the usability of sticky headers.</p><blockquote>Persistent headers can be useful to users if they are unobtrusive, high-contrast, minimally animated, and fit user needs.</blockquote><p><em><a href=\"https://www.nngroup.com/articles/sticky-headers/\">nngroup.com</a></em></p><h2 id=\"our-sponsor\"><strong><strong>Our Sponsor</strong></strong></h2><figure class=\"kg-card kg-image-card\"><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\"><img src=\"https://csslayout.news/content/images/2021/05/original_ratio_extra_large_6f9fb77a-213a-4663-a7fb-4cfbf51a8b17.jpg\" class=\"kg-image\" alt loading=\"lazy\" width=\"840\" height=\"630\" srcset=\"https://csslayout.news/content/images/size/w600/2021/05/original_ratio_extra_large_6f9fb77a-213a-4663-a7fb-4cfbf51a8b17.jpg 600w, https://csslayout.news/content/images/2021/05/original_ratio_extra_large_6f9fb77a-213a-4663-a7fb-4cfbf51a8b17.jpg 840w\" sizes=\"(min-width: 720px) 720px\"></a></figure><h3 id=\"explore-the-intersection-of-accessibility-usability-and-inclusion\"><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">Explore the intersection of accessibility, usability, and inclusion</a></h3><p>Inclusion and diversity are two of the most important themes in today&#x2019;s world. As UX and front-end experts, it&#x2019;s our responsibility to not only be aware of these topics, but to actively explore how our work impacts all users, not just an idealized average.</p><p><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">An Event Apart Online Together: Spring Summit</a> features essential sessions with <strong><strong>Derek Featherstone, Senongo Akpem, Sharon Steed, Melanie Richards,</strong></strong> and <strong><strong>David Dylan Thomas</strong></strong> to help you get started. Join us online April 19&#x2013;21.</p><p>CSS Layout subscribers can save $100 off any multi-day pass with promo code: AEACSSL21</p><p><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">See the agenda and sign up today!</a></p><p><em><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">aneventapart.com</a></em></p>",
+    "summary": "Horizontal rules, SVG grids, or build your own web browser",
+    "date": "2021-04-06T19:44:00.000Z",
+    "pubdate": "2021-04-06T19:44:00.000Z",
+    "pubDate": "2021-04-06T19:44:00.000Z",
+    "link": "https://csslayout.news/297/",
+    "guid": "60ac01f7aa5e77003ba9cce2",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 297" },
+    "rss:description": {
+      "@": {},
+      "#": "Horizontal rules, SVG grids, or build your own web browser"
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/297/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60ac01f7aa5e77003ba9cce2"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Tue, 06 Apr 2021 19:44:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-297\">Issue 297</h3><p>I hope those of you who celebrate (the Western church) Easter, had a good weekend. It&apos;s a four day weekend here, although like many freelancers I worked most of the holiday days. I did get to spend Easter Monday working on some content about the new container queries spec for MDN though. Hopefully I&apos;ll get that finished this week.</p><p>With Easter over I&apos;m looking forward to the upcoming An Event Apart Spring Summit. I miss meeting up with the AEA crew in person so much, but the line-up for the Spring Summit is fantastic and I know everyone has put a lot of time and thought into their presentations. Take a look at the details in the footer of this email, and I hope to see you there.</p><p><em>Rachel Andrew, CSS Layout News</em></p><h2 id=\"learn\">Learn</h2><h3 id=\"not-your-typical-horizontal-rules\"><a href=\"https://www.sarasoueidan.com/blog/horizontal-rules/\">Not Your Typical Horizontal Rules</a></h3><p>This is a lovely article about the humble <code>&lt;hr&gt;</code> element, why you should consider using it, and how to make them look nice while retaining their semantics.</p><p><em><a href=\"https://www.sarasoueidan.com/blog/horizontal-rules/\">sarasoueidan.com</a></em></p><hr><h3 id=\"swipey-image-grids\"><a href=\"https://www.cassie.codes/posts/swipey-image-grids/\">Swipey image grids.</a></h3><p>This is a really great article on creating image grids not with CSS Grid, but instead with SVG.</p><p><em><a href=\"https://www.cassie.codes/posts/swipey-image-grids/\">cassie.codes</a></em></p><hr><h3 id=\"let%E2%80%99s-create-an-image-pop-out-effect-with-svg-clip-path-css-tricks\"><a href=\"https://css-tricks.com/lets-create-an-image-pop-out-effect-with-svg-clip-path/\">Let&#x2019;s Create an Image Pop-Out Effect With SVG Clip Path | CSS-Tricks</a></h3><p>I&apos;m a big fan of articles that riff of another article or demo, adding value in the process. Here, a demo I linked to previously is used as the jumping off point for an alternative approach.</p><p><em><a href=\"https://css-tricks.com/lets-create-an-image-pop-out-effect-with-svg-clip-path/\">css-tricks.com</a></em></p><hr><h3 id=\"laying-out-pages-web-browser-engineering\"><a href=\"https://browser.engineering/layout.html\">Laying Out Pages | Web Browser Engineering</a></h3><p>This book project is fascinating. I&apos;ve linked to the new chapter on layout, as it was published this week and topical for this newsletter. However, I am looking forward to reading the rest of the book and the upcoming chapters.</p><p><em><a href=\"https://browser.engineering/layout.html\">browser.engineering</a></em></p><hr><h3 id=\"sticky-headers-5-ways-to-make-them-better\"><a href=\"https://www.nngroup.com/articles/sticky-headers/\">Sticky Headers: 5 Ways to Make Them Better</a></h3><p>A good look into the usability of sticky headers.</p><blockquote>Persistent headers can be useful to users if they are unobtrusive, high-contrast, minimally animated, and fit user needs.</blockquote><p><em><a href=\"https://www.nngroup.com/articles/sticky-headers/\">nngroup.com</a></em></p><h2 id=\"our-sponsor\"><strong><strong>Our Sponsor</strong></strong></h2><figure class=\"kg-card kg-image-card\"><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\"><img src=\"https://csslayout.news/content/images/2021/05/original_ratio_extra_large_6f9fb77a-213a-4663-a7fb-4cfbf51a8b17.jpg\" class=\"kg-image\" alt loading=\"lazy\" width=\"840\" height=\"630\" srcset=\"https://csslayout.news/content/images/size/w600/2021/05/original_ratio_extra_large_6f9fb77a-213a-4663-a7fb-4cfbf51a8b17.jpg 600w, https://csslayout.news/content/images/2021/05/original_ratio_extra_large_6f9fb77a-213a-4663-a7fb-4cfbf51a8b17.jpg 840w\" sizes=\"(min-width: 720px) 720px\"></a></figure><h3 id=\"explore-the-intersection-of-accessibility-usability-and-inclusion\"><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">Explore the intersection of accessibility, usability, and inclusion</a></h3><p>Inclusion and diversity are two of the most important themes in today&#x2019;s world. As UX and front-end experts, it&#x2019;s our responsibility to not only be aware of these topics, but to actively explore how our work impacts all users, not just an idealized average.</p><p><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">An Event Apart Online Together: Spring Summit</a> features essential sessions with <strong><strong>Derek Featherstone, Senongo Akpem, Sharon Steed, Melanie Richards,</strong></strong> and <strong><strong>David Dylan Thomas</strong></strong> to help you get started. Join us online April 19&#x2013;21.</p><p>CSS Layout subscribers can save $100 off any multi-day pass with promo code: AEACSSL21</p><p><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">See the agenda and sign up today!</a></p><p><em><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">aneventapart.com</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 296",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-296\">Issue 296</h3><p>I&apos;ve still not moved platform for this newsletter yet, however that has been because I&apos;ve been busy recording new conference talks and working on some upcoming interesting CSS stuff. Watch this space!</p><p>Some interesting things this week, although I imagine most folk will be excited about the fact that an early preview of the upcoming spec for container queries is in Chrome Canary. Details below, and if you try it out, do offer feedback as explained in that post.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"container-query-proposal-explainer\"><a href=\"https://css.oddbird.net/rwd/query/explainer/\">Container Query Proposal &amp; Explainer</a></h3><p>You can now try out the container queries proposal in Chrome Canary. In <code>chrome://flags</code> enable the CSS Container Queries flag, and have a look at the demos and info linked from this page.</p><p><em><a href=\"https://css.oddbird.net/rwd/query/explainer/\">oddbird.net</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"how-to-improve-css-performance-calibre\"><a href=\"https://calibreapp.com/blog/css-performance\">How to Improve CSS Performance | Calibre</a></h3><p>A post detailing the various ways to improve the performance of your CSS.</p><p><em><a href=\"https://calibreapp.com/blog/css-performance\">calibreapp.com</a></em></p><hr><h3 id=\"where-has-a-cool-specificity-trick-too-css-tricks\"><a href=\"https://css-tricks.com/where-has-a-cool-specificity-trick-too/\">:where() has a cool specificity trick, too. | CSS-Tricks</a></h3><p>Some notes on the <code>is()</code> and <code>where()</code> selectors.</p><p><em><a href=\"https://css-tricks.com/where-has-a-cool-specificity-trick-too/\">css-tricks.com</a></em></p><hr><h3 id=\"dark-mode-in-5-minutes-with-inverted-lightness-variables\"><a href=\"https://lea.verou.me/2021/03/inverted-lightness-variables/\">Dark mode in 5 minutes, with inverted lightness variables</a></h3><p>This is a very neat technique, but the post is so much more than the quick tip the title suggests. There are some very cool things going on with CSS Color right now!</p><p><em><a href=\"https://lea.verou.me/2021/03/inverted-lightness-variables/\">verou.me</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"css-terminology-questionquirksblog\"><a href=\"https://www.quirksmode.org/blog/archives/2021/03/css_terminology.html\">CSS terminology question - QuirksBlog</a></h3><p>In which ppk ponders how to refer to sizing in CSS.</p><p>For what it is worth I pretty much always default to terms used in the specs. Even if I then have to describe what they mean. Using the actual terminology for something means that folk can then search for more information, which they can&apos;t do if I just make up a name. Also, spec language has in general been well thought through. If you learn the funny word for something, and then find it somewhere else in another spec it should hopefully be used to describe the same thing.</p><p><em><a href=\"https://www.quirksmode.org/blog/archives/2021/03/css_terminology.html\">quirksmode.org</a></em></p><hr><h3 id=\"home-the-component-gallery\"><a href=\"https://component.gallery/\">Home | The Component Gallery</a></h3><p>This is cool. A reference of components, useful for folk building component-based interfaces.</p><p><em><a href=\"https://component.gallery/\">component.gallery</a></em></p>",
+    "summary": "Container Queries, CSS Performance, and more interesting things about color.",
+    "date": "2021-03-30T19:42:00.000Z",
+    "pubdate": "2021-03-30T19:42:00.000Z",
+    "pubDate": "2021-03-30T19:42:00.000Z",
+    "link": "https://csslayout.news/296/",
+    "guid": "60ac017daa5e77003ba9ccce",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 296" },
+    "rss:description": {
+      "@": {},
+      "#": "Container Queries, CSS Performance, and more interesting things about color."
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/296/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60ac017daa5e77003ba9ccce"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Tue, 30 Mar 2021 19:42:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-296\">Issue 296</h3><p>I&apos;ve still not moved platform for this newsletter yet, however that has been because I&apos;ve been busy recording new conference talks and working on some upcoming interesting CSS stuff. Watch this space!</p><p>Some interesting things this week, although I imagine most folk will be excited about the fact that an early preview of the upcoming spec for container queries is in Chrome Canary. Details below, and if you try it out, do offer feedback as explained in that post.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"container-query-proposal-explainer\"><a href=\"https://css.oddbird.net/rwd/query/explainer/\">Container Query Proposal &amp; Explainer</a></h3><p>You can now try out the container queries proposal in Chrome Canary. In <code>chrome://flags</code> enable the CSS Container Queries flag, and have a look at the demos and info linked from this page.</p><p><em><a href=\"https://css.oddbird.net/rwd/query/explainer/\">oddbird.net</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"how-to-improve-css-performance-calibre\"><a href=\"https://calibreapp.com/blog/css-performance\">How to Improve CSS Performance | Calibre</a></h3><p>A post detailing the various ways to improve the performance of your CSS.</p><p><em><a href=\"https://calibreapp.com/blog/css-performance\">calibreapp.com</a></em></p><hr><h3 id=\"where-has-a-cool-specificity-trick-too-css-tricks\"><a href=\"https://css-tricks.com/where-has-a-cool-specificity-trick-too/\">:where() has a cool specificity trick, too. | CSS-Tricks</a></h3><p>Some notes on the <code>is()</code> and <code>where()</code> selectors.</p><p><em><a href=\"https://css-tricks.com/where-has-a-cool-specificity-trick-too/\">css-tricks.com</a></em></p><hr><h3 id=\"dark-mode-in-5-minutes-with-inverted-lightness-variables\"><a href=\"https://lea.verou.me/2021/03/inverted-lightness-variables/\">Dark mode in 5 minutes, with inverted lightness variables</a></h3><p>This is a very neat technique, but the post is so much more than the quick tip the title suggests. There are some very cool things going on with CSS Color right now!</p><p><em><a href=\"https://lea.verou.me/2021/03/inverted-lightness-variables/\">verou.me</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"css-terminology-questionquirksblog\"><a href=\"https://www.quirksmode.org/blog/archives/2021/03/css_terminology.html\">CSS terminology question - QuirksBlog</a></h3><p>In which ppk ponders how to refer to sizing in CSS.</p><p>For what it is worth I pretty much always default to terms used in the specs. Even if I then have to describe what they mean. Using the actual terminology for something means that folk can then search for more information, which they can&apos;t do if I just make up a name. Also, spec language has in general been well thought through. If you learn the funny word for something, and then find it somewhere else in another spec it should hopefully be used to describe the same thing.</p><p><em><a href=\"https://www.quirksmode.org/blog/archives/2021/03/css_terminology.html\">quirksmode.org</a></em></p><hr><h3 id=\"home-the-component-gallery\"><a href=\"https://component.gallery/\">Home | The Component Gallery</a></h3><p>This is cool. A reference of components, useful for folk building component-based interfaces.</p><p><em><a href=\"https://component.gallery/\">component.gallery</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 295",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-295\">Issue 295</h3><p>Today marks a year since the first lockdown here in the UK, I just had a look back at <a href=\"https://csslayout.news/issues/242\">my intro to the email as we were heading into that lockdown</a>. I am not sure I imagined we would still be here a year later.</p><p>However, here we are. Hopefully there is some light at the end of the tunnel, though this virtual life looks set to go on a little longer.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"compat2021-eliminating-five-top-compatibility-pain-points-on-the-web\"><a href=\"https://web.dev/compat2021/\">Compat2021: Eliminating five top compatibility pain points on the web</a></h3><p>Google is partnering with other browser vendors and industry partners to fix the top five browser compatibility pain points for web developers: CSS Flexbox, CSS Grid, position: sticky, aspect-ratio, and CSS transforms.</p><p><em><a href=\"https://web.dev/compat2021/\">web.dev</a></em></p><hr><h3 id=\"color-mixcss-cascading-style-sheets-mdn\"><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix()\">color-mix() - CSS: Cascading Style Sheets | MDN</a></h3><p>The <code>color-mix()</code> function is in Firefox Nightly and Safari TP. It&apos;s one of a whole bunch of interesting things that are part of CSS Color Level 4 and 5. I&apos;m working through documenting them for MDN.</p><p><em><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix()\">mozilla.org</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"accessible-text-labels-for-all\"><a href=\"https://www.sarasoueidan.com/blog/accessible-text-labels/\">Accessible Text Labels For All</a></h3><p>How to create more descriptive button or link text labels to improve the e-commerce experience for screen readers users.</p><p><em><a href=\"https://www.sarasoueidan.com/blog/accessible-text-labels/\">sarasoueidan.com</a></em></p><hr><h3 id=\"building-a-settings-component\"><a href=\"https://web.dev/building-a-settings-component/\">Building a Settings component</a></h3><p>A fast-paced look at building a Settings component with a lot of CSS Grid. There is a video version too.</p><p><em><a href=\"https://web.dev/building-a-settings-component/\">web.dev</a></em></p><hr><h3 id=\"image-fragmentation-effect-with-css-masks-and-custom-properties-css-tricks\"><a href=\"https://css-tricks.com/image-fragmentation-effect-with-css-masks-and-custom-properties/\">Image Fragmentation Effect With CSS Masks and Custom Properties | CSS-Tricks</a></h3><p>This is a nice effect and also demonstrates a good use case for <code>@property</code>.</p><p><em><a href=\"https://css-tricks.com/image-fragmentation-effect-with-css-masks-and-custom-properties/\">css-tricks.com</a></em></p><hr><h3 id=\"taming-blend-modes-%60difference%60-and-%60exclusion%60-css-tricks\"><a href=\"https://css-tricks.com/taming-blend-modes-difference-and-exclusion/\">Taming Blend Modes: `difference` and `exclusion` | CSS-Tricks</a></h3><p>A really detailed dive into blend modes from Ana Tudor.</p><p><em><a href=\"https://css-tricks.com/taming-blend-modes-difference-and-exclusion/\">css-tricks.com</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"transitioncsseasy-transitions-with-clip-path\"><a href=\"https://transition.style/\">Transition.css - easy transitions with clip-path</a></h3><p>Some nice little transitions to copy and paste or just to poke at to see how they work.</p><p><em><a href=\"https://transition.style/\">transition.style</a></em></p>",
+    "summary": "Fixing compat pain points, color-mix(), blend modes and masking.",
+    "date": "2021-03-23T20:40:00.000Z",
+    "pubdate": "2021-03-23T20:40:00.000Z",
+    "pubDate": "2021-03-23T20:40:00.000Z",
+    "link": "https://csslayout.news/295/",
+    "guid": "60ac0118aa5e77003ba9ccb7",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 295" },
+    "rss:description": {
+      "@": {},
+      "#": "Fixing compat pain points, color-mix(), blend modes and masking."
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/295/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60ac0118aa5e77003ba9ccb7"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Tue, 23 Mar 2021 20:40:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-295\">Issue 295</h3><p>Today marks a year since the first lockdown here in the UK, I just had a look back at <a href=\"https://csslayout.news/issues/242\">my intro to the email as we were heading into that lockdown</a>. I am not sure I imagined we would still be here a year later.</p><p>However, here we are. Hopefully there is some light at the end of the tunnel, though this virtual life looks set to go on a little longer.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"compat2021-eliminating-five-top-compatibility-pain-points-on-the-web\"><a href=\"https://web.dev/compat2021/\">Compat2021: Eliminating five top compatibility pain points on the web</a></h3><p>Google is partnering with other browser vendors and industry partners to fix the top five browser compatibility pain points for web developers: CSS Flexbox, CSS Grid, position: sticky, aspect-ratio, and CSS transforms.</p><p><em><a href=\"https://web.dev/compat2021/\">web.dev</a></em></p><hr><h3 id=\"color-mixcss-cascading-style-sheets-mdn\"><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix()\">color-mix() - CSS: Cascading Style Sheets | MDN</a></h3><p>The <code>color-mix()</code> function is in Firefox Nightly and Safari TP. It&apos;s one of a whole bunch of interesting things that are part of CSS Color Level 4 and 5. I&apos;m working through documenting them for MDN.</p><p><em><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix()\">mozilla.org</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"accessible-text-labels-for-all\"><a href=\"https://www.sarasoueidan.com/blog/accessible-text-labels/\">Accessible Text Labels For All</a></h3><p>How to create more descriptive button or link text labels to improve the e-commerce experience for screen readers users.</p><p><em><a href=\"https://www.sarasoueidan.com/blog/accessible-text-labels/\">sarasoueidan.com</a></em></p><hr><h3 id=\"building-a-settings-component\"><a href=\"https://web.dev/building-a-settings-component/\">Building a Settings component</a></h3><p>A fast-paced look at building a Settings component with a lot of CSS Grid. There is a video version too.</p><p><em><a href=\"https://web.dev/building-a-settings-component/\">web.dev</a></em></p><hr><h3 id=\"image-fragmentation-effect-with-css-masks-and-custom-properties-css-tricks\"><a href=\"https://css-tricks.com/image-fragmentation-effect-with-css-masks-and-custom-properties/\">Image Fragmentation Effect With CSS Masks and Custom Properties | CSS-Tricks</a></h3><p>This is a nice effect and also demonstrates a good use case for <code>@property</code>.</p><p><em><a href=\"https://css-tricks.com/image-fragmentation-effect-with-css-masks-and-custom-properties/\">css-tricks.com</a></em></p><hr><h3 id=\"taming-blend-modes-%60difference%60-and-%60exclusion%60-css-tricks\"><a href=\"https://css-tricks.com/taming-blend-modes-difference-and-exclusion/\">Taming Blend Modes: `difference` and `exclusion` | CSS-Tricks</a></h3><p>A really detailed dive into blend modes from Ana Tudor.</p><p><em><a href=\"https://css-tricks.com/taming-blend-modes-difference-and-exclusion/\">css-tricks.com</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"transitioncsseasy-transitions-with-clip-path\"><a href=\"https://transition.style/\">Transition.css - easy transitions with clip-path</a></h3><p>Some nice little transitions to copy and paste or just to poke at to see how they work.</p><p><em><a href=\"https://transition.style/\">transition.style</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 294",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-294\">Issue 294</h3><p>I&apos;ve been busy finishing off and recording my talk for the upcoming <a href=\"https://aneventapart.com/event/spring-summit-2021\">An Event Apart Spring Summit</a>. The aim with the talk is to explain some of the core concepts of CSS, to help make everything else seem more understandable.</p><p>I was keen to see if there were things I had missed, and so posted <a href=\"https://twitter.com/rachelandrew/status/1370340289588649988?s=20\">this question on Twitter</a>. It took on a bit of a life of its own, with fantasai giving some very detailed answers to many of them. It was also very useful for the work I do on MDN, on the CSS docs. Knowing where people are confused helps me to know what should be better explained in the docs.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"a-live-interview-with-rachel-andrew-and-jeremy-keith\"><a href=\"https://aneventapart.com/news/post/a-live-interview-with-rachel-and-jeremy\">A Live Interview with Rachel Andrew and Jeremy Keith</a></h3><p>A recording of a Facebook live event with me and Jeremy Keith, as we look forward to the An Event Apart Spring Summit.</p><p><em><a href=\"https://aneventapart.com/news/post/a-live-interview-with-rachel-and-jeremy\">aneventapart.com</a></em></p><hr><h3 id=\"release-notes-for-safari-technology-preview-122-webkit\"><a href=\"https://webkit.org/blog/11577/release-notes-for-safari-technology-preview-122/\">Release Notes for Safari Technology Preview 122 | WebKit</a></h3><p>There is a whole bunch of good stuff in the latest Safari TP. Lots of grid fixes plus experimental support for some interesting new color functions.</p><p><em><a href=\"https://webkit.org/blog/11577/release-notes-for-safari-technology-preview-122/\">webkit.org</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"grid-content-re-ordering-and-accessibility\"><a href=\"https://noti.st/rachelandrew/Mny9Vg/grid-content-re-ordering-and-accessibility\">Grid, content re-ordering, and accessibility</a></h3><p>My slides and demos from Axe-con. The video is being released at some point and I&apos;ll add it to that page when it is.</p><p><em><a href=\"https://noti.st/rachelandrew/Mny9Vg/grid-content-re-ordering-and-accessibility\">noti.st</a></em></p><hr><h3 id=\"205-sticky-positioning-how-it-works-what-can-break-it-and-dumb-tricks-css-tricks\"><a href=\"https://css-tricks.com/video-screencasts/205-sticky-positioning-how-it-works-what-can-break-it-and-dumb-tricks/\">#205: Sticky Positioning: How it Works, What Can Break It, and Dumb Tricks | CSS-Tricks</a></h3><p>Some pointers as to why your sticky positioned thing isn&apos;t working.</p><p><em><a href=\"https://css-tricks.com/video-screencasts/205-sticky-positioning-how-it-works-what-can-break-it-and-dumb-tricks/\">css-tricks.com</a></em></p><hr><h3 id=\"hsl-a-color-format-for-humanscloud-four\"><a href=\"https://cloudfour.com/thinks/hsl-a-color-format-for-humans/\">HSL: a color format for humans - Cloud Four</a></h3><p>I&apos;ve been thinking about color this week as I have been documenting various color functions over at MDN. Here is a great post explaining HSL.</p><p><em><a href=\"https://cloudfour.com/thinks/hsl-a-color-format-for-humans/\">cloudfour.com</a></em></p><hr><h3 id=\"debugging-layout-shifts\"><a href=\"https://web.dev/debugging-layout-shifts/\">Debugging layout shifts</a></h3><p>Useful information on how to identify layout shifts and ultimately fix them.</p><p><em><a href=\"https://web.dev/debugging-layout-shifts/\">web.dev</a></em></p>",
+    "summary": "Layout shifts, HSL, content re-ordering with grid, and Safari TP updates.",
+    "date": "2021-03-16T20:34:00.000Z",
+    "pubdate": "2021-03-16T20:34:00.000Z",
+    "pubDate": "2021-03-16T20:34:00.000Z",
+    "link": "https://csslayout.news/294/",
+    "guid": "60abffccaa5e77003ba9cc92",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 294" },
+    "rss:description": {
+      "@": {},
+      "#": "Layout shifts, HSL, content re-ordering with grid, and Safari TP updates."
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/294/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60abffccaa5e77003ba9cc92"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Tue, 16 Mar 2021 20:34:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-294\">Issue 294</h3><p>I&apos;ve been busy finishing off and recording my talk for the upcoming <a href=\"https://aneventapart.com/event/spring-summit-2021\">An Event Apart Spring Summit</a>. The aim with the talk is to explain some of the core concepts of CSS, to help make everything else seem more understandable.</p><p>I was keen to see if there were things I had missed, and so posted <a href=\"https://twitter.com/rachelandrew/status/1370340289588649988?s=20\">this question on Twitter</a>. It took on a bit of a life of its own, with fantasai giving some very detailed answers to many of them. It was also very useful for the work I do on MDN, on the CSS docs. Knowing where people are confused helps me to know what should be better explained in the docs.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"a-live-interview-with-rachel-andrew-and-jeremy-keith\"><a href=\"https://aneventapart.com/news/post/a-live-interview-with-rachel-and-jeremy\">A Live Interview with Rachel Andrew and Jeremy Keith</a></h3><p>A recording of a Facebook live event with me and Jeremy Keith, as we look forward to the An Event Apart Spring Summit.</p><p><em><a href=\"https://aneventapart.com/news/post/a-live-interview-with-rachel-and-jeremy\">aneventapart.com</a></em></p><hr><h3 id=\"release-notes-for-safari-technology-preview-122-webkit\"><a href=\"https://webkit.org/blog/11577/release-notes-for-safari-technology-preview-122/\">Release Notes for Safari Technology Preview 122 | WebKit</a></h3><p>There is a whole bunch of good stuff in the latest Safari TP. Lots of grid fixes plus experimental support for some interesting new color functions.</p><p><em><a href=\"https://webkit.org/blog/11577/release-notes-for-safari-technology-preview-122/\">webkit.org</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"grid-content-re-ordering-and-accessibility\"><a href=\"https://noti.st/rachelandrew/Mny9Vg/grid-content-re-ordering-and-accessibility\">Grid, content re-ordering, and accessibility</a></h3><p>My slides and demos from Axe-con. The video is being released at some point and I&apos;ll add it to that page when it is.</p><p><em><a href=\"https://noti.st/rachelandrew/Mny9Vg/grid-content-re-ordering-and-accessibility\">noti.st</a></em></p><hr><h3 id=\"205-sticky-positioning-how-it-works-what-can-break-it-and-dumb-tricks-css-tricks\"><a href=\"https://css-tricks.com/video-screencasts/205-sticky-positioning-how-it-works-what-can-break-it-and-dumb-tricks/\">#205: Sticky Positioning: How it Works, What Can Break It, and Dumb Tricks | CSS-Tricks</a></h3><p>Some pointers as to why your sticky positioned thing isn&apos;t working.</p><p><em><a href=\"https://css-tricks.com/video-screencasts/205-sticky-positioning-how-it-works-what-can-break-it-and-dumb-tricks/\">css-tricks.com</a></em></p><hr><h3 id=\"hsl-a-color-format-for-humanscloud-four\"><a href=\"https://cloudfour.com/thinks/hsl-a-color-format-for-humans/\">HSL: a color format for humans - Cloud Four</a></h3><p>I&apos;ve been thinking about color this week as I have been documenting various color functions over at MDN. Here is a great post explaining HSL.</p><p><em><a href=\"https://cloudfour.com/thinks/hsl-a-color-format-for-humans/\">cloudfour.com</a></em></p><hr><h3 id=\"debugging-layout-shifts\"><a href=\"https://web.dev/debugging-layout-shifts/\">Debugging layout shifts</a></h3><p>Useful information on how to identify layout shifts and ultimately fix them.</p><p><em><a href=\"https://web.dev/debugging-layout-shifts/\">web.dev</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 293",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-293\">Issue 293</h3><p>I&apos;m in the middle of creating new demos and slides for a bunch of upcoming presentations, including my new talk for the <a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\">An Event Apart Spring Summit</a>. They have kindly sponsored the newsletter this week, so do take a look at the offer in the footer of this email. It&apos;s going to be a great event.</p><p>I&apos;m glad there are events happening this spring, even if they are virtual. I&apos;ve signed up for <a href=\"https://www.writethedocs.org/conf/portland/2021/\">Write the Docs Portland</a>, I&apos;ve wanted to get to a Write the Docs conference for ages but the timing never worked out. Taking advantage of the online event while I can.</p><p><em>Rachel Andrew, CSS Layout News</em></p><h2 id=\"learn\">Learn</h2><h3 id=\"exploring-property-and-its-animating-powers-css-tricks\"><a href=\"https://css-tricks.com/exploring-property-and-its-animating-powers/\">Exploring @property and its Animating Powers | CSS-Tricks</a></h3><p>Relevant to some docs I was writing last week, an article about what <code>@property</code> can make possible.</p><p><em><a href=\"https://css-tricks.com/exploring-property-and-its-animating-powers/\">css-tricks.com</a></em></p><hr><h3 id=\"an-accessible-current-page-navigation-state\"><a href=\"https://www.callumhart.com/blog/an-accessible-current-page-navigation-state\">An Accessible Current Page Navigation State</a></h3><p>How to indicate the current page in an accessible way.</p><p><em><a href=\"https://www.callumhart.com/blog/an-accessible-current-page-navigation-state\">callumhart.com</a></em></p><hr><h3 id=\"the-future-of-css-scroll-linked-animations-with-scroll-timeline-part-2-%E2%80%93-bramus\"><a href=\"https://www.bram.us/2021/03/04/the-future-of-css-scroll-linked-animations-part-2/\">The Future of CSS: Scroll-Linked Animations with @scroll-timeline (Part 2) &#x2013; Bram.us</a></h3><p>Part two of a deep dive into scroll-linked animations using features that have an experimental implementation in Chrome.</p><p><em><a href=\"https://www.bram.us/2021/03/04/the-future-of-css-scroll-linked-animations-part-2/\">bram.us</a></em></p><hr><h3 id=\"programmatically-generate-images-with-css-painting-api\"><a href=\"https://blog.bitsrc.io/programmatically-generate-images-with-css-painting-api-3b1a860dae3b\">Programmatically Generate Images with CSS Painting API</a></h3><p>I&apos;ve been doing a bit of reading around things folk have been publishing on Houdini, as I&apos;ve been working on some docs for MDN. Here is a nice guide to the CSS Paint API.</p><p><em><a href=\"https://blog.bitsrc.io/programmatically-generate-images-with-css-painting-api-3b1a860dae3b\">bitsrc.io</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"coniccssnice-simple-conic-gradients\"><a href=\"https://conic.style/\">Conic.css - nice, simple conic gradients</a></h3><p>Another fun generator, this time for conic gradients.</p><p><em><a href=\"https://conic.style/\">conic.style</a></em></p><hr><h3 id=\"the-tools-dont-matterbring-the-donuts-newsletter\"><a href=\"https://newsletter.bringthedonuts.com/p/the-tools-dont-matter\">The Tools Don&apos;t Matter - Bring the Donuts Newsletter</a></h3><p>This is a product management piece, rather than CSS. However I am constantly asked the same question with regard to tools. In general the tools don&apos;t matter, something I quickly discovered when moving from Mac to Windows. It took very little time to replace Mac-only things with something else.</p><p>I like the idea of asking the right questions, asking how someone achieve something, rather than what tool they use to do so.</p><p><em><a href=\"https://newsletter.bringthedonuts.com/p/the-tools-dont-matter\">bringthedonuts.com</a></em></p><h2 id=\"our-sponsor\">Our Sponsor</h2><figure class=\"kg-card kg-image-card\"><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\"><img src=\"https://csslayout.news/content/images/2021/05/original_ratio_extra_large_4f576289-e895-48ca-a55a-1c648526ac79.jpg\" class=\"kg-image\" alt loading=\"lazy\" width=\"840\" height=\"630\" srcset=\"https://csslayout.news/content/images/size/w600/2021/05/original_ratio_extra_large_4f576289-e895-48ca-a55a-1c648526ac79.jpg 600w, https://csslayout.news/content/images/2021/05/original_ratio_extra_large_4f576289-e895-48ca-a55a-1c648526ac79.jpg 840w\" sizes=\"(min-width: 720px) 720px\"></a></figure><h3 id=\"stay-current-with-todays-best-web-design-practices\"><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">Stay current with today&apos;s best web design practices</a></h3><p>Spanning the spectrum from advanced CSS to inclusive and cross-cultural design, to web components and PWAs to user research, <em><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">An Event Apart Online Together: Spring Summit</a></em> features fifteen important sessions from world-class experts to keep you up-to-date with today&#x2019;s best practices. Join us online April 19&#x2013;21.</p><p><a href=\"https://aneventapart.com/news/post/march-special-register-for-spring-summit-and-get-a-free-ebook?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">March Special</a>: Purchase a Spring Summit three-day pass during the month of March and receive a copy of Rachel Andrew and Jeremy Keith&#x2019;s ebook, <em><a href=\"https://aneventapart.com/news/post/march-special-register-for-spring-summit-and-get-a-free-ebook?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">HTML5 for Web Designers</a></em>.</p><p>CSS Layout subscribers can save $100 off any multi-day pass with promo code: AEACSSL21</p><p>Don&#x2019;t miss the opportunity to take your career to the next level. Check out the detailed <a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">Spring Summit three-day schedule</a> and <a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">register today</a>.</p><p><em><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">aneventapart.com</a></em></p>",
+    "summary": "@property, Houdini Paint API, more scroll-linked animations, and indicating the current page.",
+    "date": "2021-03-09T20:32:00.000Z",
+    "pubdate": "2021-03-09T20:32:00.000Z",
+    "pubDate": "2021-03-09T20:32:00.000Z",
+    "link": "https://csslayout.news/293/",
+    "guid": "60abff39aa5e77003ba9cc76",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 293" },
+    "rss:description": {
+      "@": {},
+      "#": "@property, Houdini Paint API, more scroll-linked animations, and indicating the current page."
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/293/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60abff39aa5e77003ba9cc76"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Tue, 09 Mar 2021 20:32:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-293\">Issue 293</h3><p>I&apos;m in the middle of creating new demos and slides for a bunch of upcoming presentations, including my new talk for the <a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\">An Event Apart Spring Summit</a>. They have kindly sponsored the newsletter this week, so do take a look at the offer in the footer of this email. It&apos;s going to be a great event.</p><p>I&apos;m glad there are events happening this spring, even if they are virtual. I&apos;ve signed up for <a href=\"https://www.writethedocs.org/conf/portland/2021/\">Write the Docs Portland</a>, I&apos;ve wanted to get to a Write the Docs conference for ages but the timing never worked out. Taking advantage of the online event while I can.</p><p><em>Rachel Andrew, CSS Layout News</em></p><h2 id=\"learn\">Learn</h2><h3 id=\"exploring-property-and-its-animating-powers-css-tricks\"><a href=\"https://css-tricks.com/exploring-property-and-its-animating-powers/\">Exploring @property and its Animating Powers | CSS-Tricks</a></h3><p>Relevant to some docs I was writing last week, an article about what <code>@property</code> can make possible.</p><p><em><a href=\"https://css-tricks.com/exploring-property-and-its-animating-powers/\">css-tricks.com</a></em></p><hr><h3 id=\"an-accessible-current-page-navigation-state\"><a href=\"https://www.callumhart.com/blog/an-accessible-current-page-navigation-state\">An Accessible Current Page Navigation State</a></h3><p>How to indicate the current page in an accessible way.</p><p><em><a href=\"https://www.callumhart.com/blog/an-accessible-current-page-navigation-state\">callumhart.com</a></em></p><hr><h3 id=\"the-future-of-css-scroll-linked-animations-with-scroll-timeline-part-2-%E2%80%93-bramus\"><a href=\"https://www.bram.us/2021/03/04/the-future-of-css-scroll-linked-animations-part-2/\">The Future of CSS: Scroll-Linked Animations with @scroll-timeline (Part 2) &#x2013; Bram.us</a></h3><p>Part two of a deep dive into scroll-linked animations using features that have an experimental implementation in Chrome.</p><p><em><a href=\"https://www.bram.us/2021/03/04/the-future-of-css-scroll-linked-animations-part-2/\">bram.us</a></em></p><hr><h3 id=\"programmatically-generate-images-with-css-painting-api\"><a href=\"https://blog.bitsrc.io/programmatically-generate-images-with-css-painting-api-3b1a860dae3b\">Programmatically Generate Images with CSS Painting API</a></h3><p>I&apos;ve been doing a bit of reading around things folk have been publishing on Houdini, as I&apos;ve been working on some docs for MDN. Here is a nice guide to the CSS Paint API.</p><p><em><a href=\"https://blog.bitsrc.io/programmatically-generate-images-with-css-painting-api-3b1a860dae3b\">bitsrc.io</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"coniccssnice-simple-conic-gradients\"><a href=\"https://conic.style/\">Conic.css - nice, simple conic gradients</a></h3><p>Another fun generator, this time for conic gradients.</p><p><em><a href=\"https://conic.style/\">conic.style</a></em></p><hr><h3 id=\"the-tools-dont-matterbring-the-donuts-newsletter\"><a href=\"https://newsletter.bringthedonuts.com/p/the-tools-dont-matter\">The Tools Don&apos;t Matter - Bring the Donuts Newsletter</a></h3><p>This is a product management piece, rather than CSS. However I am constantly asked the same question with regard to tools. In general the tools don&apos;t matter, something I quickly discovered when moving from Mac to Windows. It took very little time to replace Mac-only things with something else.</p><p>I like the idea of asking the right questions, asking how someone achieve something, rather than what tool they use to do so.</p><p><em><a href=\"https://newsletter.bringthedonuts.com/p/the-tools-dont-matter\">bringthedonuts.com</a></em></p><h2 id=\"our-sponsor\">Our Sponsor</h2><figure class=\"kg-card kg-image-card\"><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\"><img src=\"https://csslayout.news/content/images/2021/05/original_ratio_extra_large_4f576289-e895-48ca-a55a-1c648526ac79.jpg\" class=\"kg-image\" alt loading=\"lazy\" width=\"840\" height=\"630\" srcset=\"https://csslayout.news/content/images/size/w600/2021/05/original_ratio_extra_large_4f576289-e895-48ca-a55a-1c648526ac79.jpg 600w, https://csslayout.news/content/images/2021/05/original_ratio_extra_large_4f576289-e895-48ca-a55a-1c648526ac79.jpg 840w\" sizes=\"(min-width: 720px) 720px\"></a></figure><h3 id=\"stay-current-with-todays-best-web-design-practices\"><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">Stay current with today&apos;s best web design practices</a></h3><p>Spanning the spectrum from advanced CSS to inclusive and cross-cultural design, to web components and PWAs to user research, <em><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">An Event Apart Online Together: Spring Summit</a></em> features fifteen important sessions from world-class experts to keep you up-to-date with today&#x2019;s best practices. Join us online April 19&#x2013;21.</p><p><a href=\"https://aneventapart.com/news/post/march-special-register-for-spring-summit-and-get-a-free-ebook?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">March Special</a>: Purchase a Spring Summit three-day pass during the month of March and receive a copy of Rachel Andrew and Jeremy Keith&#x2019;s ebook, <em><a href=\"https://aneventapart.com/news/post/march-special-register-for-spring-summit-and-get-a-free-ebook?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">HTML5 for Web Designers</a></em>.</p><p>CSS Layout subscribers can save $100 off any multi-day pass with promo code: AEACSSL21</p><p>Don&#x2019;t miss the opportunity to take your career to the next level. Check out the detailed <a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">Spring Summit three-day schedule</a> and <a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">register today</a>.</p><p><em><a href=\"https://aneventapart.com/event/spring-summit-2021?utm_campaign=SS&amp;utm_medium=email&amp;utm_source=csslayout\" rel=\"nofollow\">aneventapart.com</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 292",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-292\">Issue 292</h3><p>Welcome to another issue of CSS &quot;is it really Tuesday again?&quot; Layout News. There is quite a lot of actual news this week, with some interesting stuff coming to browsers and DevTools.</p><p>I also have a whole bunch of online conference news. Upcoming in the next few weeks I have three events that I&apos;m excited about, and different talks for all of them because I need more things to do.</p><ul><li><a href=\"https://www.deque.com/axe-con/\">Axe-con</a>, where I will be talking about content re-ordering and Grid.</li><li><a href=\"https://aneventapart.com/event/spring-summit-2021\">An Event Apart</a>, with a brand new talk about how CSS works today.</li><li><a href=\"https://www.webdirections.org/hover/\">hover</a>, where I will be talking about the <code>display</code> property.</li></ul><p>If you have an upcoming online event or meetup and would like me to speak or to run a workshop, let me know. With an optimistic eye to the future I&apos;m happy to pencil in hopeful in-person/hybrid dates too. I can imagine that <em>within the UK</em> is going to initially be more possible than elsewhere for me, but we shall keep all things crossed that the vaccines work and some sort of normal life can resume.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"release-notes-for-safari-technology-preview-121-webkit\"><a href=\"https://webkit.org/blog/11555/release-notes-for-safari-technology-preview-121/\">Release Notes for Safari Technology Preview 121 | WebKit</a></h3><p>There are some useful fixes in Safari TP 121 for some grid bugs, and also support for <code>aspect-ratio</code> in Grid Layout. Hopefully these things will make it into Safari proper soon!</p><p><em><a href=\"https://webkit.org/blog/11555/release-notes-for-safari-technology-preview-121/\">webkit.org</a></em></p><hr><h3 id=\"the-new-html-popup-element-is-in-development\"><a href=\"https://css-tricks.com/weekly-platform-news-reduced-motion-cors-whitehouse-gov-popups-and-100vw/#the-new-html-popup-element-is-in-development\">The new HTML popup element is in development</a></h3><p>In the recent Weekly Platform news is a description of the new <code>&lt;popup&gt;</code> element which is in development in Chrome. I&apos;ve seen mixed feelings about this, although it&apos;s such a common UI feature that having a built in method which has default accessibility seems a good way to avoid everyone creating their own with varying results.</p><p><em><a href=\"https://css-tricks.com/weekly-platform-news-reduced-motion-cors-whitehouse-gov-popups-and-100vw/#the-new-html-popup-element-is-in-development\">css-tricks.com</a></em></p><hr><h3 id=\"whats-new-in-devtools-chrome-90-web-google-developers\"><a href=\"https://developers.google.com/web/updates/2021/02/devtools#flexbox\">What&apos;s New In DevTools (Chrome 90) &#xA0;| &#xA0;Web &#xA0;| &#xA0;Google Developers</a></h3><p>There are some nice new Flexbox tools coming in Chrome 90. I think these will be great to help people learn how flexbox works in addition to making debugging easier.</p><p><em><a href=\"https://developers.google.com/web/updates/2021/02/devtools#flexbox\">google.com</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"hiding-content-responsibly-kitty-giraudel\"><a href=\"https://kittygiraudel.com/2021/02/17/hiding-content-responsibly/\">Hiding Content Responsibly | Kitty Giraudel</a></h3><p>All the possible ways to hide content and a quick summary for each explaining how accessible they are and when they should be used.</p><p><em><a href=\"https://kittygiraudel.com/2021/02/17/hiding-content-responsibly/\">kittygiraudel.com</a></em></p><hr><h3 id=\"the-clearleft-podcast-accessibility\"><a href=\"https://podcast.clearleft.com/season02/episode03/\">The Clearleft Podcast: Accessibility</a></h3><p>Accessibility is on my mind a lot this week as I am putting together my talk for <a href=\"https://www.deque.com/axe-con/\">axe-con</a> and so here is a timely episode of the Clearleft podcast. Find out what it&apos;s like to use a screen reader on a website with L&#xE9;onie Watson, and hear the thoughts of Laura Kalbag and Cassie Evans on designing while considering all users of your site.</p><p><em><a href=\"https://podcast.clearleft.com/season02/episode03/\">clearleft.com</a></em></p><hr><h3 id=\"diving-into-the-before-and-after-pseudo-elements-coders-block\"><a href=\"https://codersblock.com/blog/diving-into-the-before-and-after-pseudo-elements/\">Diving into the ::before and ::after Pseudo-Elements / Coder&apos;s Block</a></h3><p>Lots of information and demos of using <code>::before</code> and <code>::after</code>.</p><p><em><a href=\"https://codersblock.com/blog/diving-into-the-before-and-after-pseudo-elements/\">codersblock.com</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"glassmorphism-css-generator\"><a href=\"https://glassmorphism.com/\">Glassmorphism CSS Generator</a></h3><p>A generator to create the &quot;frosted glass aesthetic&quot; which combines a partially transparent background with <code>backdrop-filter</code> to create the effect.</p><p><em><a href=\"https://glassmorphism.com/\">glassmorphism.com</a></em></p>",
+    "summary": "Grid fixes for Safari, Flex tools in Chrome, hiding content, and accessibility.",
+    "date": "2021-03-02T20:30:00.000Z",
+    "pubdate": "2021-03-02T20:30:00.000Z",
+    "pubDate": "2021-03-02T20:30:00.000Z",
+    "link": "https://csslayout.news/292/",
+    "guid": "60abfec5aa5e77003ba9cc5d",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 292" },
+    "rss:description": {
+      "@": {},
+      "#": "Grid fixes for Safari, Flex tools in Chrome, hiding content, and accessibility."
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/292/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60abfec5aa5e77003ba9cc5d"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Tue, 02 Mar 2021 20:30:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-292\">Issue 292</h3><p>Welcome to another issue of CSS &quot;is it really Tuesday again?&quot; Layout News. There is quite a lot of actual news this week, with some interesting stuff coming to browsers and DevTools.</p><p>I also have a whole bunch of online conference news. Upcoming in the next few weeks I have three events that I&apos;m excited about, and different talks for all of them because I need more things to do.</p><ul><li><a href=\"https://www.deque.com/axe-con/\">Axe-con</a>, where I will be talking about content re-ordering and Grid.</li><li><a href=\"https://aneventapart.com/event/spring-summit-2021\">An Event Apart</a>, with a brand new talk about how CSS works today.</li><li><a href=\"https://www.webdirections.org/hover/\">hover</a>, where I will be talking about the <code>display</code> property.</li></ul><p>If you have an upcoming online event or meetup and would like me to speak or to run a workshop, let me know. With an optimistic eye to the future I&apos;m happy to pencil in hopeful in-person/hybrid dates too. I can imagine that <em>within the UK</em> is going to initially be more possible than elsewhere for me, but we shall keep all things crossed that the vaccines work and some sort of normal life can resume.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"release-notes-for-safari-technology-preview-121-webkit\"><a href=\"https://webkit.org/blog/11555/release-notes-for-safari-technology-preview-121/\">Release Notes for Safari Technology Preview 121 | WebKit</a></h3><p>There are some useful fixes in Safari TP 121 for some grid bugs, and also support for <code>aspect-ratio</code> in Grid Layout. Hopefully these things will make it into Safari proper soon!</p><p><em><a href=\"https://webkit.org/blog/11555/release-notes-for-safari-technology-preview-121/\">webkit.org</a></em></p><hr><h3 id=\"the-new-html-popup-element-is-in-development\"><a href=\"https://css-tricks.com/weekly-platform-news-reduced-motion-cors-whitehouse-gov-popups-and-100vw/#the-new-html-popup-element-is-in-development\">The new HTML popup element is in development</a></h3><p>In the recent Weekly Platform news is a description of the new <code>&lt;popup&gt;</code> element which is in development in Chrome. I&apos;ve seen mixed feelings about this, although it&apos;s such a common UI feature that having a built in method which has default accessibility seems a good way to avoid everyone creating their own with varying results.</p><p><em><a href=\"https://css-tricks.com/weekly-platform-news-reduced-motion-cors-whitehouse-gov-popups-and-100vw/#the-new-html-popup-element-is-in-development\">css-tricks.com</a></em></p><hr><h3 id=\"whats-new-in-devtools-chrome-90-web-google-developers\"><a href=\"https://developers.google.com/web/updates/2021/02/devtools#flexbox\">What&apos;s New In DevTools (Chrome 90) &#xA0;| &#xA0;Web &#xA0;| &#xA0;Google Developers</a></h3><p>There are some nice new Flexbox tools coming in Chrome 90. I think these will be great to help people learn how flexbox works in addition to making debugging easier.</p><p><em><a href=\"https://developers.google.com/web/updates/2021/02/devtools#flexbox\">google.com</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"hiding-content-responsibly-kitty-giraudel\"><a href=\"https://kittygiraudel.com/2021/02/17/hiding-content-responsibly/\">Hiding Content Responsibly | Kitty Giraudel</a></h3><p>All the possible ways to hide content and a quick summary for each explaining how accessible they are and when they should be used.</p><p><em><a href=\"https://kittygiraudel.com/2021/02/17/hiding-content-responsibly/\">kittygiraudel.com</a></em></p><hr><h3 id=\"the-clearleft-podcast-accessibility\"><a href=\"https://podcast.clearleft.com/season02/episode03/\">The Clearleft Podcast: Accessibility</a></h3><p>Accessibility is on my mind a lot this week as I am putting together my talk for <a href=\"https://www.deque.com/axe-con/\">axe-con</a> and so here is a timely episode of the Clearleft podcast. Find out what it&apos;s like to use a screen reader on a website with L&#xE9;onie Watson, and hear the thoughts of Laura Kalbag and Cassie Evans on designing while considering all users of your site.</p><p><em><a href=\"https://podcast.clearleft.com/season02/episode03/\">clearleft.com</a></em></p><hr><h3 id=\"diving-into-the-before-and-after-pseudo-elements-coders-block\"><a href=\"https://codersblock.com/blog/diving-into-the-before-and-after-pseudo-elements/\">Diving into the ::before and ::after Pseudo-Elements / Coder&apos;s Block</a></h3><p>Lots of information and demos of using <code>::before</code> and <code>::after</code>.</p><p><em><a href=\"https://codersblock.com/blog/diving-into-the-before-and-after-pseudo-elements/\">codersblock.com</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"glassmorphism-css-generator\"><a href=\"https://glassmorphism.com/\">Glassmorphism CSS Generator</a></h3><p>A generator to create the &quot;frosted glass aesthetic&quot; which combines a partially transparent background with <code>backdrop-filter</code> to create the effect.</p><p><em><a href=\"https://glassmorphism.com/\">glassmorphism.com</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 291",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-291\">Issue 291</h3><p>I didn&apos;t get time to move this list to the new platform last week. I had my final Smashing Layout workshop to do, which consumed a bunch of time. Moving a large email list always seems somewhat perilous, one false move and you send <strong><strong>TEST</strong></strong> to 11,000 people. Hopefully I&apos;ll get it sorted this week.</p><p>Speaking of workshops, I&apos;m planning some new ones. I have a bunch of ideas, but would love to know if there are things you would love to see me workshop. What would be most helpful for you to learn? What would your boss like you to learn? Drop me a line and let me know.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"firefox-86-for-developersmozilla-mdn\"><a href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/86\">Firefox 86 for developers - Mozilla | MDN</a></h3><p>Firefox 86 lands today, only a couple of little CSS changes this time. With <code>list-style-image</code> accepting any valid image type in Firefox, you can now <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-image#using_a_gradient\">use a gradient for a bullet in all browsers</a>. I&apos;m not 100% sure why you would want to, but it&apos;s always nice to have options.</p><p><em><a href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/86\">mozilla.org</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"getting-deep-into-shadows-css-tricks\"><a href=\"https://css-tricks.com/getting-deep-into-shadows/\">Getting Deep into Shadows | CSS-Tricks</a></h3><p>This is nice because it explains how and why to use shadows, not just technically how to add a shadow.</p><p><em><a href=\"https://css-tricks.com/getting-deep-into-shadows/\">css-tricks.com</a></em></p><hr><h3 id=\"building-a-%E2%80%98table-of-contents%E2%80%99-with-active-indicator-using-javascript-intersection-observers-%E2%80%93-ben-frain\"><a href=\"https://benfrain.com/building-a-table-of-contents-with-active-indicator-using-javascript-intersection-observers/\">Building a &#x2018;Table Of Contents&#x2019; with active indicator using JavaScript Intersection Observers &#x2013; Ben Frain</a></h3><p>A post explaining how to use Intersection Observer for this task. I like the fact it references the way we used to do things. How often do we reach for a technique because we&apos;ve done it a million times before, without checking to see if the web moved on a bit?</p><p><em><a href=\"https://benfrain.com/building-a-table-of-contents-with-active-indicator-using-javascript-intersection-observers/\">benfrain.com</a></em></p><hr><h3 id=\"maximally-optimizing-image-loading-for-the-web-in-2021\"><a href=\"https://www.industrialempathy.com/posts/image-optimizations/\">Maximally optimizing image loading for the web in 2021</a></h3><p>Some excellent tips here, plus I like the progress indicator at the top of the page!</p><p><em><a href=\"https://www.industrialempathy.com/posts/image-optimizations/\">industrialempathy.com</a></em></p><hr><h3 id=\"barebones-css-for-fluid-images%E2%80%94zachleatcom\"><a href=\"https://www.zachleat.com/web/fluid-images/\">Barebones CSS for Fluid Images&#x2014;zachleat.com</a></h3><p>What is the best way to make an image fluid?</p><p><em><a href=\"https://www.zachleat.com/web/fluid-images/\">zachleat.com</a></em></p><hr><h3 id=\"building-a-tabs-component\"><a href=\"https://web.dev/building-a-tabs-component/\">Building a Tabs component</a></h3><p>A guide to building a tabbed component, there is also a video version of this tutorial if you prefer.</p><p><em><a href=\"https://web.dev/building-a-tabs-component/\">web.dev</a></em></p>",
+    "summary": "Images, shadows, tabs, and Intersection Observer.",
+    "date": "2021-02-23T20:27:00.000Z",
+    "pubdate": "2021-02-23T20:27:00.000Z",
+    "pubDate": "2021-02-23T20:27:00.000Z",
+    "link": "https://csslayout.news/291/",
+    "guid": "60abfde1aa5e77003ba9cc42",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 291" },
+    "rss:description": {
+      "@": {},
+      "#": "Images, shadows, tabs, and Intersection Observer."
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/291/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60abfde1aa5e77003ba9cc42"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Tue, 23 Feb 2021 20:27:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-291\">Issue 291</h3><p>I didn&apos;t get time to move this list to the new platform last week. I had my final Smashing Layout workshop to do, which consumed a bunch of time. Moving a large email list always seems somewhat perilous, one false move and you send <strong><strong>TEST</strong></strong> to 11,000 people. Hopefully I&apos;ll get it sorted this week.</p><p>Speaking of workshops, I&apos;m planning some new ones. I have a bunch of ideas, but would love to know if there are things you would love to see me workshop. What would be most helpful for you to learn? What would your boss like you to learn? Drop me a line and let me know.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"firefox-86-for-developersmozilla-mdn\"><a href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/86\">Firefox 86 for developers - Mozilla | MDN</a></h3><p>Firefox 86 lands today, only a couple of little CSS changes this time. With <code>list-style-image</code> accepting any valid image type in Firefox, you can now <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-image#using_a_gradient\">use a gradient for a bullet in all browsers</a>. I&apos;m not 100% sure why you would want to, but it&apos;s always nice to have options.</p><p><em><a href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/86\">mozilla.org</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"getting-deep-into-shadows-css-tricks\"><a href=\"https://css-tricks.com/getting-deep-into-shadows/\">Getting Deep into Shadows | CSS-Tricks</a></h3><p>This is nice because it explains how and why to use shadows, not just technically how to add a shadow.</p><p><em><a href=\"https://css-tricks.com/getting-deep-into-shadows/\">css-tricks.com</a></em></p><hr><h3 id=\"building-a-%E2%80%98table-of-contents%E2%80%99-with-active-indicator-using-javascript-intersection-observers-%E2%80%93-ben-frain\"><a href=\"https://benfrain.com/building-a-table-of-contents-with-active-indicator-using-javascript-intersection-observers/\">Building a &#x2018;Table Of Contents&#x2019; with active indicator using JavaScript Intersection Observers &#x2013; Ben Frain</a></h3><p>A post explaining how to use Intersection Observer for this task. I like the fact it references the way we used to do things. How often do we reach for a technique because we&apos;ve done it a million times before, without checking to see if the web moved on a bit?</p><p><em><a href=\"https://benfrain.com/building-a-table-of-contents-with-active-indicator-using-javascript-intersection-observers/\">benfrain.com</a></em></p><hr><h3 id=\"maximally-optimizing-image-loading-for-the-web-in-2021\"><a href=\"https://www.industrialempathy.com/posts/image-optimizations/\">Maximally optimizing image loading for the web in 2021</a></h3><p>Some excellent tips here, plus I like the progress indicator at the top of the page!</p><p><em><a href=\"https://www.industrialempathy.com/posts/image-optimizations/\">industrialempathy.com</a></em></p><hr><h3 id=\"barebones-css-for-fluid-images%E2%80%94zachleatcom\"><a href=\"https://www.zachleat.com/web/fluid-images/\">Barebones CSS for Fluid Images&#x2014;zachleat.com</a></h3><p>What is the best way to make an image fluid?</p><p><em><a href=\"https://www.zachleat.com/web/fluid-images/\">zachleat.com</a></em></p><hr><h3 id=\"building-a-tabs-component\"><a href=\"https://web.dev/building-a-tabs-component/\">Building a Tabs component</a></h3><p>A guide to building a tabbed component, there is also a video version of this tutorial if you prefer.</p><p><em><a href=\"https://web.dev/building-a-tabs-component/\">web.dev</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  },
+  {
+    "title": "Issue 290",
+    "description": "<h2 id=\"news\">News</h2><h3 id=\"issue-290\">Issue 290</h3><p>I am currently working on moving this newsletter to a new platform. Hopefully in the next couple of weeks. It shouldn&apos;t initially make any real difference in terms of receiving the newsletter, however it will let me do some more interesting things in terms of layout resources later.</p><p>Until then, here is the usual round-up of CSS layout adjacent things.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"css-multi-column-layout-module-level-1\"><a href=\"https://www.w3.org/TR/css-multicol-1/\">CSS Multi-column Layout Module Level 1</a></h3><p>I published a new Working Draft of multicol last week. Hopefully we can soon move it through the process and to Candidate Recommendation (CR) status.</p><p><em><a href=\"https://www.w3.org/TR/css-multicol-1/\">w3.org</a></em></p><hr><h3 id=\"container-queries\"><a href=\"https://twitter.com/MiriSuzanne/status/1360018392351080451\">Container Queries ...</a></h3><p>... are officially in a CSS Working Group spec. This doesn&apos;t mean you&apos;ll be using them in your next project, but <a href=\"https://twitter.com/AmeliasBrain/status/1360044357500342275?s=20\">as Amelia explained</a> it means that a path forward has been identified.</p><p><em><a href=\"https://twitter.com/MiriSuzanne/status/1360018392351080451\">twitter.com</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"is-css-float-deprecated-css-tricks\"><a href=\"https://css-tricks.com/is-css-float-deprecated/\">Is CSS float deprecated? | CSS-Tricks</a></h3><p><strong><strong>Deprecated</strong></strong> is definitely one of those words folk use to mean things that it doesn&apos;t mean. Floats, just like tables, are not <em>deprecated</em>. Nor will sites using them for column based layout stop working. You probably don&apos;t want to build a new site using floated columns though.</p><p>The article doesn&apos;t mention one use of the <code>float</code> property right now however, if you want to use CSS Shapes you can only do so on a floated element.</p><p><em><a href=\"https://css-tricks.com/is-css-float-deprecated/\">css-tricks.com</a></em></p><hr><h3 id=\"bruce-lawson%E2%80%99s-personal-site-don%E2%80%99t-put-pointer-events-none-on-form-labels\"><a href=\"https://www.brucelawson.co.uk/2021/dont-put-pointer-events-none-on-form-labels/\">Bruce Lawson&#x2019;s personal site &#xA0;: Don&#x2019;t put pointer-events: none on form labels</a></h3><p>A reminder, and perhaps something to check on existing sites to make sure that any library you have been using hasn&apos;t done so.</p><p><em><a href=\"https://www.brucelawson.co.uk/2021/dont-put-pointer-events-none-on-form-labels/\">brucelawson.co.uk</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"about-us-pop-out-effect\"><a href=\"https://codepen.io/ainalem/pen/QWGNzYm\">About Us Pop-Out Effect</a></h3><p>This is nice, using <code>clip-path</code>. Found in the <a href=\"https://codepen.io/spark\">CodePen Spark</a> newsletter.</p><p><em><a href=\"https://codepen.io/ainalem/pen/QWGNzYm\">codepen.io</a></em></p><hr><h3 id=\"a-quick-guide-to-page-and-column-floats-in-prince-14\"><a href=\"https://www.princexml.com/howcome/2021/guides/float/index.html\">A quick guide to page and column floats in Prince 14</a></h3><p>More floats! If you have never used CSS for print, then you might feel this is all a bit irrelevant; however, I&apos;d love to know if page or column floats are at all interesting to people who build for the web. Would it be useful, for example, to be able to cause an image always to appear at the top of a column in a multiple-column layout? If you have use cases, let me know.</p><p><em><a href=\"https://www.princexml.com/howcome/2021/guides/float/index.html\">princexml.com</a></em></p>",
+    "summary": "All about the floats, plus multicol, and container queries news.",
+    "date": "2021-02-16T20:24:00.000Z",
+    "pubdate": "2021-02-16T20:24:00.000Z",
+    "pubDate": "2021-02-16T20:24:00.000Z",
+    "link": "https://csslayout.news/290/",
+    "guid": "60abfd5aaa5e77003ba9cc23",
+    "author": "Rachel Andrew",
+    "comments": null,
+    "origlink": null,
+    "image": {},
+    "source": {},
+    "categories": ["Newsletter"],
+    "enclosures": [],
+    "rss:@": {},
+    "rss:title": { "@": {}, "#": "Issue 290" },
+    "rss:description": {
+      "@": {},
+      "#": "All about the floats, plus multicol, and container queries news."
+    },
+    "rss:link": { "@": {}, "#": "https://csslayout.news/290/" },
+    "rss:guid": {
+      "@": { "ispermalink": "false" },
+      "#": "60abfd5aaa5e77003ba9cc23"
+    },
+    "rss:category": { "@": {}, "#": "Newsletter" },
+    "dc:creator": { "@": {}, "#": "Rachel Andrew" },
+    "rss:pubdate": { "@": {}, "#": "Tue, 16 Feb 2021 20:24:00 GMT" },
+    "content:encoded": {
+      "@": {},
+      "#": "<h2 id=\"news\">News</h2><h3 id=\"issue-290\">Issue 290</h3><p>I am currently working on moving this newsletter to a new platform. Hopefully in the next couple of weeks. It shouldn&apos;t initially make any real difference in terms of receiving the newsletter, however it will let me do some more interesting things in terms of layout resources later.</p><p>Until then, here is the usual round-up of CSS layout adjacent things.</p><p><em>Rachel Andrew, CSS Layout News</em></p><hr><h3 id=\"css-multi-column-layout-module-level-1\"><a href=\"https://www.w3.org/TR/css-multicol-1/\">CSS Multi-column Layout Module Level 1</a></h3><p>I published a new Working Draft of multicol last week. Hopefully we can soon move it through the process and to Candidate Recommendation (CR) status.</p><p><em><a href=\"https://www.w3.org/TR/css-multicol-1/\">w3.org</a></em></p><hr><h3 id=\"container-queries\"><a href=\"https://twitter.com/MiriSuzanne/status/1360018392351080451\">Container Queries ...</a></h3><p>... are officially in a CSS Working Group spec. This doesn&apos;t mean you&apos;ll be using them in your next project, but <a href=\"https://twitter.com/AmeliasBrain/status/1360044357500342275?s=20\">as Amelia explained</a> it means that a path forward has been identified.</p><p><em><a href=\"https://twitter.com/MiriSuzanne/status/1360018392351080451\">twitter.com</a></em></p><h2 id=\"learn\">Learn</h2><h3 id=\"is-css-float-deprecated-css-tricks\"><a href=\"https://css-tricks.com/is-css-float-deprecated/\">Is CSS float deprecated? | CSS-Tricks</a></h3><p><strong><strong>Deprecated</strong></strong> is definitely one of those words folk use to mean things that it doesn&apos;t mean. Floats, just like tables, are not <em>deprecated</em>. Nor will sites using them for column based layout stop working. You probably don&apos;t want to build a new site using floated columns though.</p><p>The article doesn&apos;t mention one use of the <code>float</code> property right now however, if you want to use CSS Shapes you can only do so on a floated element.</p><p><em><a href=\"https://css-tricks.com/is-css-float-deprecated/\">css-tricks.com</a></em></p><hr><h3 id=\"bruce-lawson%E2%80%99s-personal-site-don%E2%80%99t-put-pointer-events-none-on-form-labels\"><a href=\"https://www.brucelawson.co.uk/2021/dont-put-pointer-events-none-on-form-labels/\">Bruce Lawson&#x2019;s personal site &#xA0;: Don&#x2019;t put pointer-events: none on form labels</a></h3><p>A reminder, and perhaps something to check on existing sites to make sure that any library you have been using hasn&apos;t done so.</p><p><em><a href=\"https://www.brucelawson.co.uk/2021/dont-put-pointer-events-none-on-form-labels/\">brucelawson.co.uk</a></em></p><h2 id=\"interesting\">Interesting</h2><h3 id=\"about-us-pop-out-effect\"><a href=\"https://codepen.io/ainalem/pen/QWGNzYm\">About Us Pop-Out Effect</a></h3><p>This is nice, using <code>clip-path</code>. Found in the <a href=\"https://codepen.io/spark\">CodePen Spark</a> newsletter.</p><p><em><a href=\"https://codepen.io/ainalem/pen/QWGNzYm\">codepen.io</a></em></p><hr><h3 id=\"a-quick-guide-to-page-and-column-floats-in-prince-14\"><a href=\"https://www.princexml.com/howcome/2021/guides/float/index.html\">A quick guide to page and column floats in Prince 14</a></h3><p>More floats! If you have never used CSS for print, then you might feel this is all a bit irrelevant; however, I&apos;d love to know if page or column floats are at all interesting to people who build for the web. Would it be useful, for example, to be able to cause an image always to appear at the top of a column in a multiple-column layout? If you have use cases, let me know.</p><p><em><a href=\"https://www.princexml.com/howcome/2021/guides/float/index.html\">princexml.com</a></em></p>"
+    },
+    "meta": {
+      "#ns": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "@": [
+        { "xmlns:dc": "http://purl.org/dc/elements/1.1/" },
+        { "xmlns:content": "http://purl.org/rss/1.0/modules/content/" },
+        { "xmlns:atom": "http://www.w3.org/2005/Atom" },
+        { "xmlns:media": "http://search.yahoo.com/mrss/" }
+      ],
+      "#xml": { "version": "1.0", "encoding": "UTF-8" },
+      "#type": "rss",
+      "#version": "2.0",
+      "title": "CSS Layout News",
+      "description": "Weekly CSS layout newsletter and resource site by Rachel Andrew",
+      "date": "2021-05-27T18:01:46.000Z",
+      "pubdate": "2021-05-27T18:01:46.000Z",
+      "pubDate": "2021-05-27T18:01:46.000Z",
+      "link": "https://csslayout.news/",
+      "xmlurl": "https://csslayout.news/blog/rss/",
+      "xmlUrl": "https://csslayout.news/blog/rss/",
+      "author": null,
+      "language": null,
+      "favicon": null,
+      "copyright": null,
+      "generator": "Ghost 4.6",
+      "cloud": {},
+      "image": {
+        "url": "https://csslayout.news/favicon.png",
+        "title": "CSS Layout News"
+      },
+      "categories": [],
+      "rss:@": {},
+      "rss:title": { "@": {}, "#": "CSS Layout News" },
+      "rss:description": {
+        "@": {},
+        "#": "Weekly CSS layout newsletter and resource site by Rachel Andrew"
+      },
+      "rss:link": { "@": {}, "#": "https://csslayout.news/" },
+      "rss:image": {
+        "@": {},
+        "url": { "@": {}, "#": "https://csslayout.news/favicon.png" },
+        "title": { "@": {}, "#": "CSS Layout News" },
+        "link": { "@": {}, "#": "https://csslayout.news/" }
+      },
+      "rss:generator": { "@": {}, "#": "Ghost 4.6" },
+      "rss:lastbuilddate": { "@": {}, "#": "Thu, 27 May 2021 18:01:46 GMT" },
+      "atom:link": {
+        "@": {
+          "href": "https://csslayout.news/blog/rss/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "rss:ttl": { "@": {}, "#": "60" }
+    }
+  }
+]
